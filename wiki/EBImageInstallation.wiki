@@ -34,6 +34,7 @@ $ sudo R CMD INSTALL abind_1.3-0.tar.gz
 $ sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz
 $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 $ R
+> library(EBImage)
 Loading required package: abind
 }}}
 となれば無事にインストールが完了している．
