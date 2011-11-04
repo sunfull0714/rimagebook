@@ -1,0 +1,12 @@
+#summary Install guide for EBImage
+
+= Introduction =
+
+WindowにEBImageをインストールする方法は本の中で述べたので，ここではMac OSとLinuxにEBImageをインストールする方法を解説する．
+
+= Details =
+
+== Linux ==
+
+
+== Mac OS ==
