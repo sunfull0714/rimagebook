@@ -5,7 +5,8 @@
 EBImageは，いくつかの外部パッケージを利用しており，他のRのパッケージに比べてインストールの方法がやや複雑である．WindowsにEBImageをインストールする方法は本の中で述べたので，ここではMac OSとLinuxにEBImageをインストールする方法を解説する．
 
 = Linux =
-ここではUbuntu LinuxにRとEBImageとbiOpsをインストールする方法を述べる．32 bitバージョンも64 bitバージョンも同様の方法でインストールできる．
+ここではUbuntu LinuxにRとEBImageとbiOpsをインストールする方法を述べる．32 bitバージョンも64 bitバージョンも同様の方法でインストールできる．その他のLinuxディストリビューションも多少コマンドの違いはあるが，同様の方法でインストールできるはずである．ただし，ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合がある．
+
 Terminalを起動し，以下のコマンドでRをインストールする．
 {{{
 $ sudo apt-get update
@@ -38,7 +39,7 @@ $ R
 Loading required package: abind
 }}}
 となれば無事にインストールが完了している．
-その他のLinuxディストリビューションも多少コマンドの違いはあるが，同様の方法でインストールできるはずである．ただし，ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合がある．
+
 
 = Mac OS =
 以下はMac OS LeopardとSnow LeopardにEBImageをインストールする方法である．
