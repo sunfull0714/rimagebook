@@ -33,7 +33,7 @@ $ Magick-config --libs
 {{{
 $ sudo wget http://cran.r-project.org/src/contrib/abind_1.3-0.tar.gz
 $ sudo R CMD INSTALL abind_1.3-0.tar.gz
-$ sudo wget http://bioconductor.org/packages/2.10/bioc/src/contriz/EBImage_3.9.4.tar.gz
+$ sudo wget http://bioconductor.org/packages/2.10/bioc/src/contriz/EBImage_3.11.0.tar.gz
 $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 $ R
 Loading required package: abind
