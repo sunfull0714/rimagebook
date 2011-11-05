@@ -54,7 +54,10 @@ Loading required package: abind
  * XQuartz 
  * abind
 XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手する．
-MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手する．
+
+MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手す
+る．
+
 ImageMagickはterminalから以下のコマンドでインストールする．
 {{{
 $ sudo port install ImageMagick
