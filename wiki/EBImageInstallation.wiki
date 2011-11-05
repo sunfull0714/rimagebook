@@ -2,7 +2,10 @@
 
 = Introduction =
 
-EBImageは，いくつかの外部パッケージを利用しており，他のRのパッケージに比べてインストールの方法がやや複雑である．WindowsにEBImageをインストールする方法は本の中で述べたので，ここではMac OSとLinuxにEBImageをインストールする方法を解説する．基本的にEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に載っている方法に従っているが，初心者でもつまづかないようにできるだけ細かく手順を示す．
+EBImageは，いくつかの外部ライブラリを利用しており，他のRのパッケージに比べてインストールの方法がやや複雑である．WindowsとMac OSとLinuxにEBImageをインストールする方法を解説する．基本的にEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に載っている方法に従っているが，初心者でもつまづかないようにできるだけ細かく手順を示す．
+
+= Windows =
+WindowsにEBImageをインストールする方法は，本の中で述べたが，
 
 = Linux =
 ここではUbuntu LinuxにRとEBImageとbiOpsをインストールする方法を述べる．32 bitバージョンも64 bitバージョンも同様の方法でインストールできる．その他のLinuxディストリビューションも多少コマンドの違いはあるが，同様の方法でインストールできるはずである．ただし，ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合がある．
@@ -49,5 +52,28 @@ Loading required package: abind
  * gtk+-2.0
  * tcltk
  * XQuartz 
+ * abind
 XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手する．
 MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手する．
+ImageMagickはterminalから以下のコマンドでインストールする．
+{{{
+$ sudo port install ImageMagick
+}}}
+gtk+-2.0はterminalから以下のコマンドでインストールする．
+{{{
+$ sudo port install gtk2
+}}}
+tcltkはRをバイナリからインストールした場合にのみ必要となる．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールする．
+XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードする．
+abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールする．
+{{{
+> install.packages("abind")
+> library("abind")
+}}}
+
+以上でEBImageをインストールする準備が整ったので，terminalで次のようにしてダウンロードし，インストールする．
+{{{
+$ curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz"
+$ R CMD INSTALL EBImage_3.11.0.tar.gz
+}}}
+ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更すること．
