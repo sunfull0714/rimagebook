@@ -5,7 +5,7 @@
 EBImageは，いくつかの外部ライブラリを利用しており，他のRのパッケージに比べてインストールの方法がやや複雑である．WindowsとMac OSとLinuxにEBImageをインストールする方法を解説する．基本的にEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に載っている方法に従っているが，初心者でもつまづかないようにできるだけ細かく手順を示す．
 
 = Windows =
-WindowsにEBImageをインストールする方法は，本の中で述べたのでここでは繰り返さないが，必要となる外部ライブラリのうちImageMagickはバージョンが6.6 *以前*を用いなければならない点に注意が必要である．古いバージョンはインターネット上を検索して探すこともできるが，探す手間を省くために[https://code.google.com/p/rimagebook/downloads/list　本サイトのダウンロードページ]から配布する．
+WindowsにEBImageをインストールする方法は，本の中で述べたのでここでは繰り返さないが，必要となる外部ライブラリのうちImageMagickはバージョンが6.6 *以前*を用いなければならない点に注意が必要である．古いバージョンはインターネット上を検索して探すこともできるが，探す手間を省くために[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]から配布する．
 
 = Linux =
 ここではUbuntu LinuxにRとEBImageとbiOpsをインストールする方法を述べる．32 bitバージョンも64 bitバージョンも同様の方法でインストールできる．その他のLinuxディストリビューションも多少コマンドの違いはあるが，同様の方法でインストールできるはずである．ただし，ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合がある．
