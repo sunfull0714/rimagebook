@@ -50,7 +50,6 @@ Loading required package: abind
  * MacPorts
  * ImageMagick
  * gtk+-2.0
- * tcltk
  * XQuartz 
  * abind
 XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手する．
@@ -66,8 +65,9 @@ gtk+-2.0はterminalから以下のコマンドでインストールする．
 {{{
 $ sudo port install gtk2
 }}}
+<wiki:comment>
 tcltkはRをバイナリからインストールした場合にのみ必要となる．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールする．
-
+</wiki:comment>
 XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードする．
 
 abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールする．
