@@ -42,4 +42,12 @@ Loading required package: abind
 
 
 = Mac OS =
-以下はMac OS LeopardとSnow LeopardにEBImageをインストールする方法である．
+以下はMac OS 10.5 (Leopard)にEBImageをインストールする方法である．Mac OS 10.6 (Snow Leopard)にもほぼ同様にインストールできる．必要なのは以下の6点である．
+ * Xcode 3.1.4
+ * MacPorts
+ * ImageMagick
+ * gtk+-2.0
+ * tcltk
+ * XQuartz 
+XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手する．
+MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手する．
