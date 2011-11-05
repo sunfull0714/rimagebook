@@ -67,7 +67,9 @@ gtk+-2.0はterminalから以下のコマンドでインストールする．
 $ sudo port install gtk2
 }}}
 tcltkはRをバイナリからインストールした場合にのみ必要となる．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールする．
+
 XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードする．
+
 abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールする．
 {{{
 > install.packages("abind")
