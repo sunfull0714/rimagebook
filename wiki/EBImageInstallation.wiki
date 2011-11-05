@@ -1,13 +1,13 @@
 #summary Install guide for EBImage
 
-EBImageは，いくつかの外部ライブラリを利用しており，他のRのパッケージに比べてインストールの方法が複雑である．そこで，このページではWindowsとMac OSとLinuxにEBImageをインストールする方法を詳しく説明する．基本的にEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に載っている方法に従っているが，プログラミングの初心者でもつまづかないようにできるだけ細かく手順を示す．
+EBImageは，いくつかの外部ライブラリを利用しており，他のRのパッケージに比べてインストール方法が複雑である．そこで，このページではWindowsとMac OSとLinuxにEBImageをインストールする方法を詳しく説明する．基本的にEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に載っている方法に従っているが，プログラミングの初心者でもつまづかないようにできるだけ細かく手順を示す．
 <wiki:toc max_depth="1" />
 
 = Windows =
 WindowsにEBImageをインストールする方法は，本の中で述べたのでここでは繰り返さないが，必要となる外部ライブラリのうちImageMagickはバージョンが6.6 *以前*を用いなければならない点に注意が必要である．古いバージョンはインターネット上を検索して探すこともできるが，探す手間を省くために[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]から配布する．
 
 = Linux =
-ここではUbuntu LinuxにRとEBImageとbiOpsをインストールする方法を述べる．32 bitバージョンも64 bitバージョンも同様の方法でインストールできる．その他のLinuxディストリビューションも多少コマンドの違いはあるが，同様の方法でインストールできるはずである．ただし，ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合がある．
+ここではUbuntu LinuxにRとEBImageとbiOpsをインストールする方法を述べる．32 bitバージョンも64 bitバージョンも同様の方法でインストールできる．その他のLinuxディストリビューションも多少のコマンドの違いはあるが，同様にインストールできるはずである．ただし，ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合がある．
 
 Terminalを起動し，以下のコマンドでRをインストールする．
 {{{
@@ -49,7 +49,7 @@ Loading required package: abind
  * MacPorts
  * ImageMagick
  * gtk+-2.0
- * XQuartz 
+ * X11 (XQuartz) 
  * abind
 XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手する．
 
@@ -67,7 +67,7 @@ $ sudo port install gtk2
 <wiki:comment>
 tcltkはRをバイナリからインストールした場合にのみ必要となる．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールする．
 </wiki:comment>
-XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードする．
+X11 (XQuartz)は[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードする．
 
 abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールする．
 {{{
@@ -80,4 +80,4 @@ abindはRのパッケージの一つなので，Rを起動して以下のコマ�
 $ curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz"
 $ R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
-ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更すること．
+ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更のこと．
