@@ -4,10 +4,12 @@ EBImageは，いくつかの外部ライブラリを利用しており，他のR
 <wiki:toc max_depth="1" />
 
 = Windows =
-Windows XPと7にEBImageをインストールする方法は，以下の通りである（本の中で述べた）．とくに，ImageMagickとgtk+-2.0のバージョンに注意する．
+本の中でも述べたとおり，Windows XPと7にEBImageをインストールするには以下の3点が必要となる．とくに，ImageMagickとgtk+-2.0のバージョンには注意する．
+ * ImageMagick
+ * gtk+-1.0
+ * abindパッケージ
 
-
-が6.6 *以前*を用いなければならない点に注意が必要である．古いバージョンはインターネット上を検索して探すこともできるが，探す手間を省くために[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]から配布する．
+ImageMagickは6.6 *以前*を用いなければならない．古いバージョンはインターネット上を検索して探すこともできるが，探す手間を省くために[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]から配布する．
 
 = Linux =
 ここではUbuntu LinuxにRとEBImageとbiOpsをインストールする方法を述べる．32 bitバージョンも64 bitバージョンも同様の方法でインストールできる．その他のLinuxディストリビューションも多少のコマンドの違いはあるが，同様にインストールできるはずである．ただし，ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合がある．
