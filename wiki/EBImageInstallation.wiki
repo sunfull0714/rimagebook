@@ -11,6 +11,15 @@ EBImageは，いくつかの外部ライブラリを利用しており，他のR
 
 ImageMagickはバージョン6.6 *以前*を用いなければならない．古いバージョンはインターネット上を検索して探すこともできるが，探す手間を省くために[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]から配布する．
 
+GTK+は[http://ftp.gnome.org/pub/gnome/binaries/win32/gtk+ ここ]からall-bundle binary のzip ファイル（ファイル名がgtk+-bundle で始まるもの）をダ
+ウンロードし，解凍した後に適当なディレクトリに置く（例えばC:\gtk）．
+
+abindは
+{{{
+> install.packages("abind")
+}}}
+としてCRAN からインストールする．
+
 = Linux =
 ここではUbuntu LinuxにRとEBImageとbiOpsをインストールする方法を述べる．32 bitバージョンも64 bitバージョンも同様の方法でインストールできる．その他のLinuxディストリビューションも多少のコマンドの違いはあるが，同様にインストールできるはずである．ただし，ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合がある．
 
