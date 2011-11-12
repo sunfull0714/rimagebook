@@ -3,3 +3,8 @@
 = Links =
   * [http://cran.r-project.org/ CRAN]
   * [http://www.kyoritsu-pub.co.jp/series/arudemanabu.html Publisher's page]
+  * [http://www.imagemagick.org/script/index.php ImageMagick]
+  * [http://rsbweb.nih.gov/ij/ ImageJ]
+  * [http://cimg.sourceforge.net/ CImg]
+  * [http://www.vtk.org/ VTK]
+  * [http://sourceforge.net/projects/opencvlibrary/ OpenCV]
