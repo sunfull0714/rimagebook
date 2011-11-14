@@ -8,6 +8,6 @@ RImageBookは画像処理のためのRのパッケージです．RImageBookを�
  # EBImageをインストールします．
  # biOpsをインストールします．
  # 本サイトの[https://code.google.com/p/rimagebook/downloads/list ダウンロードページ]からzip形式のファイルをダウンロードします．ファイル名にLightが含まれているものは，サンプルデータの一部を省いてファイルサイズを小さくしています．すべてのサンプルデータを利用したい方はLightのついていない方のファイルをダウンロードしてください．
- # Rを起動してPackagesのInstall package(s) from local zip files...を選び（下図），ステップ1でダウンロードしたファイルを選択します．
+ # Rを起動してPackagesのInstall package(s) from local zip files...から（下図），ステップ1でダウンロードしたファイルを選択します．
 
 [https://rimagebook.googlecode.com/svn/wiki/installpackage.png]
