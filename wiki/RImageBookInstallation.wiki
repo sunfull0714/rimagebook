@@ -15,7 +15,6 @@ RImageBookは画像処理のためのRのパッケージです．RImageBookを�
 
 [https://rimagebook.googlecode.com/svn/wiki/installpackage.png]
 
-= Mac OS =
 
 = Linux =
 Ubuntuを例に説明します．
@@ -30,3 +29,5 @@ $ cd rimagebook-read-only/RImageBook
 $ sudo apt-get install nkf
 $ bash ./build.sh
 }}}
+
+= Mac OS =
