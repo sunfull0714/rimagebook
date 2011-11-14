@@ -12,3 +12,10 @@
 = Mac OS =
 
 = Linux =
+Ubuntuを例に説明します．biOpsはfftw
+{{{
+$ sudo apt-get install libfftw3-dev libtiff4-dev libjpeg62-dev
+$ sudo R
+> install.packages("biOps")
+> library(biOps)
+}}}
