@@ -1,7 +1,6 @@
 = EBImageのインストール方法 =
 
 EBImageは，いくつかの外部ライブラリを利用しており，他のRのパッケージに比べてインストール方法が複雑である．そこで，このページではWindowsとMac OSとLinuxにEBImageをインストールする方法を詳しく説明する．基本的にEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に載っている方法に従っているが，プログラミングの初心者でもつまづかないようにできるだけ細かく手順を示す．
-<wiki:toc max_depth="1" />
 
 = Windows =
 本の中でも述べたとおり，Windows XPと7にEBImageをインストールするには以下の3点が必要となる．とくに，ImageMagickとgtk+-2.0のバージョンには注意する．
