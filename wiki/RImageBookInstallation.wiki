@@ -19,3 +19,15 @@ RImageBookは画像処理のためのRのパッケージです．RImageBookを�
 = Mac OS =
 
 = Linux =
+Ubuntuを例に説明します．
+
+ # EBImageをインストールします．
+ # biOpsをインストールします．
+ # ターミナルで以下のコマンドを実行します．
+{{{
+$ sudo apt-get install subversion
+$ svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
+$ cd rimagebook-read-only/RImageBook
+$ sudo apt-get install nkf
+$ bash ./build.sh
+}}}
