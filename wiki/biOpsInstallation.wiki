@@ -1,0 +1,14 @@
+= biOpsのインストール方法 =
+このページではRの画像処理パッケージの一つであるbiOpsのインストール方法を説明します．
+
+= Windows =
+ # Rを起動します．
+ # コンソールに以下のように入力します．
+{{{
+> install.packages("biOps")
+> library(biOps)
+}}}
+
+= Mac OS =
+
+= Linux =
