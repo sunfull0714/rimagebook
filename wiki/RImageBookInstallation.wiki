@@ -19,8 +19,8 @@ RImageBookは画像処理のためのRのパッケージです．RImageBookを�
 = Linux =
 Ubuntuを例に説明します．
 
- # EBImageをインストールします．
- # biOpsをインストールします．
+ # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation EBImageをインストール]します．
+ #  [https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsをインストール]します．
  # ターミナルで以下のコマンドを実行します．
 {{{
 $ sudo apt-get install subversion
