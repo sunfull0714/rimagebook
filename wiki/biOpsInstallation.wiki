@@ -12,9 +12,13 @@
 = Mac OS =
 
 = Linux =
-Ubuntuを例に説明します．biOpsはfftw
+Ubuntuを例に説明します．biOpsはfftw3の他いくつかのライブラリに依存します．
+ # ターミナルで以下のコマンドを実行します．
 {{{
 $ sudo apt-get install libfftw3-dev libtiff4-dev libjpeg62-dev
+}}}
+ # Rを起動してbiOpsをインストールします．
+{{{
 $ sudo R
 > install.packages("biOps")
 > library(biOps)
