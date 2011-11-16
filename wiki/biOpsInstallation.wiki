@@ -2,7 +2,7 @@
 このページではRの画像処理パッケージの一つである[http://cran.r-project.org/web/packages/biOps/index.html biOps]のインストール方法を説明します．基本的には通常のRのパッケージと同様にインストールできますが，OSによってはいくつかのライブラリを追加する必要があります．
 
 = Windows =
- # Rを起動します．
+ # Rを起動．
  # コンソールに以下のように入力します．
 {{{
 > install.packages("biOps")
@@ -11,7 +11,7 @@
 
 = Linux =
 Ubuntuを例に説明します．biOpsはlibfftw3とlibtiffとlibjpegに依存します．
- # ターミナルで以下のコマンドを実行します．
+ # ターミナルで以下のコマンドを実行してライブラリをインストール．
 {{{
 $ sudo apt-get install libfftw3-dev libtiff4-dev libjpeg62-dev
 }}}
