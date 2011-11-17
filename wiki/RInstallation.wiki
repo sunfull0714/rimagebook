@@ -1,5 +1,4 @@
-= Introduction =
-Rのインストール方法をOSごとに説明します．
+= Rのインストール方法 =
 
 = Windows =
  # CRANの[http://cran.r-project.org/bin/windows/base/ ウェブサイト]からインストーラーをダウンロードします．
