@@ -2,7 +2,7 @@
 RImageBookは画像処理のためのRのパッケージです．RImageBookをインストールするには，事前にEBImageとbiOpsというRのパッケージをインストールしておく必要があります．以下，OSの種類ごとにインストールの手順を説明します．
 
 = Windows =
-
+ # [RInstallation Rをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsをインストール]．
  # 本サイトの[https://code.google.com/p/rimagebook/downloads/list ダウンロードページ]からzip形式のファイルをダウンロードします．ファイル名にLightが含まれているものは，サンプルデータの一部を省いてファイルサイズを小さくしています．すべてのサンプルデータを利用したい方はLightのついていない方のファイルをダウンロードしてください．
@@ -19,6 +19,7 @@ RImageBookは画像処理のためのRのパッケージです．RImageBookを�
 = Linux =
 Ubuntuを例に説明します．
 
+ # [RInstallation Rをインストール]
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation EBImageをインストール]．
  #  [https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsをインストール]．
  # ターミナルで以下のコマンドを実行します．
