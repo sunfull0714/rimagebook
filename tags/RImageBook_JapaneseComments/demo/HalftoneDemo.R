@@ -1,0 +1,23 @@
+hft <- readImage(system.file("images/halftone.png", package="RImageBook"))
+display(hft)
+hftb <- E2b(hft)
+hftfft <- imgFFT(hftb)
+hftspec <- imgFFTSpectrum(hftfft)
+plot(hftspec)
+hfts <- b2E(hftspec)
+display(hfts)
+display(thresh(hfts, 50, 50, 0.01))
+hftsth <- thresh(hfts, 50, 50, 0.01)
+kern <- makeBrush(3, "disc")
+mask <- closing(opening(hftsth, kern))
+mask <- drawCircle(mask, nrow(mask)/2, ncol(mask)/2, 40, col=0, fill=T)
+display(mask)
+maskb <- E2b(1-mask)
+hftres <- hftfft * maskb
+hftresspec <- imgFFTSpectrum(hftres)
+plot(hftresspec)
+hftresspece <- b2E(hftresspec)
+nonhalftone <- imgFFTInv(hftres)
+display(normalize(b2E(nonhalftone)))
+
+
