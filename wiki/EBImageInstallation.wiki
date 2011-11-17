@@ -26,14 +26,9 @@ abindはRのパッケージなので，Rを起動して
 }}}
 
 = Linux =
-ここではUbuntu LinuxにRとEBImageをインストールする方法を述べます．32 bitバージョンも64 bitバージョンも同様の方法でインストールできます．ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合があります．
+Ubuntu LinuxにEBImageをインストールする方法を述べます．32 bitバージョンも64 bitバージョンも同様の方法でインストールできます．ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合があります．
 
-まず，Terminalを起動し，以下のコマンドでRをインストールします．
-{{{
-$ sudo apt-get update
-$ sudo apt-get install r-base-dev
-}}}
-次にEBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtkを入手します．また，Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，別途インストールします．それぞれ以下のコマンドでインストールします．
+EBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtkを入手します．また，Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，これも別途インストールします．それぞれ以下のコマンドでインストールします．
 {{{
 $ sudo apt-get install pkg-config
 $ sudo apt-get install imagemagick
