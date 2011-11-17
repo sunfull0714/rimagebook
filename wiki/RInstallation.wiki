@@ -1,13 +1,15 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
+Rのインストール方法をOSごとに説明します．
 
-Add your content here.
+= Windows =
+ # CRANの[http://cran.r-project.org/bin/windows/base/ ウェブサイト]からインストーラーをダウンロードします．
+ # インストーラーの指示に従ってインストールを完了します．
 
+= Linux =
+以下はUbuntu LinuxにRをインストールする方法です．Terminalを起動し，以下のコマンドでRをインストールします．
+{{{
+$ sudo apt-get update
+$ sudo apt-get install r-base-dev
+}}}
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Mac OS =
