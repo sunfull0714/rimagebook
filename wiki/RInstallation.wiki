@@ -5,7 +5,7 @@
  # インストーラーの指示に従ってインストールを完了します．
 
 = Linux =
-以下はUbuntu LinuxにRをインストールする方法です．Terminalを起動し，以下のコマンドでRをインストールします．
+Ubuntu Linuxを例にRのインストール方法を説明します．Terminalを起動し，以下のコマンドでRをインストールします．
 {{{
 $ sudo apt-get update
 $ sudo apt-get install r-base-dev
