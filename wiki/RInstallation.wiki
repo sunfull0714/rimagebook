@@ -1,7 +1,7 @@
 = Rのインストール方法 =
 
 = Windows =
- # CRANの[http://cran.r-project.org/bin/windows/base/ ウェブサイト]からインストーラーをダウンロードします．
+ # CRANの[http://cran.r-project.org/bin/windows/base/ ウェブサイト]から最新版のインストーラーをダウンロードします．
  # インストーラーの指示に従ってインストールを完了します．
 
 = Linux =
