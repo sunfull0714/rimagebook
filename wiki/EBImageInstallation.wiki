@@ -54,7 +54,7 @@ $ R
 > library(EBImage)
 Loading required package: abind
 }}}
-となれば無事にインストールが完了です．
+となればEBImageのインストールは完了です．
 
 
 = Mac OS =
