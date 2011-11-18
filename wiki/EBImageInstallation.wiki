@@ -10,7 +10,7 @@ Windows（XPと7）にEBImageをインストールするには事前に以下の
 
 ImageMagickはバージョン6.6より*古いもの*を用いなければなりません．古いバージョンはインターネット上を検索して探すこともできますが，[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]からも再配布しています．これをダウンロードしてインストールしてください．
 
-GTK+も最新バージョンではなく，バージョン2.16または2.20を用います．[http://ftp.gnome.org/pub/gnome/binaries/win32/gtk+ ここ]からall-bundle binary のzip ファイル（ファイル名がgtk+-bundle で始まるもの）をダウンロードし，解凍した後に適当なディレクトリに置きます（例えばC:\gtk）．そして，このディレクトリにパスを通します．
+GTK+も最新バージョンではなく，バージョン2.16を用います．[http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ ここ]からバージョン2.16のインストーラーをダウンロードし，実行します．
 
 abindはRのパッケージなので，Rを起動して
 {{{
