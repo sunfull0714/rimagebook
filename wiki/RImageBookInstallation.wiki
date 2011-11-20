@@ -28,7 +28,7 @@ $ sudo apt-get install subversion
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
 $ sudo apt-get install nkf
-$ bash ./build.sh
+$ sudo bash ./build.sh
 }}}
 
 = Mac OS =
