@@ -24,6 +24,7 @@ abindはRのパッケージなので，Rを起動して
 > biocLite("EBImage")
 > library(EBImage)
 }}}
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsのインストールに進む]
 
 = Linux =
 Ubuntu LinuxにEBImageをインストールする方法を述べます．32 bitバージョンも64 bitバージョンも同様の方法でインストールできます．ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合があります．
@@ -55,6 +56,7 @@ $ R
 Loading required package: abind
 }}}
 となればEBImageのインストールは完了です．
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsのインストールに進む]
 
 
 = Mac OS =
@@ -94,3 +96,4 @@ $ curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.
 $ R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
 ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsのインストールに進む]
