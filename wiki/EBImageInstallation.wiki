@@ -29,7 +29,7 @@ abindはRのパッケージなので，Rを起動して
 = Linux =
 Ubuntuを例に，LinuxにEBImageをインストールする方法を述べます．64 bitのアーキテクチャにも同じ方法でインストールできます．
 
-EBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtkを入手します．Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，これも別途インストールします．
+まずEBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtkを入手します．Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，これも別途インストールします．
 {{{
 $ sudo apt-get install pkg-config
 $ sudo apt-get install imagemagick
@@ -65,13 +65,58 @@ Loading required package: abind
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsのインストールに進む]
 
 = Mac OS =
-以下はMac OS 10.5 (Leopard)とMac OS 10.6 (Snow Leopard)にEBImageをインストールする方法です．必要なのは以下の6点になります．
- * Xcode 3.1.4 (for Leopard) 3.2 (for Snow Leopard)
+Mac OSの10.5と10.6で動作を確認しています．ただし，
+== Mac OS 10.6 (Snow Leopard) ==
+必要なのは以下の5点になります．以下の方法でSnow Leopardにインストールすると64 bitのアーキテクチャにインストールされます．
+ * Xcode 3.2
  * MacPorts
  * ImageMagick
  * gtk+-2.0
- * X11 (XQuartz) 
  * abind
+
+XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します．インストールしたら，ソフトウェアアップデートを実行してXcodeを更新しておきます．
+
+MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
+
+ImageMagickはターミナルを起動して以下のコマンドでインストールします．
+{{{
+$ sudo port install ImageMagick
+}}}
+gtk+-2.0はターミナルから以下のコマンドでインストールします．
+{{{
+$ sudo port install gtk2
+}}}
+
+{{{
+$ gtk-demo
+$ sudo convert -version
+}}}
+としてgtkとImageMagickが正しくインストールされていることを確認します．
+
+abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドでインストールします．
+{{{
+$ sudo R
+> install.packages("abind")
+> library("abind")
+}}}
+
+以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロード・インストールします．
+{{{
+$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz"
+$ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
+}}}
+ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
+
+== Mac OS 10.5 (Leopard) ==
+必要なのは以下の6点になります．以下の方法でLeopardにインストールすると32 bitのアーキテクチャにインストールされます．
+ * Xcode 3.1
+ * MacPorts
+ * ImageMagick
+ * gtk+-2.0
+ * XQuartz 
+ * abind
+ * tcltk
 XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します．
 
 MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
@@ -84,21 +129,28 @@ gtk+-2.0はterminalから以下のコマンドでインストールします．
 {{{
 $ sudo port install gtk2
 }}}
-<wiki:comment>
-tcltkはRをバイナリからインストールした場合にのみ必要となる．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールする．
-</wiki:comment>
-X11 (XQuartz)は[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードします．
+
+XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードしてインストールします．
+
+{{{
+$ gtk-demo
+$ sudo convert -version
+}}}
+としてgtkとImageMagickが正しくインストールされていることを確認します．
+
+tcltkはRでinstall.packages()関数を用いるときにレポジトリを選択するウィンドウを開くために必要です．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールしておきます．
 
 abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．
 {{{
+$ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
 
-以上でEBImageをインストールする準備が整ったので，terminalで次のようにしてダウンロードし，インストールします．
+以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードし，インストールします．
 {{{
-$ curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz"
-$ R CMD INSTALL EBImage_3.11.0.tar.gz
+$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz"
+$ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
 ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
