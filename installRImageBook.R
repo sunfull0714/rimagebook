@@ -3,7 +3,7 @@ installRImageBook <- function(){
     install.packages("RCurl")
     library("RCurl")
   }
-  OS <- Sys.getenv("OS")
+  OS = Sys.getenv("OS")
   if(regexpr("win", Sys.getenv("OS"), ignore.case=TRUE) > 0){
     file <- "RImageBook_0.1.zip"
     url <- sprintf("http://rimagebook.googlecode.com/files/%s",file)
