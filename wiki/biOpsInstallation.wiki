@@ -8,6 +8,9 @@
 > install.packages("biOps")
 > library(biOps)
 }}}
+以上でbiOpsのインストールは完了です.
+
+[RImageBookInstallation#Windows RImageBookのインストールに戻る].
 
 = Linux =
 Ubuntuを例に説明します．biOpsはlibfftw3とlibtiffとlibjpegに依存します．
@@ -21,5 +24,8 @@ $ R
 > install.packages("biOps")
 > library(biOps)
 }}}
+以上でbiOpsのインストールは完了です.
+
+[RImageBookInstallation#Linux RImageBookのインストールに戻る].
 
 = Mac OS =
