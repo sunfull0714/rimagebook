@@ -16,3 +16,4 @@ installRImageBook <- function(){
   writeBin(content, tempfile)
   install.packages(tempfile,repos=NULL)
 }
+
