@@ -37,7 +37,7 @@ $ sudo apt-get install libmagickcore-dev
 $ sudo apt-get install libmagickwand-dev
 $ sudo apt-get install libgtk2.0-dev
 }}}
-以上のライブラリが正しくインストールされていることを下記のコマンドで確認します．実行してエラーがでなければOKです．
+以上のライブラリが正しくインストールされていることを下記のコマンドで確認します．エラーがでなければOKです．
 {{{
 $ pkg-config gtk+-2.0 --libs
 $ Magick-config --libs
