@@ -21,7 +21,7 @@ Ubuntuを例に説明します．
 
  # [RInstallation Rをインストール]
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation EBImageをインストール]．
- #  [https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsをインストール]．
+ # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsをインストール]．
  # ターミナルで以下のコマンドを実行します．
 {{{
 $ sudo apt-get install subversion
@@ -32,3 +32,13 @@ $ sudo bash ./build.sh
 }}}
 
 = Mac OS =
+ # [RInstallation Rをインストール]
+ # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation EBImageをインストール]．
+ # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation biOpsをインストール]．
+ # ターミナルで以下のコマンドを実行します．
+{{{
+$ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
+$ cd rimagebook-read-only/RImageBook
+$ sudo port install nkf
+$ sudo ./build.sh
+}}}
