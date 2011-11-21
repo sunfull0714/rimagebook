@@ -44,12 +44,14 @@ $ Magick-config --libs
 }}}
 abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．
 {{{
+$ R
 > install.packages("abind")
 > library("abind")
 }}}
 
-最後にEBImageをダウンロードし，インストールします．パッケージのバージョン番号はその時の最新バージョンに変更してください．パッケージの最新バージョンは以下のウェブサイトで確認することができます．
+いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新バージョンに変更してください．パッケージの最新バージョンは以下のウェブサイトで確認することができます．
  * http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html
+
 {{{
 $ sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz
 $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
