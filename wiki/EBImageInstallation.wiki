@@ -89,7 +89,7 @@ $ sudo port install gtk2
 
 {{{
 $ gtk-demo
-$ sudo convert -version
+$ convert -version
 }}}
 としてgtkとImageMagickが正しくインストールされていることを確認します．
 
@@ -134,7 +134,7 @@ XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージ�
 
 {{{
 $ gtk-demo
-$ sudo convert -version
+$ convert -version
 }}}
 としてgtkとImageMagickが正しくインストールされていることを確認します．
 
