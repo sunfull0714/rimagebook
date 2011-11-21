@@ -34,7 +34,7 @@ biOpsはlibfftw3とlibtiffとlibjpegに依存します．
 {{{
 $ sudo port install fftw-3 tiff jpeg
 }}}
-インストールしたライブラリにシンボリックリンクを張ります．
+ # インストールしたライブラリにシンボリックリンクを張ります．
 {{{
 $ cd /usr/include
 $ sudo ln -s /opt/local/include/fftw3.h
@@ -45,7 +45,7 @@ $ for x in /opt/local/lib/libfftw3.*; do sudo ln -s $x; done
 $ for x in /opt/local/lib/libjpeg.*; do sudo ln -s $x; done
 $ for x in /opt/local/lib/libtiff.*; do sudo ln -s $x; done
 }}}
-RからbiOpsをインストールします．ソースファイルからインストールするために以下のようにします．
+ # RからbiOpsをインストールします．ソースファイルからインストールするために以下のようにします．
 {{{
 $ sudo R
 > install.packages("biOps", repos="http://cran.md.tsukuba.ac.jp/", type="source")
