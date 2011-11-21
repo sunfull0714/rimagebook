@@ -15,3 +15,6 @@ $ sudo apt-get install r-base-dev
 
 
 = Mac OS =
+ # CRANの[http://cran.r-project.org/bin/macosx/ ウェブサイト]から最新版のインストーラーをダウンロードします．
+ # インストーラーの指示に従ってインストールを完了します．
+[https://code.google.com/p/rimagebook/wiki/EBImageInstallation EBImageのインストールへ進む]
