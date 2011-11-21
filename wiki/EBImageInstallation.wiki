@@ -27,9 +27,9 @@ abindはRのパッケージなので，Rを起動して
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsのインストールに進む]
 
 = Linux =
-Ubuntu LinuxにEBImageをインストールする方法を述べます．32 bitバージョンも64 bitバージョンも同様の方法でインストールできます．ディストリビューションによってlibmagickwand-devはインストールしなくてもよい場合があります．
+Ubuntuを例に，LinuxにEBImageをインストールする方法を述べます．64 bitのアーキテクチャにも同じ方法でインストールできます．
 
-EBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtkを入手します．また，Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，これも別途インストールします．それぞれ以下のコマンドでインストールします．
+EBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtkを入手します．Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，これも別途インストールします．
 {{{
 $ sudo apt-get install pkg-config
 $ sudo apt-get install imagemagick
@@ -42,14 +42,14 @@ $ sudo apt-get install libgtk2.0-dev
 $ pkg-config gtk+-2.0 --libs
 $ Magick-config --libs
 }}}
-abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．
+次に，Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．
 {{{
 $ R
 > install.packages("abind")
 > library("abind")
 }}}
 
-いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新バージョンに変更してください．パッケージの最新バージョンは以下のウェブサイトで確認することができます．
+いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新のものに変更してください．パッケージの最新バージョンは以下のウェブサイトで確認することができます．
  * http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html
 
 {{{
@@ -63,7 +63,6 @@ $ R
 Loading required package: abind
 }}}
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsのインストールに進む]
-
 
 = Mac OS =
 以下はMac OS 10.5 (Leopard)とMac OS 10.6 (Snow Leopard)にEBImageをインストールする方法です．必要なのは以下の6点になります．
