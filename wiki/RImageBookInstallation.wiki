@@ -6,7 +6,7 @@ RImageBookは画像処理のためのRのパッケージです．RImageBookを�
  # [RInstallation#Windows Rをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Windows EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsをインストール]．
- # 本サイトの[https://code.google.com/p/rimagebook/downloads/list ダウンロードページ]からzip形式のファイルをダウンロードします．
+ # 本サイトの[https://code.google.com/p/rimagebook/downloads/list ダウンロードページ]からzip形式のRImageBookをダウンロードします．
  # Rを起動してPackagesのInstall package(s) from local zip files...から（下図参照），ステップ3でダウンロードしたファイルを選択．
  # 以上でパッケージのインストールは完了です．コンソールにて以下のようにしてパッケージを読み込みます．
 {{{
