@@ -106,6 +106,14 @@ $ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBIma
 $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
 ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．
+
+Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
+{{{
+$ R
+> library(EBImage)
+Loading required package: abind
+}}}
+
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
 
 == Mac OS 10.5 (Leopard) ==
@@ -153,4 +161,12 @@ $ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBIma
 $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
 ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．
+
+Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
+{{{
+$ R
+> library(EBImage)
+Loading required package: abind
+}}}
+
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
