@@ -8,7 +8,7 @@ installRImageBook <- function(){
     file <- "RImageBook_0.1.zip"
     url <- sprintf("http://rimagebook.googlecode.com/files/%s",file)
   } else {
-    file <- "RImageBook_0.1.tar.gz"
+    file <- "RImageBook_0.2.tar.gz"
     url <- sprintf("http://rimagebook.googlecode.com/files/%s%s",file)
   }
   content <- getBinaryURL(url)
