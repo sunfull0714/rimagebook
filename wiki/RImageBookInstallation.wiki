@@ -27,7 +27,6 @@ Ubuntuを例に説明します．
 $ sudo apt-get install subversion
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
-$ sudo apt-get install nkf
 $ sudo bash ./build.sh
 }}}
 
@@ -39,6 +38,5 @@ $ sudo bash ./build.sh
 {{{
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
-$ sudo port install nkf
 $ sudo ./build.sh
 }}}
