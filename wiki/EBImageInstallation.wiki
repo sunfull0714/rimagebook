@@ -64,7 +64,7 @@ Loading required package: abind
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsのインストールに進む]
 
 = Mac OS =
-Mac OSの10.5と10.6で動作を確認しています．OSのバージョンで多少異なる点があるので，分けて説明します．
+OSのバージョンで多少異なる点があるので，分けて説明します．
 == Mac OS 10.6 (Snow Leopard) ==
 必要なのは以下の5点になります．この方法でSnow Leopardにインストールすると64 bitのアーキテクチャにインストールされます．
  * Xcode 3.2
