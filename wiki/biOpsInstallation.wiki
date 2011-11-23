@@ -20,7 +20,7 @@ $ sudo apt-get install libfftw3-dev libtiff4-dev libjpeg62-dev
 }}}
  # Rを起動してbiOpsをインストールします．
 {{{
-$ R
+$ sudo R
 > install.packages("biOps")
 > library(biOps)
 }}}
@@ -48,7 +48,7 @@ $ for x in /opt/local/lib/libtiff.*; do sudo ln -s $x; done
 }}}
  # RからbiOpsをインストールします．ソースファイルからインストールするために以下のようにします．
 {{{
-$ R
+$ sudo R
 > install.packages("biOps", repos="http://cran.md.tsukuba.ac.jp/", type="source")
 > library(biOps)
 }}}
