@@ -23,22 +23,38 @@ Ubuntuを例に説明します．
  # [RInstallation#Linux Rをインストール]
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Linux EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsをインストール]．
- # 以上の準備が終わったら,ターミナルで以下のコマンドを実行してRImageBookをインストールします．
+ # 以上の準備が完了したら，Rを起動してRImageBookをインストールします．
+{{{
+$ sudo R
+> source("http://rimagebook.googlecode.com/svn/installRImageBook.R")
+> installRImageBook()
+}}}
+<wiki:comment>
+ # 以上の準備が終わったら，ターミナルで以下のコマンドを実行してRImageBookをインストールします．
 {{{
 $ sudo apt-get install subversion
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
 $ sudo bash ./build.sh
 }}}
+</wiki:comment>
 
 = Mac OS =
 Mac OSの10.5 Leopardと10.6 Snow Leopardで動作を確認しています．
  # [RInstallation#Mac_OS Rをインストール]
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Mac_OS EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsをインストール]．
- # 以上の準備が終わったら,ターミナルで以下のコマンドを実行してRImageBookをインストールします．
+ # 以上の準備が完了したら，Rを起動してRImageBookをインストールします．
+{{{
+$ sudo R
+> source("http://rimagebook.googlecode.com/svn/installRImageBook.R")
+> installRImageBook()
+}}}
+<wiki:comment>
+ # 以上の準備が終わったら，ターミナルで以下のコマンドを実行してRImageBookをインストールします．
 {{{
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
 $ sudo ./build.sh
 }}}
+</wiki:comment>
