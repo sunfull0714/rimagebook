@@ -7,17 +7,13 @@ EBImageをインストールする前に以下の3点を用意します．この
  * GTK+
  * abindパッケージ
 
-ImageMagickはバージョン6.6より*古いもの*を用いなければなりません．古いバージョンはインターネット上を検索して見つけることもできますが，[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]からも再配布しています．これをダウンロードしてインストールしてください．
-
-GTK+も最新バージョンではなく，少し古いバージョンを使います．[http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ ここ]からバージョン2.16のインストーラーを入手してインストールしてください．
-
-abindはRのパッケージなので，Rを起動して
+ # ImageMagickはバージョン6.6より*古いもの*を用いなければなりません．古いバージョンはインターネット上を検索して見つけることもできますが，[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]からも再配布しています．これをダウンロードしてインストールしてください．
+ # GTK+も最新バージョンではなく，少し古いバージョンを使います．[http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ ここ]からバージョン2.16のインストーラーを入手してインストールしてください．
+ # abindはRのパッケージなので，Rを起動して以下のコマンドでCRAN からインストールします．
 {{{
 > install.packages("abind")
 }}}
-とすることでCRAN からインストールします．
-
-以上の3つのライブラリがそろったら，Rで以下のコマンドを打ち，EBImageをインストールします．
+ # 以上の3つのライブラリがそろったら，Rで以下のコマンドを打ち，EBImageをインストールします．
 {{{
 > source("http://www.bioconductor.org/biocLite.R")
 > biocLite("EBImage")
@@ -29,7 +25,7 @@ abindはRのパッケージなので，Rを起動して
 = Linux =
 Ubuntuを例に，LinuxにEBImageをインストールする方法を述べます．64 bitのアーキテクチャにも同じ方法でインストールできます．
 
-まずEBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtk2を入手します．Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，これも別途インストールします．
+ # EBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtk2を入手します．Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，これも別途インストールします．
 {{{
 $ sudo apt-get install pkg-config
 $ sudo apt-get install imagemagick
@@ -37,30 +33,29 @@ $ sudo apt-get install libmagickcore-dev
 $ sudo apt-get install libmagickwand-dev
 $ sudo apt-get install libgtk2.0-dev
 }}}
-以上のライブラリが正しくインストールされていることを下記のコマンドで確認します．エラーがでなければOKです．
+ # 以上のライブラリが正しくインストールされていることを下記のコマンドで確認します．エラーがでなければOKです．
 {{{
 $ pkg-config gtk+-2.0 --libs
 $ Magick-config --libs
 }}}
-次に，Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．
+ # Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．
 {{{
 $ R
 > install.packages("abind")
 > library("abind")
 }}}
-いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新のものに変更してください．パッケージの最新バージョンは以下のウェブサイトで確認することができます．
- * http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html
-
+ # いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新のものに変更してください．パッケージの最新バージョンは[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認することができます．
 {{{
 $ sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz
 $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
-Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
+ # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
 $ R
 > library(EBImage)
 Loading required package: abind
 }}}
+
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsのインストールに進む]
 
 = Mac OS =
@@ -73,37 +68,33 @@ OSのバージョンで多少異なる点があるので，分けて説明しま
  * gtk+-2.0
  * abind
 
-XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します（要ユーザー登録）．インストールしたら，ソフトウェアアップデートを実行してXcodeを更新しておきます．
-
-MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
-
-ImageMagickはターミナルを起動して以下のコマンドでインストールします．
+ # XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します（要ユーザー登録）．インストールしたら，ソフトウェアアップデートを実行してXcodeを更新しておきます．
+ # MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
+ # ImageMagickはターミナルを起動して以下のコマンドでインストールします．
 {{{
 $ sudo port install ImageMagick
 }}}
-gtk+-2.0はターミナルから以下のコマンドでインストールします．
+ # gtk+-2.0はターミナルから以下のコマンドでインストールします．
 {{{
 $ sudo port install gtk2
 }}}
-ImageMagickとgtkが正しくインストールされていることを次のコマンドで確認します．
+ # ImageMagickとgtkが正しくインストールされていることを次のコマンドで確認します．
 {{{
 $ gtk-demo
 $ convert -version
 }}}
-次にabindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．
+ # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．
 {{{
 $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
-以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロード・インストールします．
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロード・インストールします．ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
 {{{
 $ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz"
 $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
-ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．
-
-Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
+ # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
 {{{
 $ R
 > library(EBImage)
@@ -122,40 +113,35 @@ Loading required package: abind
  * abind
  * tcltk
 
-XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します．
-
-MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
-
-ImageMagickはターミナルから以下のコマンドでインストールします．
+ # XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します．
+ # MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
+ # ImageMagickはターミナルから以下のコマンドでインストールします．
 {{{
 $ sudo port install ImageMagick
 }}}
-gtk+-2.0はterminalから以下のコマンドでインストールします．
+ # gtk+-2.0はterminalから以下のコマンドでインストールします．
 {{{
 $ sudo port install gtk2
 }}}
-XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードしてインストールします．
-gtkとImageMagickが正しくインストールされていることを次のコマンドで確認します．
+ # XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードしてインストールします．
+ # gtkとImageMagickが正しくインストールされていることを次のコマンドで確認します．
 {{{
 $ gtk-demo
 $ convert -version
 }}}
-tcltkはRでinstall.packages()関数を用いるときにレポジトリを選択するウィンドウを開くために必要です．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールしておきます．
-
-abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．
+ # tcltkはRでinstall.packages()関数を用いるときにレポジトリを選択するウィンドウを開くために必要です．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールしておきます．
+ # abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．
 {{{
 $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
-以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードし，インストールします．
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードし，インストールします．ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
 {{{
 $ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz"
 $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
-ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更が必要です．
-
-Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
+ # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
 $ R
 > library(EBImage)
