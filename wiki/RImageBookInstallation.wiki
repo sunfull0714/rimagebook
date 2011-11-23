@@ -31,6 +31,7 @@ $ sudo bash ./build.sh
 }}}
 
 = Mac OS =
+Mac OSの10.5 Leopardと10.6 Snow Leopardで動作を確認しています．
  # [RInstallation#Mac_OS Rをインストール]
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Mac_OS EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsをインストール]．
