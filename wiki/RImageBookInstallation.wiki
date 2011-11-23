@@ -3,6 +3,7 @@ RImageBookは画像処理のためのRのパッケージです．RImageBookを�
 手順の説明で$から始まるコードはシェルのコマンドを表し，>から始まるコードはRのコマンドを表します．
 
 = Windows =
+Windows 7とWindows XPで動作を確認しています．32 bitのOSにのみ対応しています． 
  # [RInstallation#Windows Rをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Windows EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsをインストール]．
