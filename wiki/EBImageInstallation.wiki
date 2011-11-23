@@ -66,7 +66,7 @@ Loading required package: abind
 = Mac OS =
 OSのバージョンで多少異なる点があるので，分けて説明します．
 == Mac OS 10.6 (Snow Leopard) ==
-必要なのは以下の5点になります．この方法でSnow Leopardにインストールすると64 bitのアーキテクチャにインストールされます．
+以下の5点が必要になります．この方法でSnow Leopardにインストールすると64 bitのアーキテクチャにインストールされます．
  * Xcode 3.2
  * MacPorts
  * ImageMagick
@@ -113,7 +113,7 @@ Loading required package: abind
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
 
 == Mac OS 10.5 (Leopard) ==
-必要なのは以下の7点になります．この方法でLeopardにインストールすると32 bitのアーキテクチャにインストールされます．
+以下の7点が必要になります．この方法でLeopardにインストールすると32 bitのアーキテクチャにインストールされます．
  * Xcode 3.1
  * MacPorts
  * ImageMagick
