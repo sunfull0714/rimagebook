@@ -85,7 +85,7 @@ $ convert -version
 }}}
  # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．
 {{{
-$ sudo R
+$ R
 > install.packages("abind")
 > library("abind")
 }}}
@@ -132,7 +132,7 @@ $ convert -version
  # tcltkはRでinstall.packages()関数を用いるときにレポジトリを選択するウィンドウを開くために必要です．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールしておきます．
  # abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．
 {{{
-$ sudo R
+$ R
 > install.packages("abind")
 > library("abind")
 }}}
