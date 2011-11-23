@@ -40,7 +40,7 @@ $ Magick-config --libs
 }}}
  # Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．
 {{{
-$ R
+$ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
@@ -51,7 +51,7 @@ $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
  # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
-$ R
+$ sudo R
 > library(EBImage)
 Loading required package: abind
 }}}
@@ -85,7 +85,7 @@ $ convert -version
 }}}
  # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．
 {{{
-$ R
+$ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
@@ -96,7 +96,7 @@ $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
  # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
 {{{
-$ R
+$ sudo R
 > library(EBImage)
 Loading required package: abind
 }}}
@@ -132,7 +132,7 @@ $ convert -version
  # tcltkはRでinstall.packages()関数を用いるときにレポジトリを選択するウィンドウを開くために必要です．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールしておきます．
  # abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．
 {{{
-$ R
+$ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
@@ -143,7 +143,7 @@ $ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
 }}}
  # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
-$ R
+$ sudo R
 > library(EBImage)
 Loading required package: abind
 }}}
