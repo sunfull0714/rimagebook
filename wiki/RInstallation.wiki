@@ -6,7 +6,7 @@
 [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Windows EBImageのインストールへ進む]
 
 = Linux =
-Ubuntu Linuxを例にRのインストール方法を説明します．Terminalを起動し，以下のコマンドでRをインストールします．
+ # Terminalを起動し，以下のコマンドでRをインストールします．
 {{{
 $ sudo apt-get update
 $ sudo apt-get install r-base-dev
