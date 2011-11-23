@@ -2,7 +2,7 @@
 EBImageは，いくつかの外部ライブラリを利用しているため，インストールに先立ってこれらのライブラリを用意する必要があります．基本的にはEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に従えばよいですが，用いるライブラリのバージョンを間違えるとつまづくことがあるので注意してください．
 
 = Windows =
-EBImageをインストールする前に以下の3点を用意します．この際，ImageMagickとGTK+の*バージョン*に気をつけます．32 bitのOSにのみ対応しています．
+EBImageをインストールする前に以下の3点を用意します．この際，ImageMagickとGTK+の*バージョン* に気をつけます．32 bitのOSにのみ対応しています．
  * ImageMagick
  * GTK+
  * abindパッケージ
