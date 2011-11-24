@@ -1,9 +1,9 @@
 = RImageBookのインストール方法 =
-RImageBookは画像処理のためのRのパッケージです．RImageBookをインストールするには，事前にEBImageとbiOpsというRのパッケージをインストールしておく必要があります．以下，OSごとにインストールの手順を説明します．回線の速度にもよりますが，Windowsでは15分程度，Linuxでは10分程度，Mac OSは30分から1時間程度の作業時間となります．
+RImageBookは画像処理のためのRのパッケージです．RImageBookをインストールするには，事前にEBImageとbiOpsというRのパッケージをインストールしておく必要があります．以下，OSごとにインストールの手順を説明します．
 説明の中で$から始まるコードはシェルのコマンドを表し，>から始まるコードはRのコマンドを表します．
 
 = Windows =
-Windows 7とWindows XPで動作を確認しています．32 bitのOSにのみ対応しています． 
+Windows 7とWindows XPで動作を確認しています．32 bitのOSにのみ対応しています．15分程度の作業時間が見込まれます．
  # [RInstallation#Windows Rをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Windows EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsをインストール]．
@@ -18,7 +18,7 @@ Windows 7とWindows XPで動作を確認しています．32 bitのOSにのみ�
 }}}
 
 = Linux =
-Ubuntuを例に説明します．32 bitと64 bitの両方に対応しています．
+Ubuntuを例に説明します．32 bitと64 bitの両方に対応しています．10分程度の作業時間が見込まれます．
 
  # [RInstallation#Linux Rをインストール]
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Linux EBImageをインストール]．
@@ -44,7 +44,7 @@ $ sudo bash ./build.sh
 </wiki:comment>
 
 = Mac OS =
-Mac OSの10.5 Leopardと10.6 Snow Leopardで動作を確認しています．
+Mac OSの10.5 Leopardと10.6 Snow Leopardで動作を確認しています．30分から1時間程度の作業時間が見込まれます．
  # [RInstallation#Mac_OS Rをインストール]
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Mac_OS EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsをインストール]．
