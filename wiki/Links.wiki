@@ -2,6 +2,7 @@
 
 = Links =
   * [http://cran.r-project.org/ CRAN]
+    * [http://cran.r-project.org/bin/windows/rw-FAQ.html R for Windows FAQ](英語)
     * [http://cran.r-project.org/doc/contrib/manuals-jp/R-exts.jp.pdf Rの拡張を書く]
   * [http://www.kyoritsu-pub.co.jp/series/arudemanabu.html Publisher's page]
   * [http://www.imagemagick.org/script/index.php ImageMagick]
