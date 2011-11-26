@@ -22,7 +22,7 @@ RImageBookパッケージには48個のデモが含まれています．
 ||GeometricTransformationsDemo||幾何学的変換のデモ ||
 ||GrayColorDemo||グレースケール変換と色変換のデモ ||
 ||HalftoneDemo||ハーフトーンを周波数領域で平滑化するデモ ||
-||hello||ハローワールドのデモ ||
+||hello||こんにちは世界のデモ ||
 ||houghTransformDemo||ハフ変換のデモ ||
 ||imageMultiplyDemo||画像の積のデモ ||
 ||imageRegistration||レジストレーションのデモ ||
