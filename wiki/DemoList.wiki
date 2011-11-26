@@ -1,5 +1,5 @@
 = Alphabetical list of demo codes =
-RImageBookパッケージには48個のデモが含まれています．RImageBookパッケージを[RImageBookInstallation インストール]した後に，demo(デモ名)とすると[http://www.amazon.co.jp/gp/product/4320019784/ 本書]で紹介する画像処理のデモを実行することができます．Rでどのような画像処理ができるのかを感じてもらえれば幸いです．
+RImageBookパッケージには48個のデモが含まれています．RImageBookパッケージを[RImageBookInstallation インストール]した後に，demo(デモ名)とすると[http://www.amazon.co.jp/gp/product/4320019784/ 本書]で紹介する画像処理のデモを実行することができます．Rでどのような画像処理ができるのかを感じてもらえるのではないかと思います．
 
 
 || *デモ名* || *説明* ||
