@@ -17,6 +17,10 @@ Windows 7とWindows XPで動作を確認しています．32 bitのOSにのみ�
 {{{
 > library(RImageBook)
 }}}
+ # 試しに[DemoList デモ]を動作させてみましょう．
+{{{
+> demo(ThinningDemo)
+}}}
 
 = Linux =
 Ubuntuを例に説明します．32 bitと64 bitの両方に対応しています．10分程度の作業時間が見込まれます．
@@ -33,6 +37,10 @@ $ sudo R
  # パッケージをロードしてエラーが出なければOKです．
 {{{
 > library(RImageBook)
+}}}
+ # 試しに[DemoList デモ]を動作させてみましょう．
+{{{
+> demo(ThinningDemo)
 }}}
 <wiki:comment>
  # 以上の準備が終わったら，ターミナルで以下のコマンドを実行してRImageBookをインストールします．
@@ -58,6 +66,10 @@ $ sudo R
  # パッケージをロードしてエラーが出なければOKです．
 {{{
 > library(RImageBook)
+}}}
+ # 試しに[DemoList デモ]を動作させてみましょう．
+{{{
+> demo(ThinningDemo)
 }}}
 <wiki:comment>
  # 以上の準備が終わったら，ターミナルで以下のコマンドを実行してRImageBookをインストールします．
