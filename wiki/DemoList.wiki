@@ -1,4 +1,5 @@
 = Demo code list =
+RImageBookパッケージには48個のデモが含まれています．
 
 || *Name of demo* || *Explanation of demo* ||
 ||AliasingDemo|| ||
