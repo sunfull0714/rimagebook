@@ -2,52 +2,52 @@
 RImageBookパッケージには48個のデモが含まれています．RImageBookパッケージを[RImageBookInstallation インストール]した後に，demo(デモ名)とすると[http://www.amazon.co.jp/gp/product/4320019784/ 本書]で紹介する画像処理のデモを実行することができます．Rでどのような画像処理ができるのかを感じてもらえるのではないかと思います．
 
 
-|| *デモ名* || *説明* ||
-||AliasingDemo||エイリアシングのデモ ||
-||AlphaBlendDemo||アルファブレンデイングとディゾルブのデモ ||
-||AnisotropicFilterDemo||非等方拡散フィルタのデモ ||
-||BinarizationDemo||二値化のデモ ||
-||BooleanDemo||画像の論理演算のデモ ||
-||CellCountDemo||3次元データから細胞数を計測するデモ ||
-||CellSegmentationDemo||細胞を抽出するデモ ||
-||ColonyRhythmDemo||バクテリアのコロニーの慨日リズムを解析するデモ ||
-||ContrastDemo||コントラスト調整のデモ ||
-||CreateImagesDemo||人工画像を作成するデモ ||
-||DetectFace||顔認識のデモ ||
-||DownloadImagesDemo||画像ダウンロードのデモ ||
-||EdgeDetectionDemo||輪郭抽出のデモ ||
-||EdgeEnhancementDemo||輪郭強調のデモ ||
-||embossDemo||エンボス加工のデモ ||
-||FFTDemo||フーリエ変換によるフィルタリングのデモ ||
-||FundamentalOperationsDemo||画像処理の基礎のデモ ||
-||GeometricTransformationsDemo||幾何学的変換のデモ ||
-||GrayColorDemo||グレースケール変換と色変換のデモ ||
-||HalftoneDemo||ハーフトーンを周波数領域で平滑化するデモ ||
-||hello||こんにちは世界のデモ ||
-||houghTransformDemo||ハフ変換のデモ ||
-||imageMultiplyDemo||画像の積のデモ ||
-||imageRegistration||レジストレーションのデモ ||
-||InterpolationDemo||補間法の比較デモ ||
-||LossyCompressionDemo||非可逆圧縮のデモ ||
-||MorphologyDemo||モルフォロジー変換のデモ ||
-||msdDemo||平均二乗変位のデモ ||
-||NeuronTracingDemo||神経細胞をトレースするデモ ||
-||OpticalFlowDemo||オプティカルフローのデモ ||
-||ParameciumExtractionDemo||ゾウリムシを抽出するデモ ||
-||ParameciumTrackingDemo||ゾウリムシを追跡するデモ ||
-||PendulumDemo||振り子の運動を追跡するデモ ||
-||ProjectionDemo||投射のデモ ||
-||SegmentationDemo||セグメンテーションのデモ ||
-||SineNoiseDemo||周波数領域におけるノイズ除去のデモ ||
-||SmoothingFilterDemo||平滑化フィルタのデモ ||
-||StereoDemo||ステレオ図のデモ ||
-||SurfaceRenderingDemo||サーフェスレンダリングのデモ ||
-||TemplateMatchingDemo||テンプレートマッチングのデモ ||
-||TextRecognitionDemo||手書き文字認識のデモ ||
-||ThinningDemo||細線化のデモ ||
-||ToneCurveDemo||トーンカーブのデモ ||
-||VRDemo||ボリュームレンダリングのデモ ||
-||WaveletSmoothingDemo||ウェーブレット変換を用いた平滑化のデモ ||
-||WingSegmentationDemo||ショウジョウバエ翅を自動抽出するデモ ||
-||WingShapeDemo||ショウジョウバエ翅の形態解析のデモ ||
-||ZoomDemo||拡大時の補間法の比較デモ||
+|| *デモ名* || *説明* || *本文中のページ数* ||
+||AliasingDemo||エイリアシングのデモ || ||
+||AlphaBlendDemo||アルファブレンデイングとディゾルブのデモ || ||
+||AnisotropicFilterDemo||非等方拡散フィルタのデモ || ||
+||BinarizationDemo||二値化のデモ || ||
+||BooleanDemo||画像の論理演算のデモ || ||
+||CellCountDemo||3次元データから細胞数を計測するデモ || ||
+||CellSegmentationDemo||細胞を抽出するデモ || ||
+||ColonyRhythmDemo||バクテリアのコロニーの慨日リズムを解析するデモ || ||
+||ContrastDemo||コントラスト調整のデモ || ||
+||CreateImagesDemo||人工画像を作成するデモ || ||
+||DetectFace||顔認識のデモ || ||
+||DownloadImagesDemo||画像ダウンロードのデモ || ||
+||EdgeDetectionDemo||輪郭抽出のデモ || ||
+||EdgeEnhancementDemo||輪郭強調のデモ || ||
+||embossDemo||エンボス加工のデモ || ||
+||FFTDemo||フーリエ変換によるフィルタリングのデモ || ||
+||FundamentalOperationsDemo||画像処理の基礎のデモ || ||
+||GeometricTransformationsDemo||幾何学的変換のデモ || ||
+||GrayColorDemo||グレースケール変換と色変換のデモ || ||
+||HalftoneDemo||ハーフトーンを周波数領域で平滑化するデモ || ||
+||hello||こんにちは世界のデモ || ||
+||houghTransformDemo||ハフ変換のデモ || ||
+||imageMultiplyDemo||画像の積のデモ || ||
+||imageRegistration||レジストレーションのデモ || ||
+||InterpolationDemo||補間法の比較デモ || ||
+||LossyCompressionDemo||非可逆圧縮のデモ || ||
+||MorphologyDemo||モルフォロジー変換のデモ || ||
+||msdDemo||平均二乗変位のデモ || ||
+||NeuronTracingDemo||神経細胞をトレースするデモ || ||
+||OpticalFlowDemo||オプティカルフローのデモ || ||
+||ParameciumExtractionDemo||ゾウリムシを抽出するデモ || ||
+||ParameciumTrackingDemo||ゾウリムシを追跡するデモ || ||
+||PendulumDemo||振り子の運動を追跡するデモ || ||
+||ProjectionDemo||投射のデモ || ||
+||SegmentationDemo||セグメンテーションのデモ || ||
+||SineNoiseDemo||周波数領域におけるノイズ除去のデモ || ||
+||SmoothingFilterDemo||平滑化フィルタのデモ || ||
+||StereoDemo||ステレオ図のデモ || ||
+||SurfaceRenderingDemo||サーフェスレンダリングのデモ || ||
+||TemplateMatchingDemo||テンプレートマッチングのデモ || ||
+||TextRecognitionDemo||手書き文字認識のデモ || ||
+||ThinningDemo||細線化のデモ || ||
+||ToneCurveDemo||トーンカーブのデモ || ||
+||VRDemo||ボリュームレンダリングのデモ || ||
+||WaveletSmoothingDemo||ウェーブレット変換を用いた平滑化のデモ || ||
+||WingSegmentationDemo||ショウジョウバエ翅を自動抽出するデモ || ||
+||WingShapeDemo||ショウジョウバエ翅の形態解析のデモ || ||
+||ZoomDemo||拡大時の補間法の比較デモ|| ||
