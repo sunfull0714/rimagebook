@@ -43,11 +43,11 @@ RImageBookパッケージには48個のデモが含まれています．RImageBo
 ||StereoDemo||ステレオ図のデモ ||139 ||
 ||SurfaceRenderingDemo||サーフェスレンダリングのデモ ||135-136 ||
 ||TemplateMatchingDemo||テンプレートマッチングのデモ ||123-125 ||
-||TextRecognitionDemo||手書き文字認識のデモ || ||
-||ThinningDemo||細線化のデモ || ||
-||ToneCurveDemo||トーンカーブのデモ || ||
-||VRDemo||ボリュームレンダリングのデモ || ||
-||WaveletSmoothingDemo||ウェーブレット変換を用いた平滑化のデモ || ||
-||WingSegmentationDemo||ショウジョウバエ翅を自動抽出するデモ || ||
-||WingShapeDemo||ショウジョウバエ翅の形態解析のデモ || ||
-||ZoomDemo||拡大時の補間法の比較デモ|| ||
+||TextRecognitionDemo||手書き文字認識のデモ ||143 ||
+||ThinningDemo||細線化のデモ ||115-120 ||
+||ToneCurveDemo||トーンカーブのデモ ||55 ||
+||VRDemo||ボリュームレンダリングのデモ ||138 ||
+||WaveletSmoothingDemo||ウェーブレット変換を用いた平滑化のデモ ||97 ||
+||WingSegmentationDemo||ショウジョウバエ翅を自動抽出するデモ ||189 ||
+||WingShapeDemo||ショウジョウバエ翅の形態解析のデモ || 188||
+||ZoomDemo||拡大時の補間法の比較デモ||36 ||
