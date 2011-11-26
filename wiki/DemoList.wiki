@@ -1,7 +1,7 @@
 = Alphabetical list of demo codes =
 RImageBookパッケージには48個のデモが含まれています．
 
-|| *Name of demo* || *Explanation of demo* ||
+|| *Name of demo* || *Explanation* ||
 ||AliasingDemo||エイリアシングのデモ ||
 ||AlphaBlendDemo||アルファブレンデイングとディゾルブのデモ ||
 ||AnisotropicFilterDemo||非等方拡散フィルタのデモ ||
