@@ -1,29 +1,29 @@
-= Demo code list =
+= Alphabetical list of demo codes =
 RImageBookパッケージには48個のデモが含まれています．
 
 || *Name of demo* || *Explanation of demo* ||
-||AliasingDemo|| ||
-||AlphaBlendDemo|| ||
-||AnisotropicFilterDemo|| ||
-||BinarizationDemo|| ||
-||BooleanDemo|| ||
-||CellCountDemo|| ||
-||CellSegmentationDemo|| ||
-||ColonyRhythmDemo|| ||
-||ContrastDemo|| ||
-||CreateImagesDemo|| ||
-||DetectFace|| ||
-||DownloadImagesDemo|| ||
-||EdgeDetectionDemo|| ||
-||EdgeEnhancementDemo|| ||
-||embossDemo|| ||
-||FFTDemo|| ||
-||FundamentalOperationsDemo|| ||
-||GeometricTransformationsDemo|| ||
-||GrayColorDemo|| ||
-||HalftoneDemo|| ||
-||hello|| ||
-||houghTransformDemo|| ||
+||AliasingDemo||エイリアシングのデモ ||
+||AlphaBlendDemo||アルファブレンデイングとディゾルブのデモ ||
+||AnisotropicFilterDemo||非等方拡散フィルタのデモ ||
+||BinarizationDemo||二値化のデモ ||
+||BooleanDemo||画像の論理演算のデモ ||
+||CellCountDemo||3次元データから細胞数を計測するデモ ||
+||CellSegmentationDemo||細胞を抽出するデモ ||
+||ColonyRhythmDemo||バクテリアのコロニーの慨日リズムを解析するデモ ||
+||ContrastDemo||コントラスト調整のデモ ||
+||CreateImagesDemo||人工画像を作成するデモ ||
+||DetectFace||顔認識のデモ ||
+||DownloadImagesDemo||画像ダウンロードのデモ ||
+||EdgeDetectionDemo||輪郭抽出のデモ ||
+||EdgeEnhancementDemo||輪郭強調のデモ ||
+||embossDemo||エンボス加工のデモ ||
+||FFTDemo||フーリエ変換によるフィルタリングのデモ ||
+||FundamentalOperationsDemo||画像処理の基礎のデモ ||
+||GeometricTransformationsDemo||幾何学的変換のデモ ||
+||GrayColorDemo||グレースケール変換と色変換のデモ ||
+||HalftoneDemo||ハーフトーンを周波数領域で平滑化するデモ ||
+||hello||ハローワールドのデモ ||
+||houghTransformDemo||ハフ変換のデモ ||
 ||imageMultiplyDemo|| ||
 ||imageRegistration|| ||
 ||InterpolationDemo|| ||
