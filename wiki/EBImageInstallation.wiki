@@ -7,7 +7,7 @@ EBImageをインストールする前に以下の3点を用意します．この
  * GTK+
  * abindパッケージ
 
- # ImageMagickはバージョン6.6より*古いもの*を用いなければなりません．古いバージョンはインターネット上を検索して見つけることもできますが，[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]からも再配布しています．これをダウンロードしてインストールしてください．インストールする際には，Add application directory to your system pathとInstall development headers and libraries for C and C++にチェックをいれます．
+ # ImageMagickはバージョン6.6より*古いもの*を用いなければなりません．古いバージョンはインターネット上を検索して見つけることもできますが，[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]からも再配布しています．これをダウンロードしてインストールしてください．インストールする際には，Add application directory to your system pathとInstall development headers and libraries for C and C++にチェックをいれます．https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
  # GTK+も最新バージョンではなく，少し古いバージョンを使います．[http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ ここ]からバージョン2.16のインストーラーを入手してインストールしてください．
  # abindはRのパッケージなので，Rを起動して以下のコマンドでCRAN からインストールします．
 {{{
