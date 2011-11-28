@@ -6,7 +6,7 @@ RImageBookは画像処理のためのRのパッケージです．[http://www.ama
 インストールに関する質問や不具合の報告はrimagebook@gmail.comまでお願いします．ここに示した環境以外での動作報告も大歓迎です．
 
 = Windows =
-Windows 7とWindows XPで動作を確認しています．32 bitのOSにのみ対応しています．15分程度の作業時間が見込まれます．
+Windows 7とWindows XPとWindows Vistaで動作を確認しています．32 bitのOSにのみ対応しています．15分程度の作業時間が見込まれます．
  # [RInstallation#Windows Rをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Windows EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsをインストール]．
