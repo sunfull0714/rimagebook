@@ -2,6 +2,7 @@
 
 == Version 0.4 ==
  * Revised demo codes. Most display windows have descriptive titles.
+ * Added missing display() commands.
 
 == Version 0.3 ==
  * Size of the source package reduced to 35 MB.
