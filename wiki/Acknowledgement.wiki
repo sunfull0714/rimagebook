@@ -1,0 +1,2 @@
+= 謝辞 =
+ * Mac OSにbiOpsをインストールする方法は[http://meme.biology.tohoku.ac.jp/students/iwasaki/biOps こちら]を参考にしました．
