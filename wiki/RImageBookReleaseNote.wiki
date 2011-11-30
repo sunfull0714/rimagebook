@@ -6,3 +6,4 @@
 
 == Version 0.3 ==
  * Size of the source package reduced to 35 MB.
+ * Installation script provided.
