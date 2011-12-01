@@ -44,15 +44,15 @@ $ sudo R
 {{{
 > demo(ThinningDemo)
 }}}
-<wiki:comment>
- # 以上の準備が終わったら，ターミナルで以下のコマンドを実行してRImageBookをインストールします．
+
+ * 補足：以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
 {{{
 $ sudo apt-get install subversion
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
 $ sudo bash ./build.sh
 }}}
-</wiki:comment>
+
 
 = Mac OS =
 Mac OSの10.5 Leopardと10.6 Snow Leopardで動作を確認しています．30分から1時間程度の作業時間が見込まれます．
@@ -73,11 +73,10 @@ $ sudo R
 {{{
 > demo(ThinningDemo)
 }}}
-<wiki:comment>
- # 以上の準備が終わったら，ターミナルで以下のコマンドを実行してRImageBookをインストールします．
+
+ * 補足：以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
 {{{
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
 $ sudo ./build.sh
 }}}
-</wiki:comment>
