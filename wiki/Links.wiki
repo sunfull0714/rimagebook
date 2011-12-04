@@ -1,12 +1,32 @@
 #summary Links related to RImageBook
 
 = Links =
+Rと画像処理に関するオンラインの情報源を紹介します．
+
+== R関連 ==
+  * [http://cse.naro.affrc.go.jp/takezawa/r-tips/r.html R-Tips]
+  * [http://www.okada.jp.org/RWiki/ RjpWiki]
+  * [http://www1.doshisha.ac.jp/~mjin/R/index.html JIN'S PAGE]
   * [http://cran.r-project.org/ CRAN]
     * [http://cran.r-project.org/bin/windows/rw-FAQ.html R for Windows FAQ](英語)
     * [http://cran.r-project.org/doc/contrib/manuals-jp/R-exts.jp.pdf Rの拡張を書く]
-  * [http://www.kyoritsu-pub.co.jp/series/arudemanabu.html Publisher's page]
+
+  
+== 画像処理 ==
+  * [http://homepages.inf.ed.ac.uk/rbf/HIPR2/hipr_top.htm Image Processing Learning Resources]
+  * [http://www.dspguide.com/pdfbook.htm The Scientist and Engineer's Guide to Digital Signal Processing]
+
+== 標準画像データベース ==
+  * [http://sipi.usc.edu/database/ The USC-SIPI Image Database]
+  * [http://r0k.us/graphics/kodak/ Kodak Lossless True Color Image Suite]
+  * [http://www.imagemagick.org/Usage/img_photos/ ImageMagick v6 Examples -- Photos]
+  
+== 外部ライブラリ ==
   * [http://www.imagemagick.org/script/index.php ImageMagick]
   * [http://rsbweb.nih.gov/ij/ ImageJ]
   * [http://cimg.sourceforge.net/ CImg]
   * [http://www.vtk.org/ VTK]
   * [http://sourceforge.net/projects/opencvlibrary/ OpenCV]
+  
+== その他 ==
+  * [http://www.kyoritsu-pub.co.jp/series/arudemanabu.html Publisher's page]
