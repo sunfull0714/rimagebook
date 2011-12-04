@@ -15,7 +15,7 @@ Rと画像処理に関するオンラインの情報源を紹介します．
 == 画像処理 ==
   * [http://homepages.inf.ed.ac.uk/rbf/HIPR2/hipr_top.htm Image Processing Learning Resources]
   * [http://www.dspguide.com/pdfbook.htm The Scientist and Engineer's Guide to Digital Signal Processing]
-
+  * [http://imagingsolution.blog107.fc2.com/blog-category-20.html 画像処理ソリューション]
 == 標準画像データベース ==
   * [http://sipi.usc.edu/database/ The USC-SIPI Image Database]
   * [http://r0k.us/graphics/kodak/ Kodak Lossless True Color Image Suite]
