@@ -29,4 +29,4 @@ Rと画像処理に関するオンラインの情報源を紹介します．
   * [http://sourceforge.net/projects/opencvlibrary/ OpenCV]
   
 == その他 ==
-  * [http://www.kyoritsu-pub.co.jp/series/arudemanabu.html Publisher's page]
+  * [http://www.kyoritsu-pub.co.jp/series/arudemanabu.html Rで学ぶデータサイエンスシリーズ]
