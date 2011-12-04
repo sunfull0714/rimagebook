@@ -1,4 +1,6 @@
-= 画像処理関数のリスト =
+= Rの画像処理関数 =
+
+<wiki:toc max_depth="2" />
 
 == 画像の表示 ==
 ||関数名 || 機能 || パッケージ名 ||
@@ -63,6 +65,7 @@
 ||cropROI() || 対話的なROIの切り出し || RImageBook||
 ||padding() || パディング || RImageBook||
 ||pyramid() || 画像ピラミッドの作成 || RImageBook||
+||niftyreg()||画像のレジストレーション||RNiftyReg||
 
 == 空間フィルタ ==
 
@@ -131,6 +134,10 @@
 ||imgNormalize()||階調の正規化||biOps||
 ||imgRGB2Grey()||グレースケール変換||biOps||
 ||imgRedBand()||赤チャネルの抽出||biOps||
+||imgEKMeans()||階調のクラスタリング||biOps||
+||imgIsoData()||階調のクラスタリング||biOps||
+||imgKDKMeans()||階調のクラスタリング||biOps||
+||imgKMeans()||階調のクラスタリング||biOps||
 ||channel() || 色チャンネル変換 || EBImage||
 ||equalize() || ヒストグラム平坦化 || EBImage||
 ||normalize() || ヒストグラムの正規化 || EBImage||
@@ -154,12 +161,14 @@
 ||imgMultiply()||乗算||biOps||
 ||imgOR()||OR||biOps||
 ||imgXOR()||XOR||biOps||
+||imgMaximum()||最大値||biOps||
 
 == 基本図形描画 ==
 ||関数名 || 機能 || パッケージ名 ||
 ||drawCircle() || 円描画 || EBImage||
 ||drawfont() || フォント指定 || EBImage||
 ||drawtext() || 画像へのテキスト描画 || EBImage||
+||paintObjects() || オブジェクトの描画 || EBImage||
 ||rainbowBar() || 虹色の棒を描画 || RImageBook||
 ||scaleBar() || スケールバーの描画 || RImageBook||
 
@@ -220,19 +229,25 @@
 ||getNumberOfFrames() || フレーム数取得 || EBImage||
 ||tile() || スタック画像をタイル表示 || EBImage||
 ||untile() || 画像を分割してスタック画像に変換 || EBImage||
+||GoodFeaturesToTrack() || 特徴点検出 || RImageBook||
 ||imgRowMaxs() || 最大値による投射 || RImageBook||
 ||imgRowMins() || 最小値による投射 || RImageBook||
 ||imgSD() || 標準偏差による投射 || RImageBook||
 ||medianPrj() || 中央値による投射 || RImageBook||
 ||VolumeRendering() || 3次元画像のボリュームレンダリング || RImageBook||
 ||tracking() ||軌跡の解析 ||RImageBook ||
+||trackDistance()||移動距離の算出||RImageBook||
+||trackSpeed()||移動の速さの算出||RImageBook||
+||angularVelocity()||角速度の算出||RImageBook||
+||msd()||平均二乗変位の算出||RImageBook||
 ||OpticalFlow() || オプティカルフローの検出 || RImageBook||
+||contour3d()||サーフェスレンダリング||misc3d||
 
-== 画像認識，オブジェクト操作 ==
+
+== 画像認識 ==
 ||関数名 || 機能 || パッケージ名 ||
+||hough()||ハフ変換による直線検出||PET||
 ||faceDetection() || 顔検出 || RImageBook||
-||GoodFeaturesToTrack() || 特徴点検出 || RImageBook||
 ||FNCC() || FFTによるテンプレートマッチング || RImageBook||
 ||NCC() || 相互相関によるテンプレートマッチング || RImageBook||
-||paintObjects() || オブジェクトの描画 || EBImage||
-||SAD() || SADによるテンプレートマッチング||
+||SAD() || SADによるテンプレートマッチング|| RImageBook||
