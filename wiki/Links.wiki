@@ -3,7 +3,7 @@
 = Links =
 Rと画像処理に関するオンラインの情報源を紹介します．
 
-== R関連 ==
+== R ==
   * [http://cse.naro.affrc.go.jp/takezawa/r-tips/r.html R-Tips]
   * [http://www.okada.jp.org/RWiki/ RjpWiki]
   * [http://www1.doshisha.ac.jp/~mjin/R/index.html JIN'S PAGE]
