@@ -1,0 +1,48 @@
+#summary One-sentence summary of this page.
+
+現在配布しているRImageBookのソースパッケージは、VTK, OpenCVをサポートしていない。<br>
+ここではVTK, OpenCVをサポートしたRImageBookパッケージをビルドする方法を記していく。
+
+*!!!このページは書きかけです。!!!*
+
+= 必要なもの =
+  * cmake
+  * gcc等
+  * OpenCVのソース
+  * VTKのソース
+
+= OpenCV =
+== ビルド手順 ==
+  # OpenCVのソースの展開
+{{{
+    bzip2 -cd OpenCV-X.X.X.tar.bz2 | tar xvf -
+}}}
+  # ビルド用ディレクトリの作成
+{{{
+    cd OpenCV-X.X.X
+    mkdir release #(名前はなんでもよい)
+    cd release
+}}}
+  # Makefileの作成
+{{{
+    cmake -D BUILD_SHARED_LIBS=OFF -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=${HOME}/usr/ ..
+}}}
+  ※${HOME}/usr/の部分はインストールしたいディレクトリに置き換える。
+  # ビルド
+{{{
+    make; make install
+}}}
+<wiki:comment>
+
+= VTK =
+== ビルド手順 ==
+  # VTKのソースの展開
+  # ビルド用ディレクトリの作成
+  # cd {上記ビルド用ディレクトリ}
+  # cmake {VTKのディレクトリ}
+  # make
+
+= RImageBook パッケージの修正 =
+ # Makevars, NAMESPACEの修正
+ # ビルド
+</wiki:comment>
