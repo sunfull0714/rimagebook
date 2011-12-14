@@ -21,7 +21,7 @@ Windows 7，XP，Vistaで動作を確認しています．32 bitのOSにのみ�
 }}}
  # 試しに[DemoList デモ]を動作させてみましょう．
 {{{
-> demo(ThinningDemo)
+> demo(WingSegmentationDemo)
 }}}
 
 = Linux =
@@ -42,7 +42,7 @@ $ sudo R
 }}}
  # 試しに[DemoList デモ]を動作させてみましょう．
 {{{
-> demo(ThinningDemo)
+> demo(WingSegmentationDemo)
 }}}
 
  * 補足：以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
@@ -71,7 +71,7 @@ $ sudo R
 }}}
  # 試しに[DemoList デモ]を動作させてみましょう．
 {{{
-> demo(ThinningDemo)
+> demo(WingSegmentationDemo)
 }}}
 
  * 補足：以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
