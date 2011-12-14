@@ -9,7 +9,7 @@ EBImageをインストールする前に以下の3点を用意します．この
 
  # ImageMagickはバージョン6.6より*古いもの*を用いなければなりません．古いバージョンはインターネット上を検索して見つけることもできますが，[https://code.google.com/p/rimagebook/downloads/list 本サイトのダウンロードページ]からも再配布しています．これをダウンロードしてインストールしてください．インストールする際には，Add application directory to your system pathとInstall development headers and libraries for C and C++にチェックをいれます．https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
  # GTK+も最新バージョンではなく，少し古いバージョンを使います．[http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ ここ]からバージョン2.16のインストーラーを入手してインストールしてください．
- # abindはRのパッケージなので，Rを起動して以下のコマンドでCRAN からインストールします．この際，どのミラーサーバからダウンロードするかを聞かれることがありますので適当なサーバを選択します．
+ # abindはRのパッケージなので，Rを起動して以下のコマンドでCRAN からインストールします．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
 {{{
 > install.packages("abind")
 }}}
@@ -38,7 +38,7 @@ $ sudo apt-get install libgtk2.0-dev
 $ pkg-config gtk+-2.0 --libs
 $ Magick-config --libs
 }}}
- # Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．この際，どのミラーサーバからダウンロードするかを聞かれることがあるので適当なサーバを選択します．
+ # Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
 {{{
 $ sudo R
 > install.packages("abind")
@@ -86,7 +86,7 @@ $ sudo port install gtk2
 $ gtk-demo
 $ convert -version
 }}}
- # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．この際，どのミラーサーバからダウンロードするかを聞かれることがありますので適当なサーバを選択します．
+ # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
 {{{
 $ sudo R
 > install.packages("abind")
@@ -136,7 +136,7 @@ $ sudo port install gtk2
 $ gtk-demo
 $ convert -version
 }}}
- # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．この際，どのミラーサーバからダウンロードするかを聞かれることがありますので適当なサーバを選択します．
+ # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
 {{{
 $ sudo R
 > install.packages("abind")
@@ -183,7 +183,7 @@ $ gtk-demo
 $ convert -version
 }}}
  # tcltkはRでinstall.packages()関数を用いるときにレポジトリを選択するウィンドウを開くために必要です．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールしておきます．
- # abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．この際，どのミラーサーバからダウンロードするかを聞かれることがありますので適当なサーバを選択します．
+ # abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
 {{{
 $ sudo R
 > install.packages("abind")
