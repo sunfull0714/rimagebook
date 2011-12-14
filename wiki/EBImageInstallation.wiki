@@ -38,7 +38,7 @@ $ sudo apt-get install libgtk2.0-dev
 $ pkg-config gtk+-2.0 --libs
 $ Magick-config --libs
 }}}
- # Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．
+ # Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．この際，どのミラーサーバからダウンロードするかを聞かれることがあるので適当なサーバを選択します．
 {{{
 $ sudo R
 > install.packages("abind")
