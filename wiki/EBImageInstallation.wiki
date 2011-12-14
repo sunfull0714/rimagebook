@@ -59,7 +59,60 @@ Loading required package: abind
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsのインストールに進む]
 
 = Mac OS =
-OSのバージョンで多少異なる点があるので，分けて説明します．
+OSのバージョンでインストール方法が異なるので，分けて説明します．
+
+== Mac OS 10.7 (Lion) ==
+以下の5点が必要になります．この方法でLionにインストールすると64 bitのアーキテクチャにインストールされます．
+ * Xcode 4.2
+ * MacPorts
+ * XQuartz
+ * ImageMagick
+ * gtk+-2.0
+ * abind
+
+ # XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]（要ユーザー登録），またはApp Storeから入手します．インストールしたら，ソフトウェアアップデートを実行してXcodeを更新しておきます．
+ # MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
+ # XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードしてインストールします．XQuartzをインストールしたら再起動します．
+ # ImageMagickはターミナルを起動して以下のコマンドでインストールします．
+{{{
+$ sudo port install ImageMagick
+}}}
+ # gtk+-2.0はターミナルから以下のコマンドでインストールします．
+{{{
+$ sudo port install gtk2
+}}}
+ # ImageMagickとgtkが正しくインストールされていることを次のコマンドで確認します．
+{{{
+$ gtk-demo
+$ convert -version
+}}}
+ # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．
+{{{
+$ sudo R
+> install.packages("abind")
+> library("abind")
+}}}
+ # Xcode 4からはgcc-4.2とg++-4.2がなくなっているので，llvm-gcc-4.2とllvm-g++-4.2からシンボリックリンクを張ります．そのためにはターミナルで次のコマンドを実行します．
+{{{
+$ cd
+$ sudo ln -s /usr/bin/llvm-gcc-4.2 /usr/bin/gcc-4.2
+$ sudo ln -s /usr/bin/llvm-g++-4.2 /usr/bin/g++-4.2
+}}}
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，2.10や3.11.0の部分はその時に公開されているバージョンに合わせて変更してください．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+{{{
+$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz"
+$ sudo R CMD INSTALL EBImage_3.11.0.tar.gz
+}}}
+ # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
+{{{
+$ sudo R
+> library(EBImage)
+Loading required package: abind
+}}}
+
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
+
+
 == Mac OS 10.6 (Snow Leopard) ==
 以下の5点が必要になります．この方法でSnow Leopardにインストールすると64 bitのアーキテクチャにインストールされます．
  * Xcode 3.2
