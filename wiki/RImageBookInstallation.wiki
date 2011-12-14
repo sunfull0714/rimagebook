@@ -55,7 +55,7 @@ $ sudo bash ./build.sh
 
 
 = Mac OS =
-Mac OSの10.5 Leopardと10.6 Snow Leopardと10.7 Lionで動作を確認しています．30分から1時間程度の作業時間が見込まれます．
+Mac OSの10.5 Leopardと10.6 Snow Leopardと10.7 Lionで動作を確認しています．2時間から4時間程度の作業時間が見込まれます．
  # [RInstallation#Mac_OS Rをインストール]
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Mac_OS EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsをインストール]．
