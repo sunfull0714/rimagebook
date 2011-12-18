@@ -1,5 +1,8 @@
 = Release note =
 
+== Version 0.5 ==
+ * Added help pages to all functions.
+
 == Version 0.4 ==
  * Revised demo codes. Most display windows have descriptive titles.
  * Added missing display() commands.
