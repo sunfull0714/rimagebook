@@ -28,20 +28,39 @@
     cmake -D BUILD_SHARED_LIBS=OFF -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=${HOME}/usr/ ..
 }}}
   ※${HOME}/usr/の部分はインストールしたいディレクトリに置き換える。
-  # ビルド
+  # ビルド・インストール
 {{{
     make; make install
 }}}
-<wiki:comment>
 
 = VTK =
-== ビルド手順 ==
-  # VTKのソースの展開
-  # ビルド用ディレクトリの作成
-  # cd {上記ビルド用ディレクトリ}
-  # cmake {VTKのディレクトリ}
-  # make
+== 必要なもの ==
+  * libglu等
 
+== ビルド手順 ==
+  # VTK, VTKDataの展開
+{{{
+    tar zxvf vtk-x.y.z.tar.gz
+    tar zxvf vtkdata-x.y.z.tar.gz
+}}}
+  # ビルド用ディレクトリの作成
+{{{
+    cd VTK
+    mkdir release
+    cd release
+}}}
+  # Makefile生成
+{{{
+    cmake -D BUILD_SHARED_LIBS=OFF -D CMAKE_BUILD_TYPE=Release \
+          -D CMAKE_INSTALL_PREFIX=${HOME}/usr/ \
+          -D VTK_DATA_ROOT=../../VTKData ..
+}}}
+  # ビルド・インストール
+{{{
+    make; make install
+}}}
+
+<wiki:comment>
 = RImageBook パッケージの修正 =
  # Makevars, NAMESPACEの修正
  # ビルド
