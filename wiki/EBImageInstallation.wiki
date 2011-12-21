@@ -62,7 +62,7 @@ Loading required package: abind
 OSのバージョンでインストール方法が異なるので，分けて説明します．
 
 == Mac OS 10.7 (Lion) ==
-以下の5点が必要になります．この方法でLionにインストールすると64 bitのアーキテクチャにインストールされます．
+以下の6点が必要になります．この方法でLionにインストールすると64 bitのアーキテクチャにインストールされます．
  * Xcode 4.2
  * MacPorts
  * XQuartz
