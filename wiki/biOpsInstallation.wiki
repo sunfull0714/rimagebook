@@ -29,7 +29,7 @@ $ sudo R
 [RImageBookInstallation#Linux RImageBookのインストールに戻る].
 
 = Mac OS =
-LeopardとSnow Leopardで共通です．
+Leopard、Snow Leopard、Lionで共通です．
 biOpsはlibfftw3とlibtiffとlibjpegに依存します．
  # ターミナルで以下のコマンドを実行してライブラリをインストールします．
 {{{
