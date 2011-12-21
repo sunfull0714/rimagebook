@@ -194,6 +194,11 @@
 
 == 特徴抽出 ==
 ||関数名 || 機能 || パッケージ名 ||
+||computeFeatures()||特徴抽出 || EBImage||
+||computeFeatures.basic()||輝度に関する特徴抽出 || EBImage||
+||computeFeatures.moment||モーメントの算出 || EBImage||
+||computeFeatures.shape()||形態に関する特徴抽出 || EBImage||
+||computeFeatures.haralick()||テクスチャ抽出 || EBImage||
 ||getFeatures() || 特徴抽出 || EBImage||
 ||hullFeatures() ||幾何学的な特徴抽出 || EBImage||
 ||edgeProfile() ||エッジプロファイルの抽出 || EBImage||
