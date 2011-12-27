@@ -32,6 +32,7 @@ $ sudo apt-get install imagemagick
 $ sudo apt-get install libmagickcore-dev
 $ sudo apt-get install libmagickwand-dev
 $ sudo apt-get install libgtk2.0-dev
+$ sudo apt-get install gtk2-engines-pixbuf
 }}}
  # 以上のライブラリが正しくインストールされていることを下記のコマンドで確認します．エラーがでなければOKです．
 {{{
