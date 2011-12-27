@@ -1,7 +1,7 @@
 #summary One-sentence summary of this page.
 
 現在配布しているRImageBookのソースパッケージは、VTK, OpenCVをサポートしていない。<br>
-ここではVTK, OpenCVをサポートしたRImageBookパッケージをビルドする方法を記していく。
+ここではコンパイル等のある程度の知識を前提に、VTK, OpenCVをサポートしたRImageBookパッケージをビルドする方法を記していく。
 
 *!!!このページは書きかけです。!!!*
 
