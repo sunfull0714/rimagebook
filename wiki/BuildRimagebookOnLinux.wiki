@@ -34,8 +34,8 @@
 }}}
 
 = VTK =
-== 必要なもの ==
-  * libglu等
+== 必要なライブラリ・ヘッダ ==
+  * libglu-dev, libxt-dev, libosmesa-dev等
 
 == ビルド手順 ==
   # VTK, VTKDataの展開
@@ -60,8 +60,7 @@
     make; make install
 }}}
 
-<wiki:comment>
 = RImageBook パッケージの修正 =
- # Makevars, NAMESPACEの修正
- # ビルド
-</wiki:comment>
+ # Makevarsの修正
+   Makevars.sampleを編集し、OpenCV,VTKのヘッダファイル・ライブラリのパスを追加
+ # build.shの実行
