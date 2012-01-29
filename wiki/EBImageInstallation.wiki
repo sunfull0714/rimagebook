@@ -115,15 +115,17 @@ Loading required package: abind
 
 
 == Mac OS 10.6 (Snow Leopard) ==
-以下の5点が必要になります．この方法でSnow Leopardにインストールすると64 bitのアーキテクチャにインストールされます．
+以下の6点が必要になります．この方法でSnow Leopardにインストールすると64 bitのアーキテクチャにインストールされます．
  * Xcode 3.2
  * MacPorts
+ * XQuartz
  * ImageMagick
  * gtk+-2.0
  * abind
 
  # XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します（要ユーザー登録）．インストールしたら，ソフトウェアアップデートを実行してXcodeを更新しておきます．
  # MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
+ # XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードしてインストールします．XQuartzをインストールしたら再起動します．
  # ImageMagickはターミナルを起動して以下のコマンドでインストールします．
 {{{
 $ sudo port install ImageMagick
