@@ -1,5 +1,3 @@
-# How to build RImageBook with OpenCV and VTK support
-
 現在[https://code.google.com/p/rimagebook/downloads/list ダウンロードリスト]から配布しているRImageBookのソースパッケージは，VTKとOpenCVをサポートしていません．このため，[RImageBookInstallation]に記した方法では顔認識，オプティカルフロー，ボリュームレンダリングといった機能が使えません．ここではコンパイルに関するある程度の知識を前提に，VTKとOpenCVをサポートしたRImageBookパッケージをビルドする方法を紹介します．
 
 以下のシェルスクリプトは，MacOS 10.6 Snow Leopard上でRのインストールから外部ライブラリのインストールに至るまでのすべての手順を含んでいます．他のディストリビューションの方は環境に合わせて適宜変更してください．
