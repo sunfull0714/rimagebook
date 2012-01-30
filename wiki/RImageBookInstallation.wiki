@@ -44,7 +44,7 @@ $ sudo R
 > demo(WingSegmentationDemo)
 }}}
 
- * 補足：以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
+ * 【補足】：以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
 {{{
 $ sudo apt-get install subversion
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
@@ -52,7 +52,7 @@ $ cd rimagebook-read-only/RImageBook
 $ sudo bash ./build.sh
 }}}
 
- * 発展：Linuxで顔認識やボリュームレンダリングを行うために必要な外部ライブラリ（openCVとVTK）のインストール方法は[BuildRimagebookOnLinux こちら]です．
+ * 【発展】：Linuxで顔認識やボリュームレンダリングを行うために必要な外部ライブラリ（openCVとVTK）のインストール方法は[BuildRimagebookOnLinux こちら]です．
 
 
 = Mac OS =
@@ -75,10 +75,10 @@ $ sudo R
 > demo(WingSegmentationDemo)
 }}}
 
- * 補足：以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
+ * 【補足】：以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
 {{{
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
 $ sudo ./build.sh
 }}}
- * 発展：Mac OSで顔認識やボリュームレンダリングを行うために必要な外部ライブラリ（openCVとVTK）のインストール方法は[BuildRimagebookOnMac こちら]です．
+ * 【発展】：Mac OSで顔認識やボリュームレンダリングを行うために必要な外部ライブラリ（openCVとVTK）のインストール方法は[BuildRimagebookOnMac こちら]です．
