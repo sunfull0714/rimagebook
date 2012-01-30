@@ -52,6 +52,8 @@ $ cd rimagebook-read-only/RImageBook
 $ sudo bash ./build.sh
 }}}
 
+ * 発展：Linuxで顔認識やボリュームレンダリングを行うために必要な外部ライブラリ（openCVとVTK）のインストール方法は[BuildRimagebookOnLinux こちら]です．
+
 
 = Mac OS =
 Mac OSの10.5 Leopardと10.6 Snow Leopardと10.7 Lionで動作を確認しています．2時間から4時間程度の作業時間が見込まれます．
@@ -79,3 +81,4 @@ $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-
 $ cd rimagebook-read-only/RImageBook
 $ sudo ./build.sh
 }}}
+ * 発展：Mac OSで顔認識やボリュームレンダリングを行うために必要な外部ライブラリ（openCVとVTK）のインストール方法は[BuildRimagebookOnMac こちら]です．
