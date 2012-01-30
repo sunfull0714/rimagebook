@@ -11,7 +11,7 @@ Ubuntuをご利用の方は，上記のいずれかのスクリプトを例え�
 {{{
 $ sudo bash ./InstallRImageBook64.sh
 }}}
-などとすることでOpenCVとVTKのライブラリをサポートしたRImageBookパッケージをインストールすることができます（インストールには数時間かかります）．
+などとすることでOpenCVとVTKのライブラリをサポートしたRImageBookパッケージをインストールすることができます（インストールが完了するまでに数時間かかります）．
 
 以下にスクリプトの内容を解説します．
 
