@@ -47,7 +47,8 @@ $ sudo R
 }}}
  # いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新のものに変更してください．パッケージの最新バージョンは[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認することができます．
 {{{
-$ sudo wget http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
+$ sudo wget http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz
+$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
  # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
