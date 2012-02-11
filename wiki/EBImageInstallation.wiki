@@ -47,8 +47,7 @@ $ sudo R
 }}}
  # いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新のものに変更してください．パッケージの最新バージョンは[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認することができます．
 {{{
-$ sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.1.tar.gz
-$ sudo R CMD INSTALL EBImage_3.11.1.tar.gz
+$ sudo wget http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
  # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
@@ -99,10 +98,10 @@ $ cd
 $ sudo ln -s /usr/bin/llvm-gcc-4.2 /usr/bin/gcc-4.2
 $ sudo ln -s /usr/bin/llvm-g++-4.2 /usr/bin/g++-4.2
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，2.10や3.11.1の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
 {{{
-$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.1.tar.gz"
-$ sudo R CMD INSTALL EBImage_3.11.1.tar.gz
+$ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
+$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
  # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
 {{{
@@ -145,10 +144,10 @@ $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロード・インストールします．ただし，2.10や3.11.1の部分はその時に公開されているバージョンに合わせて変更が必要です．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
 {{{
-$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.1.tar.gz"
-$ sudo R CMD INSTALL EBImage_3.11.1.tar.gz
+$ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
+$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
  # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
 {{{
@@ -192,10 +191,10 @@ $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードし，インストールします．ただし，2.10や3.11.1の部分はその時に公開されているバージョンに合わせて変更が必要です．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
 {{{
-$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.1.tar.gz"
-$ sudo R CMD INSTALL EBImage_3.11.1.tar.gz
+$ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
+$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
  # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
