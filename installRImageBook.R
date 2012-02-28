@@ -11,5 +11,5 @@ installRImageBook <- function(){
   }
   tempfile <- sprintf("%s\\%s",tempdir(),file)
   download.file(url, tempfile)
-  install.packages(tempfile, repos=NULL, type=pkgtype)
+  install.packages(tempfile, repos=NULL, type=pkgtype, INSTALL_opts="--no-multiarch")
 }
