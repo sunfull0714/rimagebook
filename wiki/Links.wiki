@@ -27,7 +27,7 @@ Rと画像処理に関するオンラインの情報源を紹介します．
   * [http://sourceforge.net/projects/opencvlibrary/ OpenCV]
   
 == その他 ==
-  * [http://www.kyoritsu-pub.co.jp/series/arudemanabu.html 共立出版Rで学ぶデータサイエンスシリーズ]
+  * [http://www.kyoritsu-pub.co.jp/series/23/ 共立出版Rで学ぶデータサイエンスシリーズ]
   * [http://www.amazon.co.jp/gp/product/4320019784/ amazon]
   * [http://ci.nii.ac.jp/ncid/BB07448128 所蔵大学図書館一覧]
   * [http://calil.jp/book/4320019784 全国の図書館検索]
