@@ -21,8 +21,8 @@ for x in /opt/local/lib/libjpeg.*; do sudo ln -s $x; done
 for x in /opt/local/lib/libtiff.*; do sudo ln -s $x; done
 cd
 echo "install.packages(\"abind\", repos=\"http://cran.md.tsukuba.ac.jp\")" | sudo R --no-save
-sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.0.tar.gz
-sudo R CMD INSTALL EBImage_3.11.0.tar.gz
+sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.2.tar.gz
+sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 echo "install.packages(\"biOps\", repos=\"http://cran.md.tsukuba.ac.jp\")" | sudo R --no-save
 cd
 sudo curl -L http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.3.1/OpenCV-2.3.1a.tar.bz2/download -o "OpenCV-2.3.1a.tar.bz2"
