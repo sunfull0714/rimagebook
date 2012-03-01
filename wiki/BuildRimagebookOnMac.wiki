@@ -2,9 +2,9 @@
 
 以下のシェルスクリプトは，MacOS 10.6 Snow Leopard上でRのインストールから外部ライブラリのインストールに至るまでのすべての手順を含んでいます．他のディストリビューションの方は環境に合わせて適宜変更してください．
 
- * MacOS 10.6 Snow Leopard用インストールスクリプト[https://code.google.com/p/rimagebook/source/browse/InstallRImageBookMac64.sh InstallRImageBookMac64.sh]
+ * MacOS 10.7 Lionおよび10.6 Snow Leopard用インストールスクリプト[https://code.google.com/p/rimagebook/source/browse/InstallRImageBookMac64.sh InstallRImageBookMac64.sh]
 
-MacOS 10.6 Snow Leopardをご利用の方は，XcodeとMacPortsとXQuartzをインストールした後に上記のスクリプトを実行すれば，OpenCVとVTKのライブラリをサポートしたRImageBookパッケージをインストールすることができます（インストールが完了するまでに数時間かかります）．
+MacOS 10.7 Lionまたは10.6 Snow Leopardをご利用の方は，XcodeとMacPortsとXQuartzをインストールした後に上記のスクリプトを実行すれば，OpenCVとVTKのライブラリをサポートしたRImageBookパッケージをインストールすることができます（インストールが完了するまでに数時間かかります）．
 {{{
 $ sudo bash ./InstallRImageBookMac64.sh
 }}}
