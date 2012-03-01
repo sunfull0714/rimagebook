@@ -1,4 +1,4 @@
-[RImageBookReleaseNote Release Note]
+[RImageBookReleaseNote Release Notes]
 
 = News =
 
