@@ -1,4 +1,4 @@
-[ReleaseNote Release Note]
+[ReleaseNote ReleaseNote]
 
 = News =
 
