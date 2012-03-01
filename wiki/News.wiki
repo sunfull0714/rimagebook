@@ -1,0 +1,17 @@
+[ReleaseNote Release Note]
+
+= News =
+
+2012.2.27 MacOS SnowLeopard?以降でRImageBookのインストールに失敗する問題を解決.
+
+2012.2.3 RImageBook_0.6 released.
+
+2012.1.29 LinuxとMacOSでOpenCVとVTKをサポート（インストール方法の【発展】）．
+
+2011.12.18 RImageBook_0.5 released.
+
+2011.12.12 Mac OS 10.7 (Lion)にインストールする方法を掲載．
+
+2011.11.29 RImageBook_0.4 released.
+
+2011.11.22 RImageBook_0.3 released.
