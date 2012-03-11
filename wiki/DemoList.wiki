@@ -1,5 +1,5 @@
 = Alphabetical list of demo codes =
-RImageBookパッケージには48個のデモが含まれています．RImageBookパッケージを[RImageBookInstallation インストール]した後に，demo(デモ名)とすると[http://www.amazon.co.jp/gp/product/4320019784/ 本書]で紹介する画像処理のデモを実行することができます．Rでどのような画像処理ができるのかを感じてもらえるのではないかと思います．ただし，現在のところDetectFaceとOpticalFlowDemoとVRDemoはWindows上でのみ動作します．
+RImageBookパッケージには48個のデモが含まれています．RImageBookパッケージを[RImageBookInstallation インストール]した後に，demo(デモ名)とすると[http://www.amazon.co.jp/gp/product/4320019784/ 本書]で紹介する画像処理のデモを実行することができます．Rでどのような画像処理ができるのかを感じてもらえれば幸いです．
 
 
 || *デモ名* || *説明* || *本文中の該当ページ* ||
@@ -13,7 +13,7 @@ RImageBookパッケージには48個のデモが含まれています．RImageBo
 ||ColonyRhythmDemo||バクテリアのコロニーの慨日リズムを解析するデモ ||176-179 ||
 ||ContrastDemo||コントラスト調整のデモ ||54-66 ||
 ||CreateImagesDemo||人工画像を作成するデモ ||20-22 ||
-||DetectFace||顔認識のデモ（Windowsのみ可） || 168||
+||DetectFace||顔認識のデモ || 168||
 ||DownloadImagesDemo||画像ダウンロードのデモ ||22-24 ||
 ||EdgeDetectionDemo||輪郭抽出のデモ ||81 ||
 ||EdgeEnhancementDemo||輪郭強調のデモ ||83 ||
@@ -32,7 +32,7 @@ RImageBookパッケージには48個のデモが含まれています．RImageBo
 ||MorphologyDemo||モルフォロジー変換のデモ ||104 ||
 ||msdDemo||平均二乗変位のデモ ||144 ||
 ||NeuronTracingDemo||神経細胞をトレースするデモ ||184 ||
-||OpticalFlowDemo||オプティカルフローのデモ（Windowsのみ可） ||148 ||
+||OpticalFlowDemo||オプティカルフローのデモ ||148 ||
 ||ParameciumExtractionDemo||ゾウリムシを抽出するデモ ||144 ||
 ||ParameciumTrackingDemo||ゾウリムシを追跡するデモ ||181-182 ||
 ||PendulumDemo||振り子の運動を追跡するデモ ||142-149 ||
@@ -46,7 +46,7 @@ RImageBookパッケージには48個のデモが含まれています．RImageBo
 ||TextRecognitionDemo||手書き文字認識のデモ ||143 ||
 ||ThinningDemo||細線化のデモ ||115-120 ||
 ||ToneCurveDemo||トーンカーブのデモ ||55 ||
-||VRDemo||ボリュームレンダリングのデモ（Windowsのみ可） ||138 ||
+||VRDemo||ボリュームレンダリングのデモ ||138 ||
 ||WaveletSmoothingDemo||ウェーブレット変換を用いた平滑化のデモ ||97 ||
 ||WingSegmentationDemo||ショウジョウバエ翅を自動抽出するデモ ||189 ||
 ||WingShapeDemo||ショウジョウバエ翅の形態解析のデモ || 188||
