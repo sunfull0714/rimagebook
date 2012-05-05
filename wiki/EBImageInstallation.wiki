@@ -7,7 +7,7 @@ EBImageをインストールする前に以下の3点を用意します．この
  * GTK+
  * abindパッケージ
 
- # ImageMagickは[http://www.imagemagick.org/script/binary-releases.php?ImageMagick=unv74fsai5nje0ke7rdj52ank2#windows こちら]から最新バージョンをダウンロードしてインストールしてください．インストールする際には，Add application directory to your system pathとInstall development headers and libraries for C and C++にチェックをいれます（下図参照）．https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
+ # ImageMagickは[http://www.imagemagick.org/script/binary-releases.php?ImageMagick=unv74fsai5nje0ke7rdj52ank2#windows こちら]から最新バージョンのWin32 dynamic at 16 bits-per-pixelをダウンロードしてインストールしてください．インストールする際には，Add application directory to your system pathとInstall development headers and libraries for C and C++にチェックをいれます（下図参照）．https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
  # GTK+は最新バージョンではなく，少し古いバージョンを使います．[http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ ここ]からバージョン2.16のインストーラーを入手してインストールしてください．
  # abindはRのパッケージなので，Rを起動して以下のコマンドでCRAN からインストールします．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
 {{{
