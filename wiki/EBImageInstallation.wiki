@@ -22,7 +22,7 @@ EBImageをインストールする前に以下の3点を用意します．この
 
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsのインストールに進む]
 
-注1: 以前はImageMagickもバージョン6.6より古いものを用いる必要がありましたが，現在のEBImageは最新バージョンのImageMagickに対応しています．逆に古いバージョンのImageMagickを用いると，一部の関数（例えばresize関数）でRがクラッシュする問題が発生します．
+注1: 以前はImageMagickもバージョン6.6より古いものを用いる必要がありましたが，現在は最新バージョンのImageMagickに対応しています．逆に古いバージョンのImageMagickを用いると，一部の関数（例えばresize関数）でRがクラッシュする問題が発生します．
 
 = Linux =
 Ubuntuを例に，LinuxにEBImageをインストールする方法を述べます．64 bitのアーキテクチャにも同じ方法でインストールできます．
