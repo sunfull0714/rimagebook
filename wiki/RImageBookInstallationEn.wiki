@@ -1,24 +1,24 @@
 = RImageBook Installation Guide =
 RImageBook provides utilities for digital image processing in R. It includes the functions described in the [http://www.amazon.co.jp/gp/product/4320019784/ book] as well as the scripts for reproducing the figures in the book．RImageBook depends on two other image processing packages, EBImage and biOps. The following sections describe a step-by-step installation guide for each OS. We thank [AcknowledgementEN these people] for contributing to this document．
 
-The codes that start with "$" and ">" are Shell commands and R commands, respectively, but you don't need to type $ or > when you run these commands.
+Here, the codes that start with "$" and ">" are Shell commands and R commands, respectively, but you don't need to type $ or > when you run these commands.
 
 
 = Windows =
-Windows 7，XP，Vistaで動作を確認しています．32 bitのOSにのみ対応しています．15分程度の作業時間が見込まれます．
- # [RInstallation#Windows Rをインストール]．
- # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Windows EBImageをインストール]．
- # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsをインストール]．
- # 以上の準備が完了したら，Rを起動してRImageBookをインストールします．
+Compatible with 32 bit Windows 7, XP, and Vista. Timing: 15 min.
+ # [RInstallationEn#Windows Install R].
+ # [https://code.google.com/p/rimagebook/wiki/EBImageInstallationEn#Windows Install EBImage].
+ # [https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Windows Install biOps].
+ # Launch R, and install RImageBook by running the following two commands:
 {{{
 > source("http://rimagebook.googlecode.com/svn/installRImageBook.R")
 > installRImageBook()
 }}}
- # パッケージをロードしてエラーが出なければOKです．
+ # Load the package.
 {{{
 > library(RImageBook)
 }}}
- # 試しに[DemoList デモ]を動作させてみましょう．
+ # Run some of the [DemoListEn demos] to check functionality.
 {{{
 > demo(WingSegmentationDemo)
 }}}
