@@ -1,5 +1,5 @@
-= EBImageのインストール方法 =
-EBImageは，いくつかの外部ライブラリを利用しているため，インストールに先立ってこれらのライブラリを用意する必要があります．基本的にはEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に従えばよいですが，用いるライブラリのバージョンを間違えるとつまづくことがあるので注意してください．
+= EBImage Installation =
+EBImage depends on several external libraries, which need to be obtained before installing EBImage. Refer to the EBImage [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html development site] for the official information. It is important to use correct version (not necessarily the latest version) of libraries.
 
 = Windows =
 EBImageをインストールする前に以下の3点を用意します．この際，GTK+の*バージョン* に気をつけます（注1）．
