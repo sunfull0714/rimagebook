@@ -1,0 +1,20 @@
+= R Installation Guide =
+
+= Windows =
+ # Download the latest installer for Windows from [http://cran.r-project.org/bin/windows/base/ CRAN].
+ # Install R by following the instructions of the installer.
+[https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Windows Go to EBImage installation].
+
+= Linux =
+ # Launch Terminal and install R with the following commands.
+{{{
+$ sudo apt-get update
+$ sudo apt-get install r-base-dev
+}}}
+[https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Linux Go to EBImage installation].
+
+
+= Mac OS =
+ # Download the latest installer for Mac from [http://cran.r-project.org/bin/macosx/ CRAN].
+ # Install R by following the instructions of the installer.
+[https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Mac_OS Go to EBImage installation].
