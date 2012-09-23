@@ -1,28 +1,26 @@
 = EBImage Installation =
-EBImage depends on several external libraries, which need to be obtained before installing EBImage. Refer to the EBImage [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html development site] for the official information. It is important to use correct version (not necessarily the latest version) of libraries.
+EBImage depends on several external libraries, which need to be obtained before installing EBImage. Refer to the EBImage [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html development site] for the official information. Note that correct version (not necessarily the latest version) of libraries need to be used.
 
 = Windows =
-EBImageをインストールする前に以下の3点を用意します．この際，GTK+の*バージョン* に気をつけます（注1）．
+EBImage requires the following three external components. Care must be taken to the *versino* of GTK+.
  * ImageMagick
  * GTK+
- * abindパッケージ
+ * abind (an R package)
 
- # ImageMagickは[http://www.imagemagick.org/script/binary-releases.php?ImageMagick=unv74fsai5nje0ke7rdj52ank2#windows こちら]から最新バージョンのWin32 dynamic at 16 bits-per-pixelをダウンロードしてインストールしてください．インストールする際には，Add application directory to your system pathとInstall development headers and libraries for C and C++にチェックをいれます（下図参照）．https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
- # GTK+は最新バージョンではなく，少し古いバージョンを使います．[http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ ここ]からバージョン2.16のインストーラーを入手してインストールしてください．
- # abindはRのパッケージなので，Rを起動して以下のコマンドでCRAN からインストールします．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
+ # Download latest version of ImageMagick (Win32 dynamic at 16 bits-per-pixel) from [http://www.imagemagick.org/script/binary-releases.php?ImageMagick=unv74fsai5nje0ke7rdj52ank2#windows here]. During installation check "Add application directory to your system path" and "Install development headers and libraries for C and C++"(see figure below). https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
+ # Download GTK+ 2.16 from [http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ here]. Newer versions are not compatible with EBImage.
+ # abind is an R package. To install, launch R and run the following command. If asked, choose appropriate mirror server.
 {{{
 > install.packages("abind")
 }}}
- # 以上の3つのライブラリがそろったら，Rで以下のコマンドを打ち，EBImageをインストールします．
+ # After installing those three libraries, install EBImage with the following commands in R.
 {{{
 > source("http://www.bioconductor.org/biocLite.R")
 > biocLite("EBImage")
 > library(EBImage)
 }}}
 
-[https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsのインストールに進む]
-
-注1: 以前はImageMagickもバージョン6.6より古いものを用いる必要がありましたが，現在は最新バージョンのImageMagickに対応しています．逆に古いバージョンのImageMagickを用いると，一部の関数（例えばresize関数）でRがクラッシュする問題が発生します．
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Windows Proceed to biOps installation]
 
 = Linux =
 Ubuntuを例に，LinuxにEBImageをインストールする方法を述べます．64 bitのアーキテクチャにも同じ方法でインストールできます．
