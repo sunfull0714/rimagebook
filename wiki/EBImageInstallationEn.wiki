@@ -20,12 +20,12 @@ EBImage requires the following three external components. Care must be taken for
 > library(EBImage)
 }}}
 
-[https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Windows Proceed to biOps installation]
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Windows Proceed to biOps installation].
 
 = Linux =
-Ubuntuを例に，LinuxにEBImageをインストールする方法を述べます．64 bitのアーキテクチャにも同じ方法でインストールできます．
+The following instruction describes how to install EBImage on Ubuntu Linux 32 bit or 64 bit.
 
- # EBImageをインストールするために必要な外部ライブラリとしてpkg-configとImageMagickとgtk2を入手します．Ubuntuのバージョンによってはlibmagickwand-devがImageMagickのコアパッケージに含まれていないことがあるので，これも別途インストールします．
+ # Obtain ImageMagick and gtk2. In some Ubuntu packages, ImageMagick does not include libmagickwand-dev, so you need to install this separately as follows.
 {{{
 $ sudo apt-get install pkg-config
 $ sudo apt-get install imagemagick
@@ -34,30 +34,30 @@ $ sudo apt-get install libmagickwand-dev
 $ sudo apt-get install libgtk2.0-dev
 $ sudo apt-get install gtk2-engines-pixbuf
 }}}
- # 以上のライブラリが正しくインストールされていることを下記のコマンドで確認します．エラーがでなければOKです．
+ # Verify the packages you just installed.
 {{{
 $ pkg-config gtk+-2.0 --libs
 $ Magick-config --libs
 }}}
- # Rのパッケージの一つであるabindをインストールします．Rを起動してinstall.packages()関数を使ってインストールします．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
+ # Install abind, one of R packages, by using the install.packages() function in R. If asked, choose an appropriate mirror server.
 {{{
 $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新のものに変更してください．パッケージの最新バージョンは[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認することができます．
+ # Close R. Then download and install EBImage with the following commands. Version number needs to be changed to the current one. Check the latest version number [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html here].
 {{{
 $ sudo wget http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz
 $ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
- # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
+ # Start R and load EBImage.
 {{{
 $ sudo R
 > library(EBImage)
 Loading required package: abind
 }}}
 
-[https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsのインストールに進む]
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Linux Proceed to biOps installation].
 
 = Mac OS =
 OSのバージョンでインストール方法が異なるので，分けて説明します．
