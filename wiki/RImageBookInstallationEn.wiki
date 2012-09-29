@@ -26,27 +26,27 @@ Compatible with 32 bit Windows 7, XP, and Vista. Timing: 15 min.
 }}}
 
 = Linux =
-Ubuntuを例に説明します．32 bitと64 bitの両方に対応しています．10分程度の作業時間が見込まれます．
+The following example is for Ubuntu Linux 32 bit and 64 bit. Timing: 10 min.
 
- # [RInstallation#Linux Rをインストール]
- # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Linux EBImageをインストール]．
- # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsをインストール]．
- # 以上の準備が完了したら，Rを起動してRImageBookをインストールします．
+ # [RInstallationEn#Linux Install R].
+ # [https://code.google.com/p/rimagebook/wiki/EBImageInstallationEn#Linux Install EBImage].
+ # [https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Linux Install biOps].
+ # Start R and install RImageBook with the following commands.
 {{{
 $ sudo R
 > source("http://rimagebook.googlecode.com/svn/installRImageBook.R")
 > installRImageBook()
 }}}
- # パッケージをロードしてエラーが出なければOKです．
+ # Load RImageBook package.
 {{{
 > library(RImageBook)
 }}}
- # 試しに[DemoList デモ]を動作させてみましょう．
+ # Run a [DemoListEn demo] to test the package.
 {{{
 > demo(WingSegmentationDemo)
 }}}
 
- * 【補足】以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
+ * *Note* If the steps above fail to install RImageBook, try checking out the package from our repository and build it yourself following the steps below.
 {{{
 $ sudo apt-get install subversion
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
@@ -54,7 +54,7 @@ $ cd rimagebook-read-only/RImageBook
 $ sudo bash ./build.sh
 }}}
 
- * 【発展】Linuxで顔認識やボリュームレンダリングを行うために必要な外部ライブラリ（openCVとVTK）のインストール方法は[BuildRimagebookOnLinux こちら]です．
+ * *Advanced* Installation of additional libraries (openCV and VTK) enables face recognition and volume rendering on R. Follow the instructions [BuildRimagebookOnLinuxEn here].
 
 
 = Mac OS =
