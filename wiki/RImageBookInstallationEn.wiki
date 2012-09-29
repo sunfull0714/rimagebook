@@ -58,9 +58,9 @@ $ sudo bash ./build.sh
 
 
 = Mac OS =
-Mac OSの10.5 Leopardと10.6 Snow Leopardと10.7 Lionで動作を確認しています．2時間から4時間程度の作業時間が見込まれます．
- # [RInstallation#Mac_OS Rをインストール]
- # [https://code.google.com/p/rimagebook/wiki/EBImageInstallation#Mac_OS EBImageをインストール]．
+Compatible with Mac OS 10.5 Leopard, 10.6 Snow Leopard, and 10.7 Lion. Expect 2 to 4 hours to complete installation.
+ # [RInstallationEn#Mac_OS Install R].
+ # [https://code.google.com/p/rimagebook/wiki/EBImageInstallationEn#Mac_OS Install EBImageをインストール]．
  # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsをインストール]．
  # 以上の準備が完了したら，ターミナルからRを起動してRImageBookをインストールします．
 {{{
