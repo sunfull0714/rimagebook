@@ -61,26 +61,26 @@ $ sudo bash ./build.sh
 Compatibility tested with Mac OS 10.5 Leopard, 10.6 Snow Leopard, and 10.7 Lion. Expect 2 to 4 hours to complete installation.
  # [RInstallationEn#Mac_OS Install R].
  # [https://code.google.com/p/rimagebook/wiki/EBImageInstallationEn#Mac_OS Install EBImage].
- # [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsをインストール]．
- # 以上の準備が完了したら，ターミナルからRを起動してRImageBookをインストールします．
+ # [https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Mac_OS Install biOps]．
+ # Start R in Terminal and install RImageBook with the commands below.
 {{{
 $ sudo R
 > source("http://rimagebook.googlecode.com/svn/installRImageBook.R")
 > installRImageBook()
 }}}
- # パッケージをロードしてエラーが出なければOKです．
+ # Load RImageBook.
 {{{
 > library(RImageBook)
 }}}
- # 試しに[DemoList デモ]を動作させてみましょう．
+ # Try some [DemoList demos].
 {{{
 > demo(WingSegmentationDemo)
 }}}
 
- * 【補足】以上の4から6のステップでRImageBookがうまくインストールされない場合は，リポジトリからチェックアウトしてお手元でパッケージをビルドしてみてください．
+ * *Note* If the steps above fail to install RImageBook, try checking out the package from our repository and build it yourself following the steps below.
 {{{
 $ sudo svn checkout http://rimagebook.googlecode.com/svn/trunk/ rimagebook-read-only
 $ cd rimagebook-read-only/RImageBook
 $ sudo ./build.sh
 }}}
- * 【発展】Mac OSで顔認識やボリュームレンダリングを行うために必要な外部ライブラリ（openCVとVTK）のインストール方法は[BuildRimagebookOnMac こちら]です．
+ * *Advanced* Installation of additional libraries (openCV and VTK) enables face recognition and volume rendering on R. Follow the instructions [BuildRimagebookOnMacEn here].
