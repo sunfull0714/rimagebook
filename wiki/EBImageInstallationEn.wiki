@@ -1,5 +1,5 @@
 = EBImage Installation =
-EBImage depends on several external libraries, which need to be obtained before installing EBImage. Refer to the EBImage [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html development site] for the official information. Note that correct version (not necessarily the latest version) of libraries need to be used.
+EBImage (before version 4.0) depends on several external libraries, which need to be obtained before installing EBImage. Refer to the EBImage [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html development site] for the official information. Note that correct version (not necessarily the latest version) of libraries need to be used.
 
 = Windows =
 EBImage requires the following three external components. Care must be taken for the *version* of GTK+.
