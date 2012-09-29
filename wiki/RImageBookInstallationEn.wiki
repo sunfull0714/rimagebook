@@ -1,5 +1,5 @@
 = RImageBook Installation Guide =
-RImageBook provides utilities for digital image processing in R. It includes the functions described in the [http://www.amazon.co.jp/gp/product/4320019784/ book] as well as the scripts for reproducing the figures in the book．RImageBook depends on two other image processing packages, EBImage and biOps. The following sections describe a step-by-step installation guide for each OS. We thank [AcknowledgementEN these people] for contributing to this document．
+RImageBook provides utilities for digital image processing in R. It includes the functions described in the [http://www.amazon.co.jp/gp/product/4320019784/ book] as well as the scripts for reproducing the figures in the book．RImageBook depends on two other image processing packages, EBImage and biOps. The following sections describe a step-by-step installation guide for Windows, Linux, and Mac OS. We thank [AcknowledgementEN these people] for contributing to this document．
 
 Here, the codes that start with "$" and ">" are Shell commands and R commands, respectively, but you don't need to type $ or > when you run these commands.
 
