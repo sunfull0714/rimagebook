@@ -60,10 +60,10 @@ Loading required package: abind
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Linux Proceed to biOps installation].
 
 = Mac OS =
-OSのバージョンでインストール方法が異なるので，分けて説明します．
+Different versions of Mac OS require different libraries.
 
 == Mac OS 10.7 (Lion) ==
-以下の6点が必要になります．この方法でLionにインストールすると64 bitのアーキテクチャにインストールされます．
+To install EBImage on Mac OS 10.7, you need following 6 components. The following instructions will install EBImage on a 64 bit architecture.
  * Xcode 4.2
  * MacPorts
  * XQuartz
@@ -71,51 +71,51 @@ OSのバージョンでインストール方法が異なるので，分けて説
  * gtk+-2.0
  * abind
 
- # XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]（要ユーザー登録），またはApp Storeから入手します．インストールしたら，ソフトウェアアップデートを実行してXcodeを更新しておきます．
- # MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
- # XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードしてインストールします．XQuartzをインストールしたら再起動します．
- # ImageMagickはターミナルを起動して以下のコマンドでインストールします．
+ # Install Xcode from a disc that comes with the OS disc. Alternatively, you can download Xcode from Apple [https://developer.apple.com/downloads/index.action Developer site](registration required) or from App Store. After installing Xcode, make sure to run Software Update to update Xcode to the latest version.
+ # Obtain MacPorts from [http://www.macports.org/install.php here].
+ # Obtain XQuartz from [http://xquartz.macosforge.org/trac/wiki here]. Restart computer after installing XQuartz.
+ # Install ImageMagick from Ternminal with the following command.
 {{{
 $ sudo port install ImageMagick
 }}}
- # gtk+-2.0はターミナルから以下のコマンドでインストールします．
+ # Install gtk+-2.0 as well.
 {{{
 $ sudo port install gtk2
 }}}
- # ImageMagickとgtkが正しくインストールされていることを次のコマンドで確認します．
+ # Verify installation of ImageMagick and gtk.
 {{{
 $ gtk-demo
 $ convert -version
 }}}
- # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
+ # Install abind, one of R packages, by using the install.packages() function in R. If asked, choose an appropriate mirror server.
 {{{
 $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # Xcode 4からはgcc-4.2とg++-4.2がなくなっているので，llvm-gcc-4.2とllvm-g++-4.2からシンボリックリンクを張ります．そのためにはターミナルで次のコマンドを実行します．
+ # Apple has removed gcc-4.2 and g++-4.2 from Xcode 4. Thus, you need to create symbolic links to llvm-gcc-4.2 and llvm-g++-4.2.
 {{{
 $ cd
 $ sudo ln -s /usr/bin/llvm-gcc-4.2 /usr/bin/gcc-4.2
 $ sudo ln -s /usr/bin/llvm-g++-4.2 /usr/bin/g++-4.2
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # Now you are ready to install EBImage. Run the following commands in Terminal. Note that the version numver (3.11.2) must be changed to the current one. Check [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImage official site].
 {{{
 $ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
 $ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
- # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
+ # Start R and load EBImage.
 {{{
 $ sudo R
 > library(EBImage)
 Loading required package: abind
 }}}
 
-[https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Mac_OS Proceed to biOps installation].
 
 
 == Mac OS 10.6 (Snow Leopard) ==
-以下の6点が必要になります．この方法でSnow Leopardにインストールすると64 bitのアーキテクチャにインストールされます．
+To install EBImage on Mac OS 10.7, you need following 6 components. The following instructions will install EBImage on a 64 bit architecture.
  * Xcode 3.2
  * MacPorts
  * XQuartz
@@ -123,44 +123,44 @@ Loading required package: abind
  * gtk+-2.0
  * abind
 
- # XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します（要ユーザー登録）．インストールしたら，ソフトウェアアップデートを実行してXcodeを更新しておきます．
- # MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
- # XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードしてインストールします．XQuartzをインストールしたら再起動します．
- # ImageMagickはターミナルを起動して以下のコマンドでインストールします．
+ # Install Xcode from a disc that comes with the OS disc. Alternatively, you can download Xcode from Apple [https://developer.apple.com/downloads/index.action Developer site](registration required) or from App Store. After installing Xcode, make sure to run Software Update to update Xcode to the latest version.
+ # Obtain MacPorts from [http://www.macports.org/install.php here].
+ # Obtain XQuartz from [http://xquartz.macosforge.org/trac/wiki here]. Restart computer after installing XQuartz.
+ # Install ImageMagick from Ternminal with the following command.
 {{{
 $ sudo port install ImageMagick
 }}}
- # gtk+-2.0はターミナルから以下のコマンドでインストールします．
+ # Install gtk+-2.0 as well.
 {{{
 $ sudo port install gtk2
 }}}
- # ImageMagickとgtkが正しくインストールされていることを次のコマンドで確認します．
+ # Verify installation of ImageMagick and gtk.
 {{{
 $ gtk-demo
 $ convert -version
 }}}
- # abindをインストールします．abindはRのパッケージの一つなので，ターミナルでRを起動して以下のコマンドを実行します．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
+ # Install abind, one of R packages, by using the install.packages() function in R. If asked, choose an appropriate mirror server.
 {{{
 $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # Now you are ready to install EBImage. Run the following commands in Terminal. Note that the version numver (3.11.2) must be changed to the current one. Check [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImage official site].
 {{{
 $ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
 $ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
- # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
+ # Start R and load EBImage.
 {{{
 $ sudo R
 > library(EBImage)
 Loading required package: abind
 }}}
 
-[https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Mac_OS Proceed to biOps installation].
 
 == Mac OS 10.5 (Leopard) ==
-以下の7点が必要になります．この方法でLeopardにインストールすると32 bitのアーキテクチャにインストールされます．
+To install EBImage on Mac OS 10.5, you need following 7 components. The following instructions will install EBImage on a 32 bit architecture.
  * Xcode 3.1
  * MacPorts
  * ImageMagick
@@ -169,7 +169,7 @@ Loading required package: abind
  * abind
  * tcltk
 
- # XcodeはOSに付属のディスクからインストールするか，Appleの[https://developer.apple.com/downloads/index.action Developerサイト]から入手します．
+ # Install Xcode 3.1 from a disc that comes with the OS disc. Alternatively, you can download Xcode from Apple [https://developer.apple.com/downloads/index.action Developer site](registration required) or from App Store.
  # MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
  # ImageMagickはターミナルから以下のコマンドでインストールします．
 {{{
