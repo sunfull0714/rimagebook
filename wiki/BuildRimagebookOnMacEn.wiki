@@ -1,77 +1,77 @@
-RImageBook package distributed from [https://code.google.com/p/rimagebook/downloads/list Downloads] does not support functions such as face recognition, optical flow, and volume rendering, which depend on openCV and VTK. To enable these functions you need to build RImageBook on your computer following the instructions below.
+RImageBook package distributed from [https://code.google.com/p/rimagebook/downloads/list Downloads] does not support functions such as face recognition, optical flow, and volume rendering, which depend on OpenCV and VTK. To enable these functions you need to build RImageBook on your computer by following the instructions below.
 
-以下のシェルスクリプトは，MacOS 10.7 Lionおよび10.6 Snow Leopard上でRのインストールから外部ライブラリのインストールに至るまでのすべての手順を含んでいます．他のディストリビューションの方は環境に合わせて適宜変更してください．
+The following shell script includes all the procedures required to install R and other external libraries on MacOS 10.7 Lion and 10.6 Snow Leopard. It might be adapted to other distributions as well.
 
- * MacOS 10.7 Lionおよび10.6 Snow Leopard用インストールスクリプト[https://code.google.com/p/rimagebook/source/browse/InstallRImageBookMac64.sh InstallRImageBookMac64.sh]
+ * Installation script for MacOS 10.7 Lion and 10.6 Snow Leopard [https://code.google.com/p/rimagebook/source/browse/InstallRImageBookMac64.sh InstallRImageBookMac64.sh]
 
-MacOS 10.7 Lionまたは10.6 Snow Leopardをご利用の方は，XcodeとMacPortsとXQuartzをインストールした後に上記のスクリプトを実行すれば，OpenCVとVTKのライブラリをサポートしたRImageBookパッケージをインストールすることができます（インストールが完了するまでに数時間かかります）．
+If you are a user of MacOS 10.7 Lion or 10.6 Snow Leopard, you can build RImageBook that supports OpenCV and VTK by simply running the script after installing Xcode, MacPorts, and XQuartz. Installation might take a few hours.
 {{{
 $ sudo bash ./InstallRImageBookMac64.sh
 }}}
 
-ただし，上記の方法を用いた場合，RImageBookを利用するためには，次のコマンドでRを起動しなければなりません．
+Note that if you used the method above, you need to start R in the following way.
 {{{
 $ sudo env DYLD_LIBRARY_PATH=~/VTK/release/bin/ R
 }}}
 
-以下にスクリプトの内容を解説します．
+Below is the explanation of the script.
 
-= 必要なもの =
+= Components reuired =
   * cmake
-  * gcc等
-  * OpenCVのソース
-  * VTKのソース
+  * gcc
+  * OpenCV source file
+  * VTK source file
 
 = OpenCV =
-== ビルド手順 ==
-  # OpenCVのソースの展開
+== Building OpenCV ==
+  # Uncompress OpenCV source file
 {{{
     bzip2 -cd OpenCV-X.X.X.tar.bz2 | tar xvf -
 }}}
-  # ビルド用ディレクトリの作成
+  # Create a directory for build files
 {{{
     cd OpenCV-X.X.X
-    mkdir release #(名前はなんでもよい)
+    mkdir release # any name is OK
     cd release
 }}}
-  # Makefileの作成
+  # Create Makefile
 {{{
     cmake -D BUILD_SHARED_LIBS=OFF -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=${HOME}/usr/ ..
 }}}
-  ※${HOME}/usr/の部分はインストールしたいディレクトリに置き換える。
-  # ビルド・インストール
+Note that ${HOME}/usr/ needs to be replaced according to your environment
+  # Build and install
 {{{
     make; make install
 }}}
 
 = VTK =
-== 必要なライブラリ・ヘッダ ==
-  * libglu-dev, libxt-dev, libosmesa-dev等
+== Required header and libraries ==
+  * libglu-dev, libxt-dev, libosmesa-dev, etc.
 
-== ビルド手順 ==
-  # VTK, VTKDataの展開
+== Building VTK ==
+  # Uncompress VTK and VTKData
 {{{
     tar zxvf vtk-x.y.z.tar.gz
     tar zxvf vtkdata-x.y.z.tar.gz
 }}}
-  # ビルド用ディレクトリの作成
+  # Create a directory for building
 {{{
     cd VTK
     mkdir release
     cd release
 }}}
-  # Makefile生成
+  # Create Makefile
 {{{
     cmake -D BUILD_SHARED_LIBS=OFF -D CMAKE_BUILD_TYPE=Release \
           -D CMAKE_INSTALL_PREFIX=${HOME}/usr/ \
           -D VTK_DATA_ROOT=../../VTKData ..
 }}}
-  # ビルド・インストール
+  # Build and install
 {{{
     make; make install
 }}}
 
-= RImageBook パッケージの修正 =
- # Makevarsの修正
-   Makevars.sampleを編集し、OpenCV,VTKのヘッダファイル・ライブラリのパスを追加
- # build.shの実行
+= Modify RImageBook =
+ # Modify Makevars
+   Add paths to OpenCV and VTK libraries in Makevars.sample.
+ # Run build.sh
