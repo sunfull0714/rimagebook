@@ -1,0 +1,77 @@
+RImageBook package distributed from [https://code.google.com/p/rimagebook/downloads/list Downloads] does not support functions such as face recognition, optical flow, and volume rendering, which depend on openCV and VTK. To enable these functions you need to build RImageBook on your computer following the instructions below.
+
+以下のシェルスクリプトは，MacOS 10.7 Lionおよび10.6 Snow Leopard上でRのインストールから外部ライブラリのインストールに至るまでのすべての手順を含んでいます．他のディストリビューションの方は環境に合わせて適宜変更してください．
+
+ * MacOS 10.7 Lionおよび10.6 Snow Leopard用インストールスクリプト[https://code.google.com/p/rimagebook/source/browse/InstallRImageBookMac64.sh InstallRImageBookMac64.sh]
+
+MacOS 10.7 Lionまたは10.6 Snow Leopardをご利用の方は，XcodeとMacPortsとXQuartzをインストールした後に上記のスクリプトを実行すれば，OpenCVとVTKのライブラリをサポートしたRImageBookパッケージをインストールすることができます（インストールが完了するまでに数時間かかります）．
+{{{
+$ sudo bash ./InstallRImageBookMac64.sh
+}}}
+
+ただし，上記の方法を用いた場合，RImageBookを利用するためには，次のコマンドでRを起動しなければなりません．
+{{{
+$ sudo env DYLD_LIBRARY_PATH=~/VTK/release/bin/ R
+}}}
+
+以下にスクリプトの内容を解説します．
+
+= 必要なもの =
+  * cmake
+  * gcc等
+  * OpenCVのソース
+  * VTKのソース
+
+= OpenCV =
+== ビルド手順 ==
+  # OpenCVのソースの展開
+{{{
+    bzip2 -cd OpenCV-X.X.X.tar.bz2 | tar xvf -
+}}}
+  # ビルド用ディレクトリの作成
+{{{
+    cd OpenCV-X.X.X
+    mkdir release #(名前はなんでもよい)
+    cd release
+}}}
+  # Makefileの作成
+{{{
+    cmake -D BUILD_SHARED_LIBS=OFF -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=${HOME}/usr/ ..
+}}}
+  ※${HOME}/usr/の部分はインストールしたいディレクトリに置き換える。
+  # ビルド・インストール
+{{{
+    make; make install
+}}}
+
+= VTK =
+== 必要なライブラリ・ヘッダ ==
+  * libglu-dev, libxt-dev, libosmesa-dev等
+
+== ビルド手順 ==
+  # VTK, VTKDataの展開
+{{{
+    tar zxvf vtk-x.y.z.tar.gz
+    tar zxvf vtkdata-x.y.z.tar.gz
+}}}
+  # ビルド用ディレクトリの作成
+{{{
+    cd VTK
+    mkdir release
+    cd release
+}}}
+  # Makefile生成
+{{{
+    cmake -D BUILD_SHARED_LIBS=OFF -D CMAKE_BUILD_TYPE=Release \
+          -D CMAKE_INSTALL_PREFIX=${HOME}/usr/ \
+          -D VTK_DATA_ROOT=../../VTKData ..
+}}}
+  # ビルド・インストール
+{{{
+    make; make install
+}}}
+
+= RImageBook パッケージの修正 =
+ # Makevarsの修正
+   Makevars.sampleを編集し、OpenCV,VTKのヘッダファイル・ライブラリのパスを追加
+ # build.shの実行
