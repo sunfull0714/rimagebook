@@ -170,38 +170,38 @@ To install EBImage on Mac OS 10.5, you need following 7 components. The followin
  * tcltk
 
  # Install Xcode 3.1 from a disc that comes with the OS disc. Alternatively, you can download Xcode from Apple [https://developer.apple.com/downloads/index.action Developer site](registration required) or from App Store.
- # MacPortsは[http://www.macports.org/install.php ここ]から最新版を入手します．
- # ImageMagickはターミナルから以下のコマンドでインストールします．
+ # Obtain MacPorts from [http://www.macports.org/install.php here].
+ # Install ImageMagick by typing the following command in Terminal.
 {{{
 $ sudo port install ImageMagick
 }}}
- # gtk+-2.0はterminalから以下のコマンドでインストールします．
+ # Install gtk+-2.0.
 {{{
 $ sudo port install gtk2
 }}}
- # XQuartzは[http://xquartz.macosforge.org/trac/wiki ここ]から最新バージョンをダウンロードしてインストールします．
- # gtkとImageMagickが正しくインストールされていることを次のコマンドで確認します．
+ # Obtain XQuartz from [http://xquartz.macosforge.org/trac/wiki here].
+ # Verify gtk and ImageMagick installation.
 {{{
 $ gtk-demo
 $ convert -version
 }}}
- # tcltkはRでinstall.packages()関数を用いるときにレポジトリを選択するウィンドウを開くために必要です．[http://cran.us.r-project.org/bin/macosx/tools/ ここ]からダウンロードしてインストールしておきます．
- # abindはRのパッケージの一つなので，Rを起動して以下のコマンドでインストールします．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
+ # Install tcltk from [http://cran.us.r-project.org/bin/macosx/tools/ here].
+ # Install abind, one of R packages, by using the install.packages() function in R. If asked, choose an appropriate mirror server.
 {{{
 $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # Now you are ready to install EBImage. Run the following commands in Terminal. Note that the version numver (3.11.2) must be changed to the current one. Check [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImage official site].
 {{{
 $ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
 $ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 }}}
- # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
+ # Start R and load EBImage.
 {{{
 $ sudo R
 > library(EBImage)
 Loading required package: abind
 }}}
 
-[https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Mac_OS biOpsのインストールに進む]
+[https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Mac_OS Proceed to biOps installation].
