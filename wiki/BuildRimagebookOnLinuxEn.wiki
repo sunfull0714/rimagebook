@@ -3,7 +3,7 @@ RImageBook package distributed from [https://code.google.com/p/rimagebook/downlo
 The following shell script includes all the procedures required to install R and other external libraries on Ubuntu Linux. It might be adapted to other distributions as well.
 
  * Installation script for Ubuntu 11.10 32-bit [https://code.google.com/p/rimagebook/source/browse/InstallRImageBook.sh InstallRImageBook.sh]
- * Installation script for Ub ntu　Ubuntu 11.10 64-bit [https://code.google.com/p/rimagebook/source/browse/InstallRImageBook64.sh　 InstallRImageBook64.sh]
+ * Installation script for Ubuntu 11.10 64-bit [https://code.google.com/p/rimagebook/source/browse/InstallRImageBook64.sh　 InstallRImageBook64.sh]
 
 If you are a user of Ubuntu Linux, you can build RImageBook that supports OpenCV and VTK by simply saving and running the script in your home directory, for example.
 {{{
