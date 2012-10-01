@@ -1,13 +1,12 @@
 = Alphabetical list of demo codes =
-RImageBookパッケージには48個のデモが含まれています．RImageBookパッケージを[RImageBookInstallation インストール]した後に，demo(デモ名)とすると[http://www.amazon.co.jp/gp/product/4320019784/ 本書]で紹介する画像処理のデモを実行することができます．Rでどのような画像処理ができるのかを感じてもらえれば幸いです．
+RImageBook package contains 48 image processing demos that are used in the [http://www.amazon.co.jp/gp/product/4320019784/ book]. After [RImageBookInstallationEn installing RImageBook package], you can run a demo simply by typing demo(name of a demo) in the R console. 
 
-
-|| *デモ名* || *説明* || *本文中の該当ページ* ||
-||AliasingDemo||エイリアシングのデモ ||9 ||
-||AlphaBlendDemo||アルファブレンデイングとディゾルブのデモ ||70 ||
-||AnisotropicFilterDemo||非等方拡散フィルタのデモ ||86 ||
-||BinarizationDemo||二値化のデモ ||100-101 ||
-||BooleanDemo||画像の論理演算のデモ ||72 ||
+|| *Name of Demo* || *Explanation* || *Page in the book* ||
+||AliasingDemo||Demo for Aliasing ||9 ||
+||AlphaBlendDemo||Demo for alpha blending and dissolving ||70 ||
+||AnisotropicFilterDemo||Demo for anisotropic filtering ||86 ||
+||BinarizationDemo||Demo for binarization ||100-101 ||
+||BooleanDemo||Demo for boolean image operation||72 ||
 ||CellCountDemo||3次元データから細胞数を計測するデモ ||173-175 ||
 ||CellSegmentationDemo||細胞を抽出するデモ ||170 ||
 ||ColonyRhythmDemo||バクテリアのコロニーの慨日リズムを解析するデモ ||176-179 ||
