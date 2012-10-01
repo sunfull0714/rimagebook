@@ -2,6 +2,12 @@
 
 = News =
 
+2012.9.30
+English version of Installation Guide became available.
+
+2012.5.4
+Windows用EBImageのインストール方法を変更．
+
 2012.2.27 MacOS SnowLeopard?以降でRImageBookのインストールに失敗する問題を解決.
 
 2012.2.3 RImageBook_0.6 released.
