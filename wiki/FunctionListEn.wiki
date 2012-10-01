@@ -1,35 +1,35 @@
-= Rの画像処理関数 =
+= List of image processing functions in R =
 
 <wiki:toc max_depth="2" />
 
-== 画像の表示 ==
-||関数名 || 機能 || パッケージ名 ||
-||animate()||アニメーション表示（Windowsでは不可）||EBImage||
-||display() || 画像表示 || EBImage||
-||plot() || 画像表示 ||biOps ||
-||image() ||グレースケール画像の疑似カラー表示 ||graphics||
+== Displaying images ==
+||Function name || Function || Package ||
+||animate()||Displaying animations (Not available for Windows)||EBImage||
+||display() || Displaying images || EBImage||
+||plot() || Displaying images ||biOps ||
+||image() ||Pseudocolor representation of a grayscale image ||graphics||
 
-== 画像の入力と保存 ==
-||関数名 || 機能 || パッケージ名 ||
-||readImage() || 画像の入力(80種以上のファイル形式) || EBImage||
-||writeImage() || 画像の保存 || EBImage||
-||dicomSeparate()|| DICOMファイルの入力 || oro.dicom||
-||readAVI() || 非圧縮AVIファイルの入力 || RImageBook||
-||readLsm() || lsm形式のファイルの入力 || RImageBook||
+== Input and output ==
+||Function name || Function || Package ||
+||readImage() || Reading images (over 80 different file types are supported) || EBImage||
+||writeImage() || Saving images || EBImage||
+||dicomSeparate()|| Reading DICOM files || oro.dicom||
+||readAVI() || Reading uncompressed AVI movies || RImageBook||
+||readLsm() || Reading uncompressed lsm files || RImageBook||
 
-== 画像データ型処理 ==
-||関数名 || 機能 || パッケージ名 ||
-||as.Image() || Imageクラスオブジェクトに変換 || EBImage||
-||is.Image() || Imageクラスオブジェクトの検証 || EBImage||
-||imageData() || 画像データ型コンストラクタ || EBImage||
-||combine() || シリーズデータ作成 || EBImage||
-||imagedata()||imagedataクラスのデータを作成||biOps||
-||imageType()|| imagedataクラスの色モードを検証 ||biOps||
-||biOps2EBI() || imagedataクラスからImageクラスに変換 || RImageBook||
-||b2E() || |biOps2EBI()の短縮型 || RImageBook||
-||EBI2biOps() || Imageクラスからimagedataクラスに変換 || RImageBook||
-||E2b() || EBI2biOps()の短縮型 || RImageBook||
-||imgconv() || ファイル形式の変換 || RImageBook||
+== Image type conversion ==
+||Function name || Function || Package ||
+||as.Image() || Converting to an Image class object|| EBImage||
+||is.Image() || Verifying Image class object || EBImage||
+||imageData() || Returning the array contained in an Image object || EBImage||
+||combine() || Concatenating images into series || EBImage||
+||imagedata()|| Creating an imagedata class object||biOps||
+||imageType()|| Verifying imagedata class object ||biOps||
+||biOps2EBI() || Converting imagedata class to Image class || RImageBook||
+||b2E() || |Alias of biOps2EBI() || RImageBook||
+||EBI2biOps() || Converting Image class to imagedata class|| RImageBook||
+||E2b() || Alias of EBI2biOps() || RImageBook||
+||imgconv() || Converting image file formats || RImageBook||
 
 == 画像の変形・幾何学的変換 ==
 ||関数名 || 機能 || パッケージ名 ||
