@@ -2,24 +2,24 @@
 RImageBook package contains 48 image processing demos that are used in the [http://www.amazon.co.jp/gp/product/4320019784/ book]. After [RImageBookInstallationEn installing RImageBook package], you can run a demo simply by typing demo(name of a demo) in the R console. 
 
 || *Name of Demo* || *Explanation* || *Page in the book* ||
-||AliasingDemo||Demo for Aliasing ||9 ||
-||AlphaBlendDemo||Demo for alpha blending and dissolving ||70 ||
-||AnisotropicFilterDemo||Demo for anisotropic filtering ||86 ||
-||BinarizationDemo||Demo for binarization ||100-101 ||
-||BooleanDemo||Demo for boolean image operation||72 ||
-||CellCountDemo||3次元データから細胞数を計測するデモ ||173-175 ||
-||CellSegmentationDemo||細胞を抽出するデモ ||170 ||
-||ColonyRhythmDemo||バクテリアのコロニーの慨日リズムを解析するデモ ||176-179 ||
-||ContrastDemo||コントラスト調整のデモ ||54-66 ||
-||CreateImagesDemo||人工画像を作成するデモ ||20-22 ||
-||DetectFace||顔認識のデモ || 168||
-||DownloadImagesDemo||画像ダウンロードのデモ ||22-24 ||
-||EdgeDetectionDemo||輪郭抽出のデモ ||81 ||
-||EdgeEnhancementDemo||輪郭強調のデモ ||83 ||
-||embossDemo||エンボス加工のデモ ||71 ||
-||FFTDemo||フーリエ変換によるフィルタリングのデモ ||90-96 ||
-||FundamentalOperationsDemo||画像処理の基礎のデモ ||13 ||
-||GeometricTransformationsDemo||幾何学的変換のデモ ||27-33 ||
+||AliasingDemo||Aliasing ||9 ||
+||AlphaBlendDemo||Alpha blending and dissolving ||70 ||
+||AnisotropicFilterDemo||Anisotropic filtering ||86 ||
+||BinarizationDemo||Binarization ||100-101 ||
+||BooleanDemo||Boolean image operations||72 ||
+||CellCountDemo||Counting cell number in 3D images  ||173-175 ||
+||CellSegmentationDemo||Extracting cell shapes ||170 ||
+||ColonyRhythmDemo||Analysis of circadian rhythm of bacterial colonies||176-179 ||
+||ContrastDemo||Contrast adjustment ||54-66 ||
+||CreateImagesDemo||Creating synthetic images ||20-22 ||
+||DetectFace||Face recognition || 168||
+||DownloadImagesDemo||Downloading images from web ||22-24 ||
+||EdgeDetectionDemo||Edge detection ||81 ||
+||EdgeEnhancementDemo||Edge enhancement||83 ||
+||embossDemo||Emboss effect ||71 ||
+||FFTDemo||Filtering images in frequency domain ||90-96 ||
+||FundamentalOperationsDemo||Fundamental image operations ||13 ||
+||GeometricTransformationsDemo||Geometric transformations ||27-33 ||
 ||GrayColorDemo||グレースケール変換と色変換のデモ ||48-52 ||
 ||HalftoneDemo||ハーフトーンを周波数領域で平滑化するデモ ||92 ||
 ||hello||こんにちは世界のデモ ||6 ||
