@@ -60,39 +60,39 @@
 == Spatial filtering ==
 
 ||Function name || Effect || Package ||
-||filter2() || 空間フィルタ || EBImage||
-||blur() || ぼかし|| EBImage||
-||gblur() || ガウシアンブラ― || EBImage||
-||imgConvolve()||画像の畳み込み演算||biOpd||
-||imgBlockMedianFilter()||中央値フィルタ||biOps||
-||imgGaussianNoise()||画像にガウシアンノイズを加える||biOps||
-||imgSaltPepperNoise()||画像にゴマ塩ノイズを加える||biOps||
-||imgBlur()||ぼかし||biOps||
-||imgStdBlur()||ぼかし||biOps||
-||imgCanny()||エッジ検出||biOps||
-||imgDifferenceEdgeDetection()||エッジ検出||biOps||
-||imgFreiChen()||エッジ検出||biOps||
-||imgHomogeneityEdgeDetection()||エッジ検出||biOps||
-||imgKirsch()||エッジ検出||biOps||
-||imgMarrHildreth()||エッジ検出||biOps||
-||imgPrewitt()||Prewittフィルタによるエッジ検出||biOps||
-||imgPrewittCompassGradient()||エッジ検出||biOps||
-||imgRoberts()||エッジ検出||biOps||
-||imgRobinson3Level()||エッジ検出||biOps||
-||imgRobinson5Level()||エッジ検出||biOps||
-||imgShenCastan()||エッジ検出||biOps||
-||imgSobel()||エッジ検出||biOps||
-||imgBoost()||ハイブーストフィルタ||biOps||
-||imgHighPassFilter()||ハイパスフィルタ||biOps||
-||imgSharpen()||鮮鋭化||biOps||
-||imgUnsharpen()||鮮鋭化||biOps||
-||imgMaximumFilter()||最大値フィルタ||biOps||
-||imgMinimumFilter()||最小値フィルタ||biOps||
-||AnisotropicFilter() || 非等方拡散フィルタ || RImageBook||
-||GaussianKernel() || 2次元のガウシアンカーネルの作成 || RImageBook||
-||SpatialFilter2() || 空間フィルタ || RImageBook||
-||medianfilter() || 中央値フィルタ || RImageBook||
-||findPeaks() || 微分フィルタによるピーク検出 || RImageBook||
+||filter2() || Spatial filtering || EBImage||
+||blur() || Blurring|| EBImage||
+||gblur() || Gaussian blurring || EBImage||
+||imgConvolve()||Convolution||biOpd||
+||imgBlockMedianFilter()||Median filtering||biOps||
+||imgGaussianNoise()||Adding Gaussian noise||biOps||
+||imgSaltPepperNoise()||Adding salt and pepper noise||biOps||
+||imgBlur()||Blurring||biOps||
+||imgStdBlur()||Blurring||biOps||
+||imgCanny()||Edge detection||biOps||
+||imgDifferenceEdgeDetection()||Edge detection||biOps||
+||imgFreiChen()||Edge detection||biOps||
+||imgHomogeneityEdgeDetection()||Edge detection||biOps||
+||imgKirsch()||Edge detection||biOps||
+||imgMarrHildreth()||Edge detection||biOps||
+||imgPrewitt()||Edge detection with Prewitt filter||biOps||
+||imgPrewittCompassGradient()||Edge detection||biOps||
+||imgRoberts()||Edge detection||biOps||
+||imgRobinson3Level()||Edge detection||biOps||
+||imgRobinson5Level()||Edge detection||biOps||
+||imgShenCastan()||Edge detection||biOps||
+||imgSobel()||Edge detection||biOps||
+||imgBoost()||High-boost filtering||biOps||
+||imgHighPassFilter()||High-pass filtering||biOps||
+||imgSharpen()||Sharpening||biOps||
+||imgUnsharpen()||Sharpening||biOps||
+||imgMaximumFilter()||Maximum filtering||biOps||
+||imgMinimumFilter()||Maximum filtering||biOps||
+||AnisotropicFilter() || Anisotropic filtering || RImageBook||
+||GaussianKernel() || Creating 2D Gaussian kernel || RImageBook||
+||SpatialFilter2() || Spatial filtering || RImageBook||
+||medianfilter() || Median filtering || RImageBook||
+||findPeaks() || Peak finding || RImageBook||
 
 == 周波数解析 ==
 ||関数名 || 機能 || パッケージ名 ||
