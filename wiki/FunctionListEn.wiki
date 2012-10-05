@@ -31,35 +31,35 @@
 ||E2b() || Alias of EBI2biOps() || RImageBook||
 ||imgconv() || Converting image file formats || RImageBook||
 
-== 画像の変形・幾何学的変換 ==
-||関数名 || 機能 || パッケージ名 ||
-||affine()||アフィン変換||EBImage||
-||flip() || x軸周りの鏡像変換 || EBImage||
-||flop() || y軸周りの鏡像変換 || EBImage||
-||resize() || 拡大・縮小 || EBImage||
-||rotate() || 回転 || EBImage||
-||translate() || 平行移動 || EBImage||
-||imgCrop()|| 画像の切り出し ||biOps||
-||imgAverageShrink()||平均値による画像の縮小||biOps||
-||imgMedianShrink()||中央値による画像の縮小||biOps||
-||imgPadding()||画像のパディング||biOps||
-||imgRotate()||各種補間法による回転||biOps||
-||imgScale()||各種補間法による拡大||biOps||
-||imgRotate90Clockwise()||時計回りに90度の回転||biOps||
-||imgRotate90CounterClockwise()||反時計回りに90度の回転||biOps||
-||imgTranslate()||画像の一部を平行移動||biOps||
-||imgHorizontalMirroring()||y軸周りの鏡像変換||biOps||
-||imgVerticalMirroring()|| x軸周りの鏡像変換||biOps||
-||niftyreg()||画像のレジストレーション||RNiftyReg||
-||skew() || スキュー || RImageBook||
-||cropImage() || 画像の切り出し || RImageBook||
-||cropROI() || 対話的なROIの切り出し || RImageBook||
-||padding() || パディング || RImageBook||
-||pyramid() || 画像ピラミッドの作成 || RImageBook||
+== Image transformation ==
+||Function name || Effect || Package ||
+||affine()||Affine transformation||EBImage||
+||flip() ||  Vertical mirror image || EBImage||
+||flop() || Horizontal mirror image || EBImage||
+||resize() || Resizing || EBImage||
+||rotate() || Rotation || EBImage||
+||translate() || Translation || EBImage||
+||imgCrop()|| Cropping ||biOps||
+||imgAverageShrink()||Shrinking by averaging||biOps||
+||imgMedianShrink()||Shrinking by median||biOps||
+||imgPadding()||Padding||biOps||
+||imgRotate()||Rotation||biOps||
+||imgScale()||Resizing||biOps||
+||imgRotate90Clockwise()||Rotating 90 degrees clockwise||biOps||
+||imgRotate90CounterClockwise()||Rotating 90 degrees counterclockwise||biOps||
+||imgTranslate()||Translating a part of image||biOps||
+||imgHorizontalMirroring()||Horizontal mirroring||biOps||
+||imgVerticalMirroring()|| Vertical mirroring||biOps||
+||niftyreg()||Image registration||RNiftyReg||
+||skew() || Skewing || RImageBook||
+||cropImage() || Cropping || RImageBook||
+||cropROI() || Cropping interactively || RImageBook||
+||padding() || Padding || RImageBook||
+||pyramid() || Creating an image pyramid || RImageBook||
 
-== 空間フィルタ ==
+== Spatial filtering ==
 
-||関数名 || 機能 || パッケージ名 ||
+||Function name || Effect || Package ||
 ||filter2() || 空間フィルタ || EBImage||
 ||blur() || ぼかし|| EBImage||
 ||gblur() || ガウシアンブラ― || EBImage||
