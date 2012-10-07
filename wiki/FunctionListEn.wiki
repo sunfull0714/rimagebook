@@ -164,36 +164,36 @@
 ||rainbowBar() || Drawing a rainbow bar || RImageBook||
 ||scaleBar() || Drawing a scale bar || RImageBook||
 
-== 2値画像の操作 ==
-||関数名 || 機能 || パッケージ名 ||
-||thresh() || 閾値処理 || EBImage||
-||closing() || クロージング || EBImage ||
-||dilate() ||膨張 ||EBImage||
-||distmap() || 背景ピクセルからの距離計算||EBImage||
-||erode() ||収縮 ||EBImage||
-||fillHull() ||オブジェクト内の穴を埋める ||EBImage||
-||floodFill()||オブジェクトを埋める ||EBImage||
-||makeBrush()||構造要素の作成 ||EBImage||
-||opening()||オープニング ||EBImage||
-||bwlabel() || バイナリセグメンテーション || EBImage||
-||propagate() || ボロノイ型セグメンテーション || EBImage||
-||reenumerate() || オブジェクトの再ラベリング || EBImage||
-||rmObjects() || オブジェクトの削除 || EBImage||
-||watershed() || 分水嶺型セグメンテーション || EBImage||
-||imgBinaryClosing()||クロージング||biOps||
-||imgBinaryDilation()||膨張||biOps||
-||imgBinaryErosion()||収縮||biOps||
-||imgBinaryOpening()||オープニング||biOps||
-||imgStdBinaryClosing()||クロージング||biOps||
-||imgStdBinaryDilation()||膨張||biOps||
-||imgStdBinaryErosion()||収縮||biOps||
-||imgStdBinaryOpening()||オープニング||biOps||
-||imgStdNDilationErosion()||N回の膨張と収縮||biOps||
-||imgStdNErosionDilation()||N回の収縮と膨張||biOps||
-||imgThreshold()||閾値処理||biOps||
+== Handling binary images ==
+||Function name || Effect || Package ||
+||thresh() || Threshoulding || EBImage||
+||closing() || Closing || EBImage ||
+||dilate() ||Dilation ||EBImage||
+||distmap() || Distance map||EBImage||
+||erode() ||Erosion ||EBImage||
+||fillHull() ||Filling holes in objects ||EBImage||
+||floodFill()||Filling an object ||EBImage||
+||makeBrush()||Creating a structural element ||EBImage||
+||opening()||Opening||EBImage||
+||bwlabel() || Segmentation || EBImage||
+||propagate() || Voronoi-based segmentation || EBImage||
+||reenumerate() || Reenumerating objects || EBImage||
+||rmObjects() || Removing objects || EBImage||
+||watershed() || Watershed-based segmentation || EBImage||
+||imgBinaryClosing()||Closing||biOps||
+||imgBinaryDilation()||Dilation||biOps||
+||imgBinaryErosion()||Erosion||biOps||
+||imgBinaryOpening()||Opening||biOps||
+||imgStdBinaryClosing()||Closing grayscale image||biOps||
+||imgStdBinaryDilation()||Dilating grayscale image||biOps||
+||imgStdBinaryErosion()||Eroding grayscale image||biOps||
+||imgStdBinaryOpening()||Opening grayscale image||biOps||
+||imgStdNDilationErosion()||Dilating and erosing N times||biOps||
+||imgStdNErosionDilation()||Eroding and dilating N times||biOps||
+||imgThreshold()||Thresholding||biOps||
 
-== 特徴抽出 ==
-||関数名 || 機能 || パッケージ名 ||
+== Feature extraction ==
+||Function name || Effect || Package ||
 ||computeFeatures()||特徴抽出 || EBImage||
 ||computeFeatures.basic()||輝度に関する特徴抽出 || EBImage||
 ||computeFeatures.moment||モーメントの算出 || EBImage||
