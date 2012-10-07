@@ -218,30 +218,30 @@
 ||isolated() || Detection of isolated points || RImageBook||
 ||pruning() || Pruning|| RImageBook||
 
-== 3次元画像・動画像処理 ==
-||関数名 || 機能 || パッケージ名 ||
-||stackObjects() || ラベル化されたオブジェクトをスタック化 || EBImage||
-||getNumberOfFrames() || フレーム数取得 || EBImage||
-||tile() || スタック画像をタイル表示 || EBImage||
-||untile() || 画像を分割してスタック画像に変換 || EBImage||
-||contour3d()||サーフェスレンダリング||misc3d||
-||VolumeRendering() || 3次元画像のボリュームレンダリング || RImageBook||
-||tracking() ||軌跡の解析 ||RImageBook ||
-||trackDistance()||移動距離の算出||RImageBook||
-||trackSpeed()||移動の速さの算出||RImageBook||
-||angularVelocity()||角速度の算出||RImageBook||
-||msd()||平均二乗変位の算出||RImageBook||
-||GoodFeaturesToTrack() || 特徴点検出 || RImageBook||
-||OpticalFlow() || オプティカルフローの検出 || RImageBook||
-||imgRowMaxs() || 最大値による投射 || RImageBook||
-||imgRowMins() || 最小値による投射 || RImageBook||
-||imgSD() || 標準偏差による投射 || RImageBook||
-||medianPrj() || 中央値による投射 || RImageBook||
+== Handling 3D images and movies ==
+||Function name || Effect || Package ||
+||stackObjects() || Stacking labeled objects || EBImage||
+||getNumberOfFrames() || Number of frames || EBImage||
+||tile() || Tiling an image stack|| EBImage||
+||untile() || Stacking an image || EBImage||
+||contour3d()||Surface rendering||misc3d||
+||VolumeRendering() || Volume rendering || RImageBook||
+||tracking() ||Object tracking ||RImageBook ||
+||trackDistance()||Calculating track length||RImageBook||
+||trackSpeed()||Calculating object speed||RImageBook||
+||angularVelocity()||Calculating angular velocity||RImageBook||
+||msd()||Calculating mean square deviation||RImageBook||
+||GoodFeaturesToTrack() || Detecting features to track || RImageBook||
+||OpticalFlow() || Optical flow || RImageBook||
+||imgRowMaxs() || Projection by maximum || RImageBook||
+||imgRowMins() || Projection by minimum || RImageBook||
+||imgSD() || Projection by standard deviation || RImageBook||
+||medianPrj() || Projection by median || RImageBook||
 
-== 画像認識 ==
-||関数名 || 機能 || パッケージ名 ||
-||hough()||ハフ変換による直線検出||PET||
-||faceDetection() || 顔検出 || RImageBook||
-||FNCC() || FFTによるテンプレートマッチング || RImageBook||
-||NCC() || 相互相関によるテンプレートマッチング || RImageBook||
-||SAD() || SADによるテンプレートマッチング|| RImageBook||
+== Image recognition ==
+||Function name || Effect || Package ||
+||hough()||Hough transformation||PET||
+||faceDetection() || Face detection || RImageBook||
+||FNCC() || Template matching by FFT || RImageBook||
+||NCC() || Template matching by normalized cross correlation || RImageBook||
+||SAD() || Template matching by sum of absolute differences|| RImageBook||
