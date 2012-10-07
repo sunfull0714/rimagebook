@@ -155,14 +155,14 @@
 ||imgMaximum()||Maximum||biOps||
 ||emboss() || Embossing || RImageBook||
 
-== 基本図形描画 ==
-||関数名 || 機能 || パッケージ名 ||
-||drawCircle() || 円描画 || EBImage||
-||drawfont() || フォント指定 || EBImage||
-||drawtext() || 画像へのテキスト描画 || EBImage||
-||paintObjects() || オブジェクトの描画 || EBImage||
-||rainbowBar() || 虹色の棒を描画 || RImageBook||
-||scaleBar() || スケールバーの描画 || RImageBook||
+== Basic drawing functions ==
+||Function name || Effect || Package ||
+||drawCircle() || Drawing a circle || EBImage||
+||drawfont() || Font setting || EBImage||
+||drawtext() || Drawing texts || EBImage||
+||paintObjects() || Painting objects || EBImage||
+||rainbowBar() || Drawing a rainbow bar || RImageBook||
+||scaleBar() || Drawing a scale bar || RImageBook||
 
 == 2値画像の操作 ==
 ||関数名 || 機能 || パッケージ名 ||
