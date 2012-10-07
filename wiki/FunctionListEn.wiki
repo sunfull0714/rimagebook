@@ -94,19 +94,19 @@
 ||medianfilter() || Median filtering || RImageBook||
 ||findPeaks() || Peak finding || RImageBook||
 
-== 周波数解析 ==
-||関数名 || 機能 || パッケージ名 ||
-||imgFFT()||離散フーリエ変換 ||biOps||
-||imgFFTBandPass()||バンドパスフィルタ ||biOps||
-||imgFFTBandStop()||バンドストップフィルタ ||biOps||
-||imgFFTConvolve()||FFTを利用した畳み込み演算 ||biOps||
-||imgFFTHighPass()||ハイパスフィルタ ||biOps||
-||imgFFTInv()||離散フーリエ逆変換 ||biOps||
-||imgFFTLowPass()||ローパスフィルタ ||biOps||
-||imgFFTPhase()||位相情報の抽出 ||biOps||
-||imgFFTShift()||行列のシフト ||biOps||
-||imgFFTSpectrum()||振幅強度スペクトルの抽出 ||biOps||
-||imgFFTiShift()|||行列の逆シフト ||biOps||
+== Frequency domain analysis ==
+||Function name  || Effect || Package ||
+||imgFFT()||Fast Fourier Transform ||biOps||
+||imgFFTBandPass()||Band-pass filter ||biOps||
+||imgFFTBandStop()||Band-stop filter ||biOps||
+||imgFFTConvolve()||Convolution using FFT ||biOps||
+||imgFFTHighPass()||High-pass filter ||biOps||
+||imgFFTInv()||Inverse Fast Fourier Transform ||biOps||
+||imgFFTLowPass()||Low-pass filter ||biOps||
+||imgFFTPhase()||Extract phase from a complex matrix ||biOps||
+||imgFFTShift()||Shifting a complex matrix ||biOps||
+||imgFFTSpectrum()||Extract spectrum from a complex matrix ||biOps||
+||imgFFTiShift()|||Inverse shifting a complex matrix ||biOps||
 
 
 == 色・階調変換 ==
