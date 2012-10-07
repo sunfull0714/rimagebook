@@ -142,18 +142,18 @@
 ||measureArea() || Interactive area measurement || RImageBook||
 ||profileLine() || Interactive line profiling || RImageBook||
 
-== 画像間演算 ==
-||関数名 || 機能 || パッケージ名 ||
+== Arithmetic operations ==
+||Function name || Effect || Package ||
 ||imgAND()||AND||biOps||
-||imgAdd()||加算||biOps||
-||imgAverage()||平均||biOps||
-||imgDiffer()||差分||biOps||
-||imgDivide()||除算||biOps||
-||imgMultiply()||乗算||biOps||
+||imgAdd()||Addition||biOps||
+||imgAverage()||Averaging||biOps||
+||imgDiffer()||Subtraction||biOps||
+||imgDivide()||Division||biOps||
+||imgMultiply()||Multiplication||biOps||
 ||imgOR()||OR||biOps||
 ||imgXOR()||XOR||biOps||
-||imgMaximum()||最大値||biOps||
-||emboss() || エンボス加工 || RImageBook||
+||imgMaximum()||Maximum||biOps||
+||emboss() || Embossing || RImageBook||
 
 == 基本図形描画 ==
 ||関数名 || 機能 || パッケージ名 ||
