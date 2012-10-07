@@ -117,30 +117,30 @@
 ||rgbImage() || Gray scale to color image conversion || EBImage||
 ||imgRedBand()||Red channel extraction||biOps||
 ||imgGreenBand()||Green channel extraction||biOps||
-||imgBlueBand()||青チャネルの抽出||biOps||
-||imgGetRGBFromBands()||カラー画像の合成||biOps||
-||imgRGB2Grey()||グレースケール変換||biOps||
-||imgHistogram()||画像のヒストグラム||biOps||
-||imgIncreaseContrast()||コントラスト強調||biOps||
-||imgDecreaseContrast()||コントラストの減弱||biOps||
-||imgIncreaseIntensity()||明るさの強調||biOps||
-||imgDecreaseIntensity()||明るさの減弱||biOps||
-||imgGamma()||ガンマ補正||biOps||
-||imgNegative()||画像の階調反転||biOps||
-||imgNormalize()||階調の正規化||biOps||
-||imgEKMeans()||階調のクラスタリング||biOps||
-||imgIsoData()||階調のクラスタリング||biOps||
-||imgKDKMeans()||階調のクラスタリング||biOps||
-||imgKMeans()||階調のクラスタリング||biOps||
-||rgb2Gray() || グレースケール変換 || RImageBook||
-||pseudoColor() || 疑似カラー化 || RImageBook||
-||pseudoColor2() || 範囲指定でグレースケールを疑似カラー化 || RImageBook||
-||histogram() || 輝度値のヒストグラムを作成 || RImageBook||
-||whiteBalance() || 対話的なホワイトバランスの調整 || RImageBook||
-||subtractBg() || 対話的な背景補正 || RImageBook||
-||adjustContrast() || 対話的なコントラスト調整 || RImageBook||
-||measureArea() || 対話的なエリア測定 || RImageBook||
-||profileLine() || 対話的なプロファイル測定 || RImageBook||
+||imgBlueBand()||Blue channel extraction||biOps||
+||imgGetRGBFromBands()||Create a color image||biOps||
+||imgRGB2Grey()||Grayscale conversion||biOps||
+||imgHistogram()||Image histogram||biOps||
+||imgIncreaseContrast()||Contrast enhancement||biOps||
+||imgDecreaseContrast()||Contrast reduction||biOps||
+||imgIncreaseIntensity()||Brightness enhancement||biOps||
+||imgDecreaseIntensity()||Brightness reduction||biOps||
+||imgGamma()||Gamma correction||biOps||
+||imgNegative()||Image negation||biOps||
+||imgNormalize()||Histogram normalization||biOps||
+||imgEKMeans()||||biOps||
+||imgIsoData()||Image clustering||biOps||
+||imgKDKMeans()||Image clustering||biOps||
+||imgKMeans()||Image clustering||biOps||
+||rgb2Gray() || Grayscale conversion || RImageBook||
+||pseudoColor() || Pseudo coloring || RImageBook||
+||pseudoColor2() || Pseudo coloring in a specified range || RImageBook||
+||histogram() || Image histogram || RImageBook||
+||whiteBalance() || Interactive white balance adjustment || RImageBook||
+||subtractBg() || Interactive background subtraction || RImageBook||
+||adjustContrast() || Interactive contrast adjustment || RImageBook||
+||measureArea() || Interactive area measurement || RImageBook||
+||profileLine() || Interactive line profiling || RImageBook||
 
 == 画像間演算 ==
 ||関数名 || 機能 || パッケージ名 ||
