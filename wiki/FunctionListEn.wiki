@@ -109,14 +109,14 @@
 ||imgFFTiShift()|||Inverse shifting a complex matrix ||biOps||
 
 
-== 色・階調変換 ==
-||関数名 || 機能 || パッケージ名 ||
-||channel() || 色チャンネル変換 || EBImage||
-||equalize() || ヒストグラム平坦化 || EBImage||
-||normalize() || ヒストグラムの正規化 || EBImage||
-||rgbImage() || グレースケールからカラー画像の構成 || EBImage||
-||imgRedBand()||赤チャネルの抽出||biOps||
-||imgGreenBand()||緑チャネルの抽出||biOps||
+== Color and gray level transformation ==
+||Function name || Effect || Package ||
+||channel() || Color channel conversion || EBImage||
+||equalize() || Histogram equalization || EBImage||
+||normalize() || Histogram normalization || EBImage||
+||rgbImage() || Gray scale to color image conversion || EBImage||
+||imgRedBand()||Red channel extraction||biOps||
+||imgGreenBand()||Green channel extraction||biOps||
 ||imgBlueBand()||青チャネルの抽出||biOps||
 ||imgGetRGBFromBands()||カラー画像の合成||biOps||
 ||imgRGB2Grey()||グレースケール変換||biOps||
