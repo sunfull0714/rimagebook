@@ -194,29 +194,29 @@
 
 == Feature extraction ==
 ||Function name || Effect || Package ||
-||computeFeatures()||特徴抽出 || EBImage||
-||computeFeatures.basic()||輝度に関する特徴抽出 || EBImage||
-||computeFeatures.moment||モーメントの算出 || EBImage||
-||computeFeatures.shape()||形態に関する特徴抽出 || EBImage||
-||computeFeatures.haralick()||テクスチャ抽出 || EBImage||
-||getFeatures() || 特徴抽出 || EBImage||
-||hullFeatures() ||幾何学的な特徴抽出 || EBImage||
-||edgeProfile() ||エッジプロファイルの抽出 || EBImage||
-||edgeFeatures() ||エッジ特徴量の抽出 || EBImage||
-||ocontour() || 輪郭抽出 || EBImage||
-||cmomennts() ||モーメントの算出 || EBImage||
-||smoments() ||モーメントの算出 || EBImage||
-||rmoments() ||モーメントの算出 || EBImage||
-||moments() ||モーメントの算出 || EBImage||
-||zernikeMoments() || ツェルニケモーメントの算出 || EBImage||
-||haralickFeatures() ||テクスチャ抽出 || EBImage||
-||haralickMatrix() ||同時生起行列の算出 || EBImage||
-||skeletonize() || 骨格化 || RImageBook||
-||thinning() || 細線化 || RImageBook||
-||ending() || 端点の検出 || RImageBook||
-||branch() || 分岐点の検出 || RImageBook||
-||isolated() || 孤立点の検出 || RImageBook||
-||pruning() || ひげの剪定|| RImageBook||
+||computeFeatures()||Feature extraction || EBImage||
+||computeFeatures.basic()||Features about intensities || EBImage||
+||computeFeatures.moment||Features about moments || EBImage||
+||computeFeatures.shape()||Features about shapes || EBImage||
+||computeFeatures.haralick()||Features about texture || EBImage||
+||getFeatures() || Feature extraction || EBImage||
+||hullFeatures() ||Features about geometry  || EBImage||
+||edgeProfile() ||Edge profiles || EBImage||
+||edgeFeatures() ||Features about edges || EBImage||
+||ocontour() || Edge extraction || EBImage||
+||cmomennts() ||Calculating moments || EBImage||
+||smoments() ||Calculating moments|| EBImage||
+||rmoments() ||Calculating moments|| EBImage||
+||moments() ||Calculating moments|| EBImage||
+||zernikeMoments() || Calculating Zernike moments || EBImage||
+||haralickFeatures() ||Texture extraction || EBImage||
+||haralickMatrix() ||Calculating Haralick Matrix || EBImage||
+||skeletonize() || Skeletonization || RImageBook||
+||thinning() || Thinning || RImageBook||
+||ending() || End point detection || RImageBook||
+||branch() || Branch detection || RImageBook||
+||isolated() || Detection of isolated points || RImageBook||
+||pruning() || Pruning|| RImageBook||
 
 == 3次元画像・動画像処理 ==
 ||関数名 || 機能 || パッケージ名 ||
