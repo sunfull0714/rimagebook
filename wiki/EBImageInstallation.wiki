@@ -58,10 +58,10 @@ $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．パッケージのバージョン番号はその時の最新のものに変更してください．パッケージの最新バージョンは[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認することができます．
+ # いったんRを終了し，次のコマンドでEBImageのダウンロードとインストールを行います．
 {{{
-$ sudo wget http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz
-$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
+$ sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.12.0.tar.gz
+$ sudo R CMD INSTALL EBImage_3.12.0.tar.gz
 }}}
  # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
@@ -71,6 +71,18 @@ Loading required package: abind
 }}}
 
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Linux biOpsのインストールに進む]
+
+注: Ubuntuのバージョン(正確にはImageMagickのバージョン)によっては以下のようなエラーがでることがあります．
+{{{
+Error in dyn.load(file, DLLpath = DLLpath, ...) :
+  unable to load shared object '/usr/local/lib/R/site-library/EBImage/libs/EBImage.so':
+  libMagickCore.so.3: cannot open shared object file: No such file or directory
+}}}
+これは，新しいバージョンのImageMagickではlibMagickCore.so.3がlibMagickCore.so.4と変更されているためです（libMagickWand.so.3も同様）．この問題を解決するためには，例えば以下のようにシンボリックリンクを張ります．
+{{{
+sudo ln -s /usr/lib/libMagickWand.so.4 /usr/lib/libMagickWand.so.3
+sudo ln -s /usr/lib/libMagickCore.so.4 /usr/lib/libMagickCore.so.3
+}}}
 
 = Mac OS =
 OSのバージョンでインストール方法が異なるので，分けて説明します．
@@ -112,10 +124,11 @@ $ cd
 $ sudo ln -s /usr/bin/llvm-gcc-4.2 /usr/bin/gcc-4.2
 $ sudo ln -s /usr/bin/llvm-g++-4.2 /usr/bin/g++-4.2
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．
 {{{
-$ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
-$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
+$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.12.0.tar.gz
+"
+$ sudo R CMD INSTALL EBImage_3.12.0.tar.gz
 }}}
  # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
 {{{
@@ -158,10 +171,11 @@ $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．
 {{{
-$ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
-$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
+$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.12.0.tar.gz
+"
+$ sudo R CMD INSTALL EBImage_3.12.0.tar.gz
 }}}
  # Rを起動して次のようにEBImageを読み込むことができればEBImageのインストールは完了です.
 {{{
@@ -205,10 +219,11 @@ $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．ただし，3.11.2の部分はその時に公開されているバージョンに合わせて変更する必要があります．[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImageの公式ウェブサイト]で確認してください．
+ # 以上でEBImageをインストールする準備が整ったので，ターミナルで次のようにしてダウンロードしインストールします．
 {{{
-$ sudo curl -O "http://www.bioconductor.org/packages/devel/bioc/src/contrib/EBImage_3.11.2.tar.gz"
-$ sudo R CMD INSTALL EBImage_3.11.2.tar.gz
+$ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.12.0.tar.gz
+"
+$ sudo R CMD INSTALL EBImage_3.12.0.tar.gz
 }}}
  # Rを起動して次のようにEBImageが読み込めればEBImageのインストールは完了です.
 {{{
