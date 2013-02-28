@@ -26,7 +26,7 @@
 ||imagedata()||imagedataクラスのデータを作成||biOps||
 ||imageType()|| imagedataクラスの色モードを検証 ||biOps||
 ||biOps2EBI() || imagedataクラスからImageクラスに変換 || RImageBook||
-||b2E() || |biOps2EBI()の短縮型 || RImageBook||
+||b2E() || biOps2EBI()の短縮型 || RImageBook||
 ||EBI2biOps() || Imageクラスからimagedataクラスに変換 || RImageBook||
 ||E2b() || EBI2biOps()の短縮型 || RImageBook||
 ||imgconv() || ファイル形式の変換 || RImageBook||
