@@ -1,4 +1,6 @@
 = EBImageのインストール方法 =
+*【重要】* EBImageは2012年の9月にバージョン4がリリースされました．以前のバージョンと比較すると様々な変更が加えられており，RImageBookの多くのデモがそのままでは動作しなくなりました．このため，本サイトではバージョン4になる前の最新版(3.12)のインストール方法を説明します．バージョン4を試してみたい方は[https://code.google.com/p/rimagebook/wiki/EBImage4 こちら]を参照してください．
+
 EBImageは，いくつかの外部ライブラリを利用しているため，インストールに先立ってこれらのライブラリを用意する必要があります．基本的にはEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に従えばよいですが，用いるライブラリのバージョンを間違えるとつまづくことがあるので注意してください．
 
 = Windows =
@@ -13,12 +15,20 @@ EBImageをインストールする前に以下の3点を用意します．この
 {{{
 > install.packages("abind")
 }}}
+ # 以上の3つのライブラリがそろったら，[http://www.bioconductor.org/packages/2.10/bioc/bin/windows/contrib/2.15/EBImage_3.12.0.zip ここから]EBImageのバージョン3.12.0をダウンロードします． 
+ # 「パッケージ」->「ローカルにあるzipファイルからのパッケージのインストール」からダウンロードしたEBImage_3.12.0.zipを選択し，EBImageをインストールします．
+ # 以下のコマンドでEBImageを読み込みます．
+{{{
+> library(EBImage)
+}}}
+<wiki:comment>
  # 以上の3つのライブラリがそろったら，Rで以下のコマンドを打ち，EBImageをインストールします．
 {{{
 > source("http://www.bioconductor.org/biocLite.R")
 > biocLite("EBImage")
 > library(EBImage)
 }}}
+</wiki:comment>
 
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsのインストールに進む]
 
