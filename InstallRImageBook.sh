@@ -17,7 +17,7 @@ yes | sudo apt-get install libfftw3-dev libtiff4-dev libjpeg62-dev
 pkg-config gtk+-2.0 --libs
 Magick-config --libs
 echo "install.packages(\"abind\", repos=\"http://cran.md.tsukuba.ac.jp\")" | sudo R --no-save
-sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.11.2.tar.gz
+sudo wget http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.12.0.tar.gz
 sudo R CMD INSTALL EBImage_3.11.2.tar.gz
 echo "install.packages(\"biOps\", repos=\"http://cran.md.tsukuba.ac.jp\")" | sudo R --no-save
 cd
