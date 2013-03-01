@@ -99,7 +99,7 @@ $ cd
 $ sudo ln -s /usr/bin/llvm-gcc-4.2 /usr/bin/gcc-4.2
 $ sudo ln -s /usr/bin/llvm-g++-4.2 /usr/bin/g++-4.2
 }}}
- # Now you are ready to install EBImage. Run the following commands in Terminal. Note that the version numver (3.11.2) must be changed to the current one. Check [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImage official site].
+ # Now you are ready to install EBImage. Run the following commands in Terminal.
 {{{
 $ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.12.0.tar.gz"
 $ sudo R CMD INSTALL EBImage_3.12.0.tar.gz
@@ -145,7 +145,7 @@ $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # Now you are ready to install EBImage. Run the following commands in Terminal. Note that the version numver (3.11.2) must be changed to the current one. Check [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImage official site].
+ # Now you are ready to install EBImage. Run the following commands in Terminal.
 {{{
 $ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.12.0.tar.gz"
 $ sudo R CMD INSTALL EBImage_3.12.0.tar.gz
@@ -192,7 +192,7 @@ $ sudo R
 > install.packages("abind")
 > library("abind")
 }}}
- # Now you are ready to install EBImage. Run the following commands in Terminal. Note that the version numver (3.11.2) must be changed to the current one. Check [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html EBImage official site].
+ # Now you are ready to install EBImage. Run the following commands in Terminal.
 {{{
 $ sudo curl -O "http://www.bioconductor.org/packages/2.10/bioc/src/contrib/EBImage_3.12.0.tar.gz"
 $ sudo R CMD INSTALL EBImage_3.12.0.tar.gz
