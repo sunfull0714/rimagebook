@@ -13,10 +13,11 @@ EBImage requires the following three external components. Care must be taken for
 {{{
 > install.packages("abind")
 }}}
- # After installing those three libraries, install EBImage with the following commands in R.
+ # After installing those three libraries, download EBImage from [http://www.bioconductor.org/packages/2.10/bioc/bin/windows/contrib/2.15/EBImage_3.12.0.zip here].
+ # Install the downloaded package from Packages->Install package(s) from local zip files (see the image below).
+https://rimagebook.googlecode.com/svn/wiki/local.png
+ # Load EBImage.
 {{{
-> source("http://www.bioconductor.org/biocLite.R")
-> biocLite("EBImage")
 > library(EBImage)
 }}}
 
