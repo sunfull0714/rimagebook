@@ -33,7 +33,7 @@ https://rimagebook.googlecode.com/svn/wiki/local.png
 
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallation#Windows biOpsのインストールに進む]
 
-注1: 最新バージョンのImageMagickでもEBImageはインストール可能ですが，readImage()関数でグレースケール画像を読み込んだ時にColor画像と認識されるため，いくつかのデモが正常に動作しません．逆に6.6よりも古いバージョンのImageMagickを用いると，一部の関数（例えばresize関数）でRがクラッシュする問題が発生します．
+注1: 最新バージョンのImageMagickでもEBImageはインストール可能ですが，readImage()関数でグレースケール画像を読み込んだ時にカラー画像と認識されるという不具合が発生します．その結果，いくつかのRImageBookのデモが正常に動作しません．また，6.6よりも古いバージョンのImageMagickを用いると，一部の関数（例えばresize関数）でRがクラッシュする問題が発生します．
 
 = Linux =
 Ubuntuを例に，LinuxにEBImageをインストールする方法を述べます．64 bitのアーキテクチャにも同じ方法でインストールできます．
