@@ -1,5 +1,5 @@
 = EBImageのインストール方法 =
-*【重要】* EBImageは2012年の9月にバージョン4がリリースされました．以前のバージョンと比較すると様々な変更が加えられており，RImageBookの多くのデモがそのままでは動作しなくなりました．このため，本サイトではバージョン4になる前の最新版(3.12)のインストール方法を説明します．バージョン4を試してみたい方は[https://code.google.com/p/rimagebook/wiki/EBImage4 こちら]を参照してください．
+*【重要】* EBImageは2012年の9月にバージョン4がリリースされました．以前のバージョンと比較すると様々な変更が加えられており，RImageBookの多くのデモがそのままでは動作しなくなりました．このため，本サイトではバージョン4になる前の最新版(3.12)のインストール方法を説明します．バージョン4を試したい方は[https://code.google.com/p/rimagebook/wiki/EBImage4 こちら]を参照してください．
 
 EBImageは，いくつかの外部ライブラリを利用しているため，インストールに先立ってこれらのライブラリを用意する必要があります．基本的にはEBImageの[http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html 公式サイト]（英語）に従えばよいですが，用いるライブラリのバージョンを間違えるとつまづくことがあるので注意してください．
 
@@ -10,7 +10,7 @@ EBImageをインストールする前に以下の3点を用意します．この
  * abindパッケージ
 
  # ImageMagickは[https://rimagebook.googlecode.com/files/ImageMagick-6.7.7-6-Q16-windows-dll.exe こちら]からImageMagick-6.7.7-6-Q16-windows-dll.exeをダウンロードしてインストールしてください．インストールする際には，Add application directory to your system pathとInstall development headers and libraries for C and C++にチェックをいれます（下図参照）．https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
- # GTK+は最新バージョンではなく，少し古いバージョンを使います．[http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ ここ]からバージョン2.16のインストーラーを入手してインストールしてください．
+ # GTK+は最新バージョンではなく，少し古いバージョンを使います．[https://rimagebook.googlecode.com/files/gtk2-runtime-2.16.6-2010-05-12-ash.exe ここ]からバージョン2.16のインストーラーを入手してインストールしてください．
  # abindはRのパッケージなので，Rを起動して以下のコマンドでCRAN からインストールします．ダウンロードするミラーサーバを聞かれたら適当なサーバを選択します．
 {{{
 > install.packages("abind")
