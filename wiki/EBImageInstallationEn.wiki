@@ -2,7 +2,7 @@
 EBImage (*version <4.0*) depends on several external libraries, which need to be obtained before installing EBImage. Refer to the EBImage [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html development site] for the official information. Note that correct version (not necessarily the latest version) of libraries need to be used.
 
 = Windows =
-EBImage requires the following three external components. Care must be taken for the *version* of ImageMagick and GTK+ (See Note).
+EBImage requires the following three external components. Care must be taken for the *version* of ImageMagick and GTK+ (See *Note*).
  * ImageMagick
  * GTK+
  * abind (an R package)
@@ -21,7 +21,7 @@ https://rimagebook.googlecode.com/svn/wiki/local.png
 > library(EBImage)
 }}}
 
-Note: The latest version of ImageMagick can be used to install EBImage, but it makes readImage() reads grayscale images as color images. As a consequence, some demos of RImageBook will not work as expected. If you use ImageMagick older than version 6.6, some functions of EBImage (e.g. resize()) does not work properly.
+*Note*: The latest version of ImageMagick can be used to install EBImage, but it makes readImage() reads grayscale images as color images. As a consequence, some demos of RImageBook will not work as expected. If you use ImageMagick older than version 6.6, some functions of EBImage (e.g. resize()) does not work properly.
 
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Windows Proceed to biOps installation].
 
