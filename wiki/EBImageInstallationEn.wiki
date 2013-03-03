@@ -1,14 +1,14 @@
 = EBImage Installation Guide =
-EBImage (*before version 4.0*) depends on several external libraries, which need to be obtained before installing EBImage. Refer to the EBImage [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html development site] for the official information. Note that correct version (not necessarily the latest version) of libraries need to be used.
+EBImage (*version <4.0*) depends on several external libraries, which need to be obtained before installing EBImage. Refer to the EBImage [http://www.bioconductor.org/packages/devel/bioc/html/EBImage.html development site] for the official information. Note that correct version (not necessarily the latest version) of libraries need to be used.
 
 = Windows =
-EBImage requires the following three external components. Care must be taken for the *version* of GTK+.
+EBImage requires the following three external components. Care must be taken for the *version* of ImageMagick and GTK+ (See Note).
  * ImageMagick
  * GTK+
  * abind (an R package)
 
- # Download latest version of ImageMagick (Win32 dynamic at 16 bits-per-pixel) from [http://www.imagemagick.org/script/binary-releases.php?ImageMagick=unv74fsai5nje0ke7rdj52ank2#windows here]. During installation check "Add application directory to your system path" and "Install development headers and libraries for C and C++"(see figure below). https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
- # Download GTK+ 2.16 from [http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Runtime%20Environment/ here]. Newer versions are not compatible with EBImage.
+ # Download the specific version of ImageMagick (6.7.7-6) from [https://rimagebook.googlecode.com/files/ImageMagick-6.7.7-6-Q16-windows-dll.exe here]. During installation check "Add application directory to your system path" and "Install development headers and libraries for C and C++"(see figure below). https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
+ # Download GTK+ 2.16 from [https://rimagebook.googlecode.com/files/gtk2-runtime-2.16.6-2010-05-12-ash.exe here]. Newer versions are not compatible with EBImage.
  # abind is an R package. To install, launch R and run the following command. If asked, choose appropriate mirror server.
 {{{
 > install.packages("abind")
@@ -20,6 +20,8 @@ https://rimagebook.googlecode.com/svn/wiki/local.png
 {{{
 > library(EBImage)
 }}}
+
+Note: The latest version of ImageMagick can be used to install EBImage, but it makes readImage() reads grayscale images as color images. As a consequence, some demos of RImageBook will not work as expected. If you use ImageMagick older than version 6.6, some functions of EBImage (e.g. resize()) does not work properly.
 
 [https://code.google.com/p/rimagebook/wiki/biOpsInstallationEn#Windows Proceed to biOps installation].
 
