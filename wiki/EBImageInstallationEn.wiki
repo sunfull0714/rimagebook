@@ -7,7 +7,7 @@ EBImage requires the following three external components. Care must be taken for
  * GTK+
  * abind (an R package)
 
- # Download the specific version of ImageMagick (6.7.7-6) from [https://rimagebook.googlecode.com/files/ImageMagick-6.7.7-6-Q16-windows-dll.exe here]. During installation check "Add application directory to your system path" and "Install development headers and libraries for C and C++"(see figure below). https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
+ # Download the specific version of ImageMagick (6.7.6-9) from [https://rimagebook.googlecode.com/files/ImageMagick-6.7.6-9-Q16-windows-dll.exe here]. During installation check "Add application directory to your system path" and "Install development headers and libraries for C and C++"(see figure below). https://rimagebook.googlecode.com/svn/wiki/ImageMagick.png
  # Download GTK+ 2.16 from [https://rimagebook.googlecode.com/files/gtk2-runtime-2.16.6-2010-05-12-ash.exe here]. Newer versions are not compatible with EBImage.
  # abind is an R package. To install, launch R and run the following command. If asked, choose appropriate mirror server.
 {{{
