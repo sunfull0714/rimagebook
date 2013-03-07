@@ -1,4 +1,7 @@
 = Release notes =
+== Version 0.7 ==
+ * Fixed bug in FNCC().
+ * Fixed bug in readAVI().
 
 == Version 0.6 ==
  * Fixed bug in angularVelocity().
