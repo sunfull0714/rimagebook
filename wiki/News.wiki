@@ -2,6 +2,8 @@
 
 = News =
 
+2013.3.6 RImageBook_0.7 released.
+
 2012.9.30
 English version of Installation Guide became available.
 
