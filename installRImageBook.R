@@ -1,11 +1,11 @@
 installRImageBook <- function(){
   OS <- Sys.getenv("OS")
   if(regexpr("win", Sys.getenv("OS"), ignore.case=TRUE) > 0){
-    file <- "RImageBook_0.7.zip"
+    file <- "RImageBook_0.7.1.zip"
     url <- sprintf("http://rimagebook.googlecode.com/files/%s",file)
     pkgtype <- "win.binary"
   } else {
-    file <- "RImageBook_0.7.tar.gz"
+    file <- "RImageBook_0.7.1.tar.gz"
     url <- sprintf("http://rimagebook.googlecode.com/files/%s",file)
     pkgtype <- "source"
   }
