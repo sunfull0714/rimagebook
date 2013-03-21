@@ -1,4 +1,8 @@
 = Release notes =
+
+== Version 0.7.1 ==
+ * Fixed bug in readLsm() to read both single and multiple channel LSM format.
+
 == Version 0.7 ==
  * Fixed bug in FNCC().
  * Fixed bug in readAVI().
