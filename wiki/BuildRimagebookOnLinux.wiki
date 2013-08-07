@@ -5,7 +5,7 @@
 以下のシェルスクリプトは，Ubuntu Linux上でRのインストールから外部ライブラリのインストールに至るまでのすべての手順を含んでいます．他のディストリビューションの方は環境に合わせて適宜変更してください．
 
  * Ubuntu 11.10 32-bit用インストールスクリプト[https://code.google.com/p/rimagebook/source/browse/InstallRImageBook.sh InstallRImageBook.sh]
- * Ubuntu 11.10 64-bit用インストールスクリプト[https://code.google.com/p/rimagebook/source/browse/InstallRImageBook64.sh　 InstallRImageBook64.sh]
+ * Ubuntu 11.10 64-bit用インストールスクリプト[https://code.google.com/p/rimagebook/source/browse/InstallRImageBook64.sh InstallRImageBook64.sh]
 
 Ubuntuをご利用の方は，上記のいずれかのスクリプトを例えばホームディレクトリに保存し，
 {{{
