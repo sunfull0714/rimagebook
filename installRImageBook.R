@@ -5,7 +5,7 @@ installRImageBook <- function(){
     url <- sprintf("http://rimagebook.googlecode.com/files/%s",file)
     pkgtype <- "win.binary"
   } else {
-    file <- "RImageBook_0.7.8.tar.gz"
+    file <- "RImageBook_0.7.1.tar.gz"
     url <- sprintf("http://rimagebook.googlecode.com/files/%s",file)
     pkgtype <- "source"
   }
