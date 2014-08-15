@@ -2,7 +2,7 @@
 このページではRの画像処理パッケージの一つである[http://cran.r-project.org/web/packages/biOps/index.html biOps]のインストール方法を説明します．基本的には通常のRのパッケージと同様にインストールできますが，OSによってはいくつかのライブラリを追加する必要があります．【追記】2014年現在biOpsはcranから入手できなくなっています。このためインストール方法を変更しました。
 
 = Windows =
- # [https://code.google.com/p/rimagebook/source/browse/jpeg62.dll jpeg62.dll][https://code.google.com/p/rimagebook/source/browse/libtiff3.dll libtiff3.dll][https://code.google.com/p/rimagebook/source/browse/libfftw3-3.dll libfftw3-3.dll][https://code.google.com/p/rimagebook/source/browse/libfftw3f-3.dll libfftw3f-f.dll][https://code.google.com/p/rimagebook/source/browse/libfftw3l-3.dll libfftw3l-3.dll]をダウンロードし、C:\Program Files\R\R-3.1.0\bin\i386 (バージョン番号は適宜変更)に置きます。
+ # [https://code.google.com/p/rimagebook/source/browse/jpeg62.dll jpeg62.dll]と[https://code.google.com/p/rimagebook/source/browse/libtiff3.dll libtiff3.dll]と[https://code.google.com/p/rimagebook/source/browse/libfftw3-3.dll libfftw3-3.dll]と[https://code.google.com/p/rimagebook/source/browse/libfftw3f-3.dll libfftw3f-f.dll]と[https://code.google.com/p/rimagebook/source/browse/libfftw3l-3.dll libfftw3l-3.dll]をダウンロードし、C:\Program Files\R\R-3.1.0\bin\i386 (バージョン番号は適宜変更)に置きます。
  # [https://code.google.com/p/rimagebook/source/browse/biOps_0.2.2.zip biOps_0.2.2.zip]をダウンロードします。
  # Rを起動．
  # PackagesメニューのInstall package(s)...を選択し、ダウンロードしたbiOps_0.2.2.zipを選びます。
