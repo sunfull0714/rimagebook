@@ -2,7 +2,7 @@
 This page describes how to install [http://cran.r-project.org/web/packages/biOps/index.html biOps], an image processing package, on R. *Note*: As of 2014, biOps is no longer available from cran. The following instruction was updated to accommodate this change.
 
 = Windows =
- # Download (via right click) [https://code.google.com/p/rimagebook/source/browse/jpeg62.dll jpeg62.dll], [https://code.google.com/p/rimagebook/source/browse/libtiff3.dll libtiff3.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3-3.dll libfftw3-3.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3f-3.dll libfftw3f-f.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3l-3.dll libfftw3l-3.dll], and [https://code.google.com/p/rimagebook/source/browse/zlib1.dll zlib1.dll] to C:\Program Files\R\R-3.x.x\bin\i386 (x.x needs to be edited) or somewhere present in the PATH variables.
+ # Download (go to the DLL's page then download the raw file) [https://code.google.com/p/rimagebook/source/browse/jpeg62.dll jpeg62.dll], [https://code.google.com/p/rimagebook/source/browse/libtiff3.dll libtiff3.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3-3.dll libfftw3-3.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3f-3.dll libfftw3f-f.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3l-3.dll libfftw3l-3.dll], and [https://code.google.com/p/rimagebook/source/browse/zlib1.dll zlib1.dll] to C:\Program Files\R\R-3.x.x\bin\i386 (x.x needs to be edited) or somewhere present in the PATH variables.
  # Download [https://code.google.com/p/rimagebook/source/browse/biOps_0.2.2.zip biOps_0.2.2.zip].
  # Run R.
  # Choose biOps_0.2.2.zip from Packages>Install package(s)...
