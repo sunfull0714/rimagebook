@@ -1,7 +1,7 @@
 = biOps Installation Guide =
 This page describes how to install [http://cran.r-project.org/web/packages/biOps/index.html biOps], an image processing package, on R. *Note*: As of 2014, biOps is no longer available from cran. The following instruction was updated to accommodate this change.
 
-= Windows =
+= Windows 32 bit=
  # Download (go to the DLL's page then download the raw file) [https://code.google.com/p/rimagebook/source/browse/jpeg62.dll jpeg62.dll], [https://code.google.com/p/rimagebook/source/browse/libtiff3.dll libtiff3.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3-3.dll libfftw3-3.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3f-3.dll libfftw3f-f.dll], [https://code.google.com/p/rimagebook/source/browse/libfftw3l-3.dll libfftw3l-3.dll], and [https://code.google.com/p/rimagebook/source/browse/zlib1.dll zlib1.dll] to C:\Program Files\R\R-3.x.x\bin\i386 (x.x needs to be edited) or somewhere present in the PATH variables.
  # Download [https://code.google.com/p/rimagebook/source/browse/biOps_0.2.2.zip biOps_0.2.2.zip].
  # Run R.
@@ -12,6 +12,20 @@ This page describes how to install [http://cran.r-project.org/web/packages/biOps
 }}}
 
 [RImageBookInstallationEn#Windows Proceed to RImageBook installation].
+
+= Windows 64 bit =
+ # Note: jpeg and tiff IO not supported.
+ # Download (go to the DLL's page then download the raw file) [https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3-3.dll libfftw3-3.dll], [https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3f-3.dll libfftw3f-f.dll], [https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3l-3.dll libfftw3l-3.dll], and [https://code.google.com/p/rimagebook/source/browse/zlib1.dll zlib1.dll] to C:\Program Files\R\R-3.x.x\bin\x64 (x.x needs to be edited) or somewhere present in the PATH variables.
+ # Download [https://code.google.com/p/rimagebook/source/browse/biOps_x64/biOps_0.2.2.zip biOps_0.2.2.zip].
+ # Run R.
+ # Choose biOps_0.2.2.zip from Packages>Install package(s)...
+ # Load the library.
+{{{
+> library(biOps)
+}}}
+
+[RImageBookInstallationEn#Windows Proceed to RImageBook installation].
+
 
 = Linux =
 The following explanation is for Ubuntu Linux. biOps depends on libfftw3,libtiff, and libjpeg.
