@@ -15,7 +15,7 @@
 [RImageBookInstallation#Windows RImageBookのインストールに戻る].
 
 = Windows 64 bit =
- # 64 bitのRではbiOpsのjpegとtiffを読み書きする機能はサポートしません。
+ # 注）64 bitのRではbiOpsのjpegとtiffを読み書きする機能はサポートしません。
  # [https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3-3.dll libfftw3-3.dll]と[https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3f-3.dll libfftw3f-f.dll]と[https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3l-3.dll libfftw3l-3.dll]と[https://code.google.com/p/rimagebook/source/browse/zlib1.dll zlib1.dll]をダウンロードし（右クリックから保存）、C:\Program Files\R\R-3.1.0\bin\x64 (バージョン番号は適宜変更)に置きます．
  # [https://code.google.com/p/rimagebook/source/browse/biOps_x64/biOps_0.2.2.zip biOps_0.2.2.zip]をダウンロードします．
  # Rを起動．
