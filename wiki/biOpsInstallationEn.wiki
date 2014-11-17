@@ -14,7 +14,7 @@ This page describes how to install [http://cran.r-project.org/web/packages/biOps
 [RImageBookInstallationEn#Windows Proceed to RImageBook installation].
 
 = Windows 64 bit =
- # Note: jpeg and tiff IO not supported.
+ # Note: we dropped jpeg and tiff IO functions.
  # Download (go to the DLL's page then download the raw file) [https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3-3.dll libfftw3-3.dll], [https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3f-3.dll libfftw3f-f.dll], [https://code.google.com/p/rimagebook/source/browse/biOps_x64/libfftw3l-3.dll libfftw3l-3.dll], and [https://code.google.com/p/rimagebook/source/browse/zlib1.dll zlib1.dll] to C:\Program Files\R\R-3.x.x\bin\x64 (x.x needs to be edited) or somewhere present in the PATH variables.
  # Download [https://code.google.com/p/rimagebook/source/browse/biOps_x64/biOps_0.2.2.zip biOps_0.2.2.zip].
  # Run R.
